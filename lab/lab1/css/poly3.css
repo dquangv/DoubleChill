@@ -1,0 +1,167 @@
+.container {
+    margin: auto;
+    padding: 0;
+}
+
+.row:not(:first-child):not(:nth-child(3)) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    position: relative;
+    height: 200px;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall>h1 {
+    font-family: Impact;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall>h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.pull-right {
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+    top: 0;
+    right: 0;
+}
+
+nav {
+    background-color: yellow;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.row:not(:first-child):not(:last-child):not(:nth-child(2))>article {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: #000000;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #dedede;
+    color: #000000;
+}
+
+.dropdown-divider-black {
+    margin: 0;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container svg {
+    margin-right: 5px;
+}
+
+
+.row:last-child>* {
+    height: auto !important;
+}
+
+aside {
+    /* background-color: aqua; */
+}
+
+.poly-cart {
+    margin-top: 20px;
+}
+
+.poly-cart img {
+    padding: 10px;
+    max-width: 80%;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.card-body>* {
+    margin: 0px;
+}
+
+aside>.card:nth-child(2) {
+    margin: 20px 0;
+}
+
+aside>.card:nth-child(2)>.panel>.panel-body {
+    margin: 15px;
+}
+
+aside>.card:nth-child(2)>.panel>.panel-body>form>.form-control::placeholder {
+    color: #999;
+}
+
+aside>.card:nth-child(3)>.panel>.panel-heading {
+    padding: 8px;
+    background-color: #dbdada;
+}
+
+aside>.card:nth-child(3)>.panel>.panel-heading>svg>path {
+    stroke-width: 10;
+}
+
+/* .poly-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+/* .poly-cart .panel-heading strong {
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+} */
+
+aside>.card:nth-child(3)>.panel>.panel-heading>strong {
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+}
+
+*/ footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+
+footer p {
+    margin: 0;
+}

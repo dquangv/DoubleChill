@@ -1,0 +1,104 @@
+.container {
+    margin: auto;
+    padding: 0;
+}
+
+.row:not(:first-child) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    position: relative;
+    height: 200px;
+}
+
+.shopping-mall {
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall>h1 {
+    font-family: Impact;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+
+.shopping-mall>h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.pull-right {
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+    top: 0;
+    right: 0;
+}
+
+nav {
+    background-color: yellow;
+}
+
+.row:not(:first-child):not(:last-child):not(:nth-child(2))>* {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: #000000;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #dedede; 
+    color: #000000; 
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container svg {
+    margin-right: 5px;
+}
+
+
+.row:last-child>* {
+    height: auto !important;
+}
+
+aside {
+    background-color: aqua;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    height: 50px;
+}
+
+footer p {
+    margin: 0;
+}
