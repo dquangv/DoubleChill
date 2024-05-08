@@ -55,11 +55,25 @@ nav {
 }
 
 .row:not(:first-child):not(:last-child):not(:nth-child(2))>article {
-    display: flex;
+    /* display: flex; */
     height: auto;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+}
+
+.row:nth-child(3) fieldset {
+    background-color: #cbcbcb;
+    padding: 25px 40px;
+}
+
+.row:nth-child(3) .carousel-inner {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.row:nth-child(3) .carousel-inner .carousel-item {
+    text-align: center;
 }
 
 .dropdown-menu {
@@ -90,6 +104,8 @@ nav {
 .icon-container svg {
     margin-right: 5px;
 }
+
+
 
 .row:nth-child(3)>article>.row>.col {
     /* position: relative; */
@@ -143,6 +159,7 @@ nav {
     justify-content: center;
     margin-top: 8px;
 }
+
 
 
 /* .row:last-child>aside {
