@@ -648,8 +648,8 @@ footer .identity>a::before {
 
 .log-in {
     position: relative;
-    font-size: 12px;
-    font-weight: 200;
+    font-size: 13px;
+    font-weight: 300;
     color: #000;
     border-bottom: 1px solid #d8d8d8;
 }
@@ -666,13 +666,14 @@ footer .identity>a::before {
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2em;
+    height: fit-content;
 }
 
-.log-in .wrap-main .logIn .form-group {
+.log-in .wrap-main .logIn form .form-group {
     margin-bottom: 15px;
 }
 
-.log-in .wrap-main .logIn .form-control {
+.log-in .wrap-main .logIn form .form-control {
     height: 50px;
     /* background: none; */
     color: #000;
@@ -682,6 +683,59 @@ footer .identity>a::before {
     padding: 6px 12px;
 }
 
-.log-in .wrap-main .logIn .form-group label {
+.log-in .wrap-main .logIn form .form-group label {
     font-size: 13px;
+}
+
+.log-in .wrap-main .logIn form .log-in-btn {
+    margin-top: 20px;
+}
+
+.log-in .wrap-main .logIn form .log-in-btn .btn-login {
+    display: inline-block;
+    /* padding: 0 30px; */
+    color: #fff;
+    background: #000;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 17px 30px 18px 30px;
+    text-decoration: none;
+}
+
+.log-in .wrap-main .logIn form .log-in-btn .btn-login:hover {
+    text-decoration: underline;
+}
+
+.log-in .wrap-main .logIn form .log-in-btn span {
+    margin-left: 10px;
+}
+
+.log-in .wrap-main .logIn form .log-in-btn span a {
+    color: #000;
+    text-decoration: none;
+}
+
+.log-in .wrap-main .logIn form .log-in-btn span a:hover {
+    text-decoration: underline;
+}
+
+.log-in .wrap-main .logIn .fb-btn {
+    background: #3B5998;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 17px 30px 18px 30px;
+    text-decoration: none;
+}
+
+.log-in .wrap-main .logIn .fb-btn svg {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.log-in .wrap-main .logIn .fb-btn svg path {
+    vertical-align: middle;
 }
