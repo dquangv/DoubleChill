@@ -65,12 +65,18 @@ header .top-left a:last-child {
     text-decoration: none;
 }
 
-header .dflex svg {
+/* header .d-flex svg {
     color: white;
-}
+} */
 
 header .top-left span {
     margin: 0 10px;
+}
+
+header .brand-name {
+    width: 25%;
+    height: 25%;
+    padding-right: 20px;
 }
 
 header .container .navbar-brand {
@@ -170,6 +176,16 @@ header .container .d-flex a {
     margin: 0 5px;
 }
 
+header .container .d-flex span {
+    color: #000;
+    margin: 0 3px;
+    font-weight: 400;
+}
+
+header .container .d-flex span:nth-child(4) {
+    display: none;
+}
+
 header .container .d-flex a:hover {
     text-decoration: underline;
 
@@ -177,7 +193,7 @@ header .container .d-flex a:hover {
 
 header .navbar:last-child.fix {
     position: fixed !important;
-    top: 0;
+    top: -1px;
     width: 100%;
     z-index: 100;
 }
@@ -191,10 +207,16 @@ header .navbar:last-child {
 /*main
 card-group*/
 
+main .card-group {
+    /* max-width: 1263.4px; */
+    margin: 0;
+}
+
 main .card-group .card {
     border: 0;
     overflow: hidden;
     border-radius: 0;
+    padding: 0;
 }
 
 main .card-group .card .text {
@@ -278,13 +300,15 @@ main .product .wrap-main .row {
     margin: 0 -10px;
 }
 
-main .product .wrap-main .row .col {
+main .product .wrap-main .row .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
     padding: 50px 10px 0 10px;
 }
 
-main .product .wrap-main .row .col .product-item {
+
+
+main .product .wrap-main .row .col-md-3 .product-item {
     position: relative;
     font-size: 16px;
     color: #000;
@@ -292,7 +316,7 @@ main .product .wrap-main .row .col .product-item {
     border: 0;
 }
 
-main .product .row .col .product-item .img {
+main .product .row .col-md-3 .product-item .img {
     display: inline-block;
     background-color: #fff;
     position: relative;
@@ -304,13 +328,13 @@ main .product .row .col .product-item .img {
     /* height: 100%; */
 }
 
-main .product .row .col .product-item .img::before {
+main .product .row .col-md-3 .product-item .img::before {
     content: '';
     float: left;
     padding-top: 100%;
 }
 
-main .product .row .col .product-item .img span {
+main .product .row .col-md-3 .product-item .img span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -323,12 +347,12 @@ main .product .row .col .product-item .img span {
     background-size: contain;
 }
 
-main .product .wrap-main .row .col .product-item .card-body {
+main .product .wrap-main .row .col-md-3 .product-item .card-body {
     background-color: #F0F0F0;
     padding: 0;
 }
 
-main .product .wrap-main .row .col .product-item .card-body h5 {
+main .product .wrap-main .row .col-md-3 .product-item .card-body h5 {
     margin: 7px 0 0 0;
     font-weight: 600;
     font-size: 15px;
@@ -336,19 +360,19 @@ main .product .wrap-main .row .col .product-item .card-body h5 {
     line-height: 1.6;
 }
 
-main .product .wrap-main .row .col .product-item .card-body p:first-child {
+main .product .wrap-main .row .col-md-3 .product-item .card-body p:first-child {
     font-size: 12px;
     font-style: italic;
     margin: 10px 0 0 0;
     font-weight: 300;
 }
 
-main .product .wrap-main .row .col .product-item .card-body p:last-child {
+main .product .wrap-main .row .col-md-3 .product-item .card-body p:last-child {
     margin: 3px 0 0 0;
     font-weight: 300;
 }
 
-main .product .wrap-main .row .col .product-item a {
+main .product .wrap-main .row .col-md-3 .product-item a {
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -378,13 +402,13 @@ main .brand .row .wrap-main {
     padding: 0 50px;
 }
 
-main .brand .row .wrap-main .col {
+main .brand .row .wrap-main .col-md-2 {
     display: inline-block;
     width: 16.3%;
     padding: 10px;
 }
 
-main .brand .row .wrap-main .col img {
+main .brand .row .wrap-main .col-md-2 img {
     /* filter: grayscale(100%); */
     width: 80%;
     height: 80%;
@@ -758,4 +782,114 @@ footer .identity>a::before {
 .log-in .wrap-main .logIn .fb-btn svg path,
 .sign-up .wrap-main .signUp .gm-btn svg path {
     vertical-align: middle;
+}
+
+
+
+/*DOMESTIC PAGES*/
+
+/* carousel */
+
+main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 70px;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .navbar:nth-child(2)>.container {
+        display: block;
+    }
+
+    header .brand-name {
+        width: 10%;
+    }
+
+    header .container .nav-item {
+        padding-top: 5px;
+    }
+
+    header .container .nav-item:hover .nav-link::after {
+        width: 0%;
+    }
+
+    header .container .nav-item:hover .menu-item-list {
+        display: none;
+    }
+
+    header .container .d-flex {
+        padding-top: 3px;
+        padding-bottom: 10px;
+    }
+
+    header .container .d-flex a {
+        color: #001982;
+        font-weight: 600;
+        margin-right: 10px;
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    header .container .d-flex a svg {
+        display: none;
+
+    }
+
+    header .container .d-flex span {
+        margin-right: 10px;
+    }
+
+    header .container .d-flex span:nth-child(4) {
+        display: block;
+    }
+
+    /* main .card-group .card img {
+        filter: brightness(80%);
+    } */
+
+    main .card-group .card .text h5 {
+        font-size: 25px;
+    }
+
+    main .card-group .card .text>a {
+        font-size: 15px;
+    }
+
+    main .brand .row .wrap-main .col {
+        width: 16.2%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    main .product .wrap-main .row .col-sm-12 {
+        width: 50%;
+    }
+
+    main .brand .row .wrap-main .col {
+        width: 16.15%;
+    }
+
+    main .category .card-group .card {
+        flex: none;
+    }
+}
+
+@media (max-width: 576px) {
+    header .first-header.container {
+        display: none;
+    }
+
+    header .container .nav-item {
+        padding-left: 15px;
+    }
+
+    header .second-header .d-flex {
+        padding-left: 15px;
+    }
+
+    main .product .wrap-main .row .col-sm-12 {
+        width: 100%;
+    }
 }
