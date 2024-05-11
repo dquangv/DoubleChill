@@ -11,8 +11,8 @@
     <link rel="shortcut icon" type="image/png" href="../img/plane-solid.svg">
     <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../../bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
-    <script src="../../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <title>Double Chill</title>
 </head>
 
@@ -20,7 +20,7 @@
     <div class="">
         <header>
             <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-                <div class="container">
+                <div class="first-header container">
                     <div class="top-left">
                         <a href="../../index.html">Double Chill
                         </a><span>|</span>
@@ -39,14 +39,19 @@
                 </div>
             </nav>
             <nav class="navbar navbar-expand-lg second-header" data-bs-theme="dark">
-                <div class="container">
+                <div class="container bottom-header">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <!-- <span class="navbar-toggler-icon bg-black"></span> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z" />
+                        </svg>
                     </button>
-                    <a class="navbar-brand" href="../../index.html"> <img src="../img/plane-solid.svg" alt=""
-                            style="width: 25%; height: 25%; padding-right: 20px;">Double Chill</a>
+                    <a class="navbar-brand" href="../../index.html"> <img class="brand-name" src="../img/plane-solid.svg" alt=""
+                            >Double Chill</a>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -93,13 +98,14 @@
                         </ul>
                         <div class="d-flex" role="search">
                             <a href="../html/logIn.html">ĐĂNG NHẬP</a>
-                            <span style="color: #000; margin: 0 3px; font-weight: 400;">&#47;</span>
+                            <span>&#47;</span>
                             <a href="../html/signUp.html" style="display: flex; align-items: center;">ĐĂNG KÝ <svg
                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     style="vertical-align: middle; " fill="currentColor" class="bi bi-person-fill"
                                     viewBox="0 0 16 16">
                                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                                 </svg></a>
+                            <span>&#47;</span>
                             <a href="" style="display: flex; align-items: center;">GIỎ HÀNG<svg
                                     xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                     style="vertical-align: middle;" fill="currentColor" class="bi bi-handbag-fill"
@@ -169,23 +175,24 @@
                     </div>
                 </div>
             </section>
+            
             <section class="container-fluid ship">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <img src="../img/ic_ship_1.svg" class="card-img-top" alt="..." style="width: 32px;">
                             <p class="card-text">THANH TOÁN DỄ DÀNG
                             </p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <img src="../img/ic_ship_2.svg" class="card-img-top" alt="..." style="width: 32px;">
                             <p class="card-text">DI CHUYỂN ÊM ÁI
                             </p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <img src="../img/ic_ship_3.svg" class="card-img-top" alt="..." style="width: 32px;">
                             <p class="card-text">HOTLINE 01666331161
@@ -194,7 +201,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-3 col-md-6">
                         <div class="card">
                             <img src="../img/ic_ship_4.svg" class="card-img-top" alt="..." style="width: 32px;">
                             <p class="card-text">CHƠI VUI, GIÁ TỐT
@@ -209,7 +216,7 @@
             <div class="row-top">
                 <div class="wrap-main">
                     <div class="row list-row">
-                        <div class="col-xs-2">
+                        <div class="col-xs-6 col-sm-12">
                             <ul>
                                 <li><a href="">TRANG CHỦ</a></li>
                                 <li><a href="">SẢN PHẨM</a></li>
@@ -217,14 +224,14 @@
                                 <li><a href="">LIÊN HỆ</a></li>
                             </ul>
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-6 col-sm-12">
                             <ul>
                                 <li><a href="">HƯỚNG DẪN MUA HÀNG</a></li>
                                 <li><a href="">CHÍNH SÁCH ĐỔI TRẢ</a></li>
                                 <li><a href="">CÂU HỎI THƯỜNG GẶP</a></li>
                             </ul>
                         </div>
-                        <div class="col-sm-2 col-xs-4">
+                        <div class="col-xs-6 col-sm-12">
                             <ul>
                                 <li>PHƯƠNG THỨC THANH TOÁN</li>
                                 <li>
@@ -233,7 +240,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-sm-2 col-xs-4">
+                        <div class="col-xs-6 col-sm-12">
                             <ul>
                                 <li>KẾT NỐI VỚI DOUBLE CHILL</li>
                                 <li>
@@ -245,7 +252,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-xs-4">
+                        <div class="col-xs-4 col-sm-12">
                             <ul>
                                 <li>NHẬN BẢN TIN</li>
                                 <li>

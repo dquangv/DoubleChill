@@ -870,6 +870,11 @@ main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
     footer .form-group input {
         padding: 6px;
     }
+
+    .log-in .wrap-main,
+    .sign-up .wrap-main {
+        width: 70%;
+    }
 }
 
 
@@ -884,6 +889,27 @@ main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
 
     main .category .card-group .card {
         flex: none;
+    }
+
+    .log-in .wrap-main,
+    .sign-up .wrap-main {
+        width: 90%;
+    }
+
+    .log-in .wrap-main .logIn form .log-in-btn .btn-login,
+    .sign-up .wrap-main .signUp form .sign-up-btn .btn-signup {
+        display: block;
+    }
+
+    .log-in .wrap-main .logIn form .log-in-btn span,
+    .sign-up .wrap-main .signUp form .sign-up-btn span {
+        display: block;
+        margin: 10px 0 0 0;
+    }
+
+    .log-in .wrap-main .logIn .fb-btn,
+    .sign-up .wrap-main .signUp .gm-btn {
+        width: 100%;
     }
 }
 
