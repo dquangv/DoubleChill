@@ -13,14 +13,14 @@ body {
 
 /*header*/
 
-header {
+/* header {
     width: 100%;
     position: relative;
-}
+} */
 
-header .navbar {
+/* header .navbar {
     padding: 0;
-}
+} */
 
 header .navbar:nth-child(1) {
     background-color: #001982;
@@ -49,13 +49,13 @@ header .navbar:nth-child(2)>.container {
     left: 50px;
 } */
 
-header .top-left {
+/* header .top-left {
     font-size: 12px;
     font-weight: 600;
     color: #fff;
-}
+} */
 
-header .top-left a:first-child {
+/* header .top-left a:first-child {
     color: #fff;
     text-decoration: none;
 }
@@ -63,7 +63,7 @@ header .top-left a:first-child {
 header .top-left a:last-child {
     color: #fff;
     text-decoration: none;
-}
+} */
 
 /* header .d-flex svg {
     color: white;
