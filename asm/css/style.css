@@ -1,5 +1,7 @@
 /*MAIN PAGE*/
 
+
+
 body {
     line-height: 1.6;
     font: 300 14px 'Montserrat';
@@ -86,6 +88,22 @@ header .container .navbar-brand {
     /* width: 300px; */
 }
 
+@keyframes slideInRight {
+    from {
+        transform: translateX(70%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.navbar-collapse.show {
+    animation: slideInRight 0.3s ease forwards;
+}
+
 header .container .nav-item {
     /* position: relative; */
     font-size: 12px;
@@ -138,12 +156,17 @@ header .container .nav-item:last-child p {
     display: none;
 }
 
+header .container .nav-item:nth-child(n+5) .nav-link>svg,
+header .container .nav-item:nth-child(n+5) .nav-link>span {
+    display: inline-block;
+}
+
 header .container .menu-item-list {
-    /* display: block;
-    position: absolute;
-    background-color: #ffffff; */
-    /* color: #000000; */
-    /* padding: 0;
+    display: block;
+    /* position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
     border-radius: 0; */
     top: 35px;
     list-style: none;
@@ -836,7 +859,7 @@ main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
         padding-top: 5px;
     }
 
-    header .container .nav-item:hover .nav-link::after {
+    header .container .nav-item:nth-child(-n+4):hover .nav-link::after {
         width: 0%;
     }
 
@@ -844,8 +867,19 @@ main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
         display: none;
     }
 
-    header .container .nav-item:nth-child(5) .nav-link {
-        margin-left: 130px;
+    header .container .nav-item:nth-child(n+5) .nav-link {
+        margin-left: 0;
+        color: #001982;
+        font-size: 12px;
+    }
+
+    header .container .nav-item:nth-child(n+5) .nav-link>svg,
+    header .container .nav-item:nth-child(n+5) .nav-link>span {
+        display: none;
+    }
+
+    header .container .nav-item:last-child p {
+        display: block;
     }
 
     header .container .d-flex {
