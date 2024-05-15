@@ -32,6 +32,9 @@ header .navbar:nth-child(2) {
     background-color: #fff;
 }
 
+/* header .navbar:nth-child(2) .offcanvas {
+    background-color: #fff;
+} */
 
 header .navbar:nth-child(1)>.container {
     padding: 18px 0;
@@ -88,7 +91,7 @@ header .container .navbar-brand {
     /* width: 300px; */
 }
 
-@keyframes slideInRight {
+/* @keyframes slideInRight {
     from {
         transform: translateX(70%);
         opacity: 0;
@@ -102,7 +105,7 @@ header .container .navbar-brand {
 
 .navbar-collapse.show {
     animation: slideInRight 0.3s ease forwards;
-}
+} */
 
 header .container .nav-item {
     /* position: relative; */
@@ -112,7 +115,7 @@ header .container .nav-item {
 header .container .nav-item:nth-child(-n+4) .nav-link {
     /* position: relative; */
     /* text-decoration: none; */
-    padding: 8 15px;
+    padding: 8px;
     color: #001982;
     /* font-weight: 600; */
 }
@@ -847,6 +850,10 @@ main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
 
 
 @media (max-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        width: 70%;
+    }
+
     .navbar:nth-child(2)>.container {
         display: block;
     }
@@ -863,6 +870,11 @@ main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
         width: 0%;
     }
 
+    header .container .nav-item:nth-child(-n+4) .nav-link {
+        padding: 8px 15px;
+    }
+
+
     header .container .nav-item:hover .menu-item-list {
         display: none;
     }
@@ -871,6 +883,10 @@ main #domestic-carousel .carousel-inner .carousel-item .carousel-caption h5 {
         margin-left: 0;
         color: #001982;
         font-size: 12px;
+    }
+
+    header .container .nav-item:nth-child(n+5) .nav-link {
+        padding: 8px 15px;
     }
 
     header .container .nav-item:nth-child(n+5) .nav-link>svg,
