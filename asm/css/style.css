@@ -407,12 +407,20 @@ main .product .wrap-main .row .col-md-3 .product-item .card-body h5 {
 main .product .wrap-main .row .col-md-3 .product-item .card-body p:first-child {
     font-size: 12px;
     /* font-style: italic; */
-    margin: 10px 0 0 0;
+    margin: 0 0 10px 0;
     /* font-weight: 300; */
+    /* margin-bottom: 10px; */
+}
+
+main .product .wrap-main .row .col-md-3 .product-item .card-body p:nth-child(2) {
+    font-size: 15px;
+    font-weight: semibold;
 }
 
 main .product .wrap-main .row .col-md-3 .product-item .card-body p:last-child {
     margin: 3px 0 0 0;
+    font-size: 12px;
+    margin-top: 10px;
     /* font-weight: 300; */
 }
 
@@ -425,6 +433,66 @@ main .product .wrap-main .row .col-md-3 .product-item a {
     /* top: 0;
     left: 0; */
 }
+
+main .product .product-detail .offcanvas-body {
+    background-color: #cde0f2;
+}
+
+main .product .product-detail .offcanvas-body .card-body {
+    justify-content: space-between;
+}
+
+main .product .product-detail .offcanvas-body .card-footer {
+    color: #001982;
+    font-size: 15px;
+    width: max-content;
+}
+
+
+
+/* main .product .product-detail .offcanvas-title {
+    color: #001982;
+} */
+
+main .product .product-detail .air-logo img {
+    height: 50%;
+}
+
+main .product .product-detail .air-logo .air-brand .air-standard {
+    font-size: 13px;
+}
+
+main .product .product-detail .offcanvas-body .card-body .schedule {
+    margin-top: 8px;
+    width: max-content;
+}
+
+main .product .product-detail .offcanvas-body .card-body .schedule>* {
+    margin: 0 10px;
+}
+
+main .product .product-detail .offcanvas-body .card-body .schedule .end-place {
+    margin-right: 30px;
+}
+
+main .product .product-detail .offcanvas-footer {
+    justify-content: space-between;
+    padding: 16px;
+}
+
+main .product .product-detail .offcanvas-footer .price span {
+    display: block;
+    font-weight: 600;
+    color: orange;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+main .product .product-detail .offcanvas-footer button {
+    background-color: #001982;
+    padding: 2px 15px;
+}
+
 
 /*main
 section 
