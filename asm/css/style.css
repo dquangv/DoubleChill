@@ -640,6 +640,64 @@ main .category .card-group .card:hover .card-img-overlay a {
 
 /*main
 section
+feedback*/
+
+main .feedback {
+    height: 750px;
+    position: relative;
+}
+
+main .feedback .review:nth-child(2) {
+    top: 80px;
+    left: 150px;
+    position: absolute;
+}
+
+main .feedback .review:nth-child(3) {
+    top: 300px;
+    left: 600px;
+    position: absolute;
+}
+
+main .feedback .review:nth-child(4) {
+    top: 520px;
+    left: 150px;
+    position: absolute;
+}
+
+main .feedback .review:nth-child(2n) .toast {
+    width: 50%;
+    border: 0;
+}
+
+main .feedback .review:nth-child(3) .toast {
+    width: 80%;
+    border: 0;
+}
+
+main .feedback .review:nth-child(3) .toast strong {
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+main .feedback .review strong {
+    color: black;
+}
+
+main .feedback .review .toast .toast-body {
+    text-align: justify;
+}
+
+main .feedback .review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/*main
+section
 ship*/
 
 /* main .ship .row .col-lg-3 {
@@ -1256,6 +1314,30 @@ main .cart .pay-button a:hover {
         margin-bottom: 20px;
     }
 
+    main .feedback {
+        height: 700px;
+    }
+
+    main .feedback .review:nth-child(2n) .toast,
+    main .feedback .review:nth-child(3) .toast {
+        width: 100%;
+    }
+
+    main .feedback .review:nth-child(2) {
+        top: 100px;
+        left: 0;
+    }
+
+    main .feedback .review:nth-child(3) {
+        top: 300px;
+        left: 0;
+    }
+
+    main .feedback .review:nth-child(4) {
+        top: 500px;
+        left: 0;
+    }
+
     footer .row-top .wrap-main {
         padding: 0 20px;
     }
@@ -1367,6 +1449,30 @@ main .cart .pay-button a:hover {
 
     main .brand .row .wrap-main .col-md-2 {
         width: 49%;
+    }
+
+    main .feedback {
+        height: 830px;
+    }
+
+    main .feedback .review:nth-child(2n) .toast,
+    main .feedback .review:nth-child(3) .toast {
+        width: 100%;
+    }
+
+    main .feedback .review:nth-child(2) {
+        top: 100px;
+        left: 0;
+    }
+
+    main .feedback .review:nth-child(3) {
+        top: 350px;
+        left: 0;
+    }
+
+    main .feedback .review:nth-child(4) {
+        top: 600px;
+        left: 0;
     }
 
     footer .row-top .wrap-main .col-sm-12 {
