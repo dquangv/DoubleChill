@@ -151,7 +151,7 @@
                         </li>
                         <li class="nav-item position-relative" style="display: inline-block;">
                             <a class="align-middle nav-link position-relative fw-semibold" href=""
-                                data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <p class="m-0">TÌM KIẾM</p>
                                 <svg style="color: #000; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg"
                                     width="16" height="16" fill="currentColor" class="bi bi-search align-middle"
@@ -160,23 +160,27 @@
                                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                                 </svg>
                             </a>
-                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
-                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <!-- Button trigger modal -->
+                            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Launch demo modal
+                            </button> -->
+
+                            <!-- Modal -->
+                            <div class="modal bg-transparent" id="exampleModal" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog bg-transparent border-0">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <!-- <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div> -->
+                                        <div class="modal-body bg-transparent rounded-1 p-0 border-0 d-flex">
+                                            <input class="form-control col-7 me-2" list="datalistOptions" id="exampleDataList"
+                                                placeholder="Bạn đang tìm...">
+                                            <button type="button" class="btn btn-primary m-0 fw-semibold col-3">Tìm
+                                                kiếm</button>
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +274,7 @@
                             </div>
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></a>
-                            <div class="offcanvas offcanvas-end w-50 product-detail rounded-3" data-bs-scroll="true"
+                            <div class="offcanvas offcanvas-end product-detail rounded-3" data-bs-scroll="true"
                                 data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
                                 aria-labelledby="offcanvasScrollingLabel">
                                 <div class="offcanvas-header float-start">
@@ -291,7 +295,7 @@
                                                 <img src="asm/img/japanairline.webp" alt="">
                                                 <div class="air-brand ms-2 text-start">
                                                     <h6 class="air-brand-name">Japan AirLines</h6>
-                                                    <p class="air-standard">Thương gia</p>
+                                                    <p class="air-standard">Phổ thông</p>
                                                 </div>
                                             </div>
                                             <div class="schedule col-md-6 p-0 m-0 d-flex align-items-center">
@@ -317,17 +321,99 @@
                                             Chi tiết
                                         </div>
                                     </div>
-                                    <div class="row g-3">
+
+                                    <p class="text-start fw-semibold fs-5 pt-4 pb-2 my-0">Chọn loại vé của bạn</p>
+                                    <div class="row ticket">
                                         <input type="radio" class="btn-check" name="options-outlined"
                                             id="success-outlined" autocomplete="off" checked>
-                                        <label class="btn btn-outline-success col" for="success-outlined">
-                                            <p>radio</p>
-                                            <h5>a</h5>
+                                        <label class="btn col p-0 mx-2" for="success-outlined">
+                                            <div class="card">
+                                                <div class="card-header d-flex text-start pt-3 bg-white">
+                                                    <img src="asm/img/seat1.webp" alt="" class="label-img">
+                                                    <div class="label-title">
+                                                        <p class="fw-semibold">Phổ thông</p>
+                                                        <p style="color: orange;" class="d-flex fw-semibold">
+                                                            2,500,000 VND <span
+                                                                class="text-black fw-normal align-self-end">/khách</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body bg-white">
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase1.webp" alt="">
+                                                        <p class="mt-0">Hành lý xách tay 1 x 10 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase2.webp" alt="">
+                                                        <p class="mt-0">Hành lý 2 x 23 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/calendar1.webp" alt="">
+                                                        <p class="mt-0 text-secondary">Lên lịch lại không khả dụng</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex">
+                                                        <img src="asm/img/cash1.webp" alt="">
+                                                        <p class="mt-0 text-secondary">Hoàn tiền không có sẵn</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer text-body-secondary bg-white w-100 d-flex">
+                                                    <div class="icon d-flex">
+                                                        <img src="asm/img/food1.webp" alt="">
+                                                        <img src="asm/img/food2.webp" alt="">
+                                                        <img src="asm/img/food3.webp" alt="">
+                                                        <img src="asm/img/food4.webp" alt="">
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="fw-semibold">Xem chi tiết</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </label>
                                         <input type="radio" class="btn-check" name="options-outlined"
                                             id="danger-outlined" autocomplete="off">
-                                        <label class="btn btn-outline-danger col" for="danger-outlined">Danger
-                                            radio</label>
+                                        <label class="btn col p-0 mx-2" for="danger-outlined">
+                                            <div class="card">
+                                                <div class="card-header d-flex text-start pt-3 bg-white">
+                                                    <img src="asm/img/seat2.webp" alt="" class="label-img">
+                                                    <div class="label-title">
+                                                        <p class="fw-semibold">Thương gia</p>
+                                                        <p style="color: orange;" class="d-flex fw-semibold">
+                                                            4,900,000 VND <span
+                                                                class="text-black fw-normal align-self-end">/khách</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body bg-white">
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase1.webp" alt="">
+                                                        <p class="mt-0">Hành lý xách tay 1 x 10 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase2.webp" alt="">
+                                                        <p class="mt-0">Hành lý 2 x 23 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/calendar2.webp" alt="">
+                                                        <p class="mt-0">Phí đổi lịch bay miễn phí</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex">
+                                                        <img src="asm/img/cash2.webp" alt="">
+                                                        <p class="mt-0">Hoàn vé 50% phí</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer text-body-secondary bg-white w-100 d-flex">
+                                                    <div class="icon d-flex">
+                                                        <img src="asm/img/food1.webp" alt="">
+                                                        <img src="asm/img/food2.webp" alt="">
+                                                        <img src="asm/img/food3.webp" alt="">
+                                                        <img src="asm/img/food4.webp" alt="">
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="fw-semibold">Xem chi tiết</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="offcanvas-footer d-flex">

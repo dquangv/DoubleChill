@@ -204,6 +204,20 @@ header .container .nav-item .menu-item-list li:hover a {
     background-color: #001982;
 }
 
+.modal-backdrop {
+    position: absolute;
+}
+
+header .modal .modal-dialog {
+    margin-top: 50px;
+}
+
+header .modal .modal-body button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
 /* header .container .d-flex {
     display: flex;
     align-items: center;
@@ -434,6 +448,10 @@ main .product .wrap-main .row .col-md-3 .product-item a {
     left: 0; */
 }
 
+main .product .product-detail {
+    width: 50%;
+}
+
 main .product .product-detail .offcanvas-body {
     background-color: #cde0f2;
 }
@@ -448,6 +466,44 @@ main .product .product-detail .offcanvas-body .card-footer {
     width: max-content;
 }
 
+main .product .product-detail .offcanvas-body .ticket label .card .card-header .label-img {
+    width: 48px;
+    height: 48px;
+}
+
+main .product .product-detail .offcanvas-body .ticket label .card .card-header .label-title {
+    padding-left: 20px;
+}
+
+main .product .product-detail .offcanvas-body .ticket label .card .card-header .label-title p {
+    margin: 0;
+}
+
+main .product .product-detail .offcanvas-body .ticket label .card .card-header .label-title p span {
+    font-size: 12px;
+}
+
+main .product .product-detail .offcanvas-body .ticket label .card .card-body .ticket-info img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+main .product .product-detail .offcanvas-body .ticket label .card .card-footer {
+    justify-content: space-between;
+}
+
+main .product .product-detail .offcanvas-body .ticket label .card .card-footer .icon img {
+    width: 18px;
+    height: 18px;
+}
+
+main .product .product-detail .offcanvas-body .ticket label .card .card-footer .detail,
+main .product .product-detail .offcanvas-body .ticket label .card .card-footer .detail p {
+    width: max-content;
+    color: #001982;
+    margin-bottom: 0;
+}
 
 
 /* main .product .product-detail .offcanvas-title {
@@ -1299,6 +1355,10 @@ main .cart .pay-button a:hover {
 
     header .second-header .d-flex {
         padding-left: 15px;
+    }
+
+    main .product .product-detail {
+        width: 100%;
     }
 
     main .product .wrap-main .row .col-sm-12 {
