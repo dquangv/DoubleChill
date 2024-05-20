@@ -52,13 +52,12 @@
                 </button>
                 <a class="navbar-brand fw-medium text-black w-25" href="#"> <img class="brand-name pe-3"
                         src="../img/plane-solid.svg" alt="">Double Chill</a>
-                <div class="offcanvas offcanvas-start navbar-collapse bg-white" id="navbarSupportedContent" style="width: 70%;">
+                <div class="offcanvas offcanvas-start navbar-collapse bg-white" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item position-relative" style="justify-content: space-between;">
-                            <a class="nav-link position-relative text-decoration-none fw-semibold" style="display: inline-block;" href="#">GIỚI
+                        <li class="nav-item position-relative">
+                            <a class="nav-link position-relative text-decoration-none fw-semibold"
+                                href="../html/aboutus.html">GIỚI
                                 THIỆU</a>
-                            <!-- <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas"
-                                aria-label="Close" style="filter: none;"></button> -->
                         </li>
                         <li class="nav-item position-relative">
                             <a class="nav-link position-relative text-decoration-none fw-semibold"
@@ -90,7 +89,8 @@
                             </ul>
                         </li>
                         <li class="nav-item position-relative">
-                            <a class="nav-link position-relative text-decoration-none fw-semibold" href="foreign.html">
+                            <a class="nav-link position-relative text-decoration-none fw-semibold"
+                                href="../html/foreign.html">
                                 TOUR NƯỚC NGOÀI
                             </a>
                             <ul class="menu-item-list position-absolute bg-white p-0 rounded-0">
@@ -116,7 +116,8 @@
                             </ul>
                         </li>
                         <li class="nav-item position-relative">
-                            <a class="nav-link position-relative text-decoration-none fw-semibold" href="#">
+                            <a class="nav-link position-relative text-decoration-none fw-semibold"
+                                href="../html/contact.html">
                                 LIÊN HỆ
                             </a>
                         </li>
@@ -137,16 +138,20 @@
                             <span class="align-middle text-black fw-normal">&#47;</span>
                         </li>
                         <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold align-middle" href=""
-                                style="display: inline-block;">GIỎ HÀNG<svg xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-handbag-fill"
-                                    viewBox="0 0 16 16">
+                            <a class="align-middle nav-link position-relative fw-semibold align-middle"
+                                href="../html/cart.html" style="display: inline-block;">GIỎ HÀNG<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-handbag-fill" viewBox="0 0 16 16">
                                     <path
                                         d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 1 1 6 0v2h-1V3a2 2 0 0 0-2-2M5 5H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11v1.5a.5.5 0 0 1-1 0V5H6v1.5a.5.5 0 0 1-1 0z" />
-                                </svg></a>
+                                </svg><span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    99+
+                                    <span class="visually-hidden">unread messages</span></a>
                         </li>
                         <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold" href="">
+                            <a class="align-middle nav-link position-relative fw-semibold" href=""
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 <p class="m-0">TÌM KIẾM</p>
                                 <svg style="color: #000; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg"
                                     width="16" height="16" fill="currentColor" class="bi bi-search align-middle"
@@ -155,6 +160,31 @@
                                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                                 </svg>
                             </a>
+                            <!-- Button trigger modal -->
+                            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Launch demo modal
+                            </button> -->
+
+                            <!-- Modal -->
+                            <div class="modal bg-transparent" id="exampleModal" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog bg-transparent border-0">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <!-- <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div> -->
+                                        <div class="modal-body bg-transparent rounded-1 p-0 border-0 d-flex">
+                                            <input class="form-control col-7 me-2" list="datalistOptions"
+                                                id="exampleDataList" placeholder="Bạn đang tìm...">
+                                            <button type="button" class="btn btn-primary m-0 fw-semibold col-3">Tìm
+                                                kiếm</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -177,7 +207,7 @@
                     <h5 class="card-title fw-semibold lh-base text-white">TOUR NƯỚC NGOÀI</h5>
                     <a href="" class="text-white">TÌM HIỂU THÊM</a>
                 </div>
-                <a class="position-absolute d-block w-100 h-100" href="foreign.html"></a>
+                <a class="position-absolute d-block w-100 h-100" href="../html/foreign.html"></a>
             </div>
         </div>
         <section class="container-fluid mb-5 product m-0">
@@ -242,7 +272,155 @@
                                 <h5 class="card-title fw-semibold text-black lh-base">TOUR NHA TRANG: BÌNH BA</h5>
                                 <p class="card-text fw-light">2,500,000Đ</p>
                             </div>
-                            <a href="#" class="w-100 h-100 top-0 start-0 position-absolute"></a>
+                            <a href="#" class="w-100 h-100 top-0 start-0 position-absolute" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"></a>
+                            <div class="offcanvas offcanvas-end product-detail rounded-3" data-bs-scroll="true"
+                                data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
+                                aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header float-start">
+                                    <h5 class="offcanvas-title fw-semibold" id="offcanvasScrollingLabel">CHUYẾN ĐI CỦA
+                                        BẠN</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="card">
+                                        <div class="card-header text-start border-0 bg-white">
+                                            <span class="fw-semibold">TP. HCM &#8594; Nha trang: Bình Ba</span> | Thứ 7,
+                                            01/06/2024
+                                        </div>
+                                        <div class="card-body row p-0 m-0 border-0 bg-white">
+                                            <!-- <h5 class="card-title">Special title treatment</h5> -->
+                                            <div class="air-logo col-md-4 m-0 d-flex align-items-center py-0 ps-4">
+                                                <img src="../img/vietjetair.webp" alt="">
+                                                <div class="air-brand ms-2 text-start">
+                                                    <h6 class="air-brand-name">Vietjet Air</h6>
+                                                    <p class="air-standard">Phổ thông</p>
+                                                </div>
+                                            </div>
+                                            <div class="schedule col-md-6 p-0 m-0 d-flex align-items-center">
+                                                <div class="start-place">
+                                                    <p>04:20</p>
+                                                    <p class="fw-semibold my-auto">HCM</p>
+                                                    <p>01/06/24</p>
+                                                </div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                                                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path
+                                                        d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z" />
+                                                </svg>
+                                                <div class="end-place">
+                                                    <p>06:20</p>
+                                                    <p class="fw-semibold my-auto">NT</p>
+                                                    <p>01/06/24</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-footer border-0 bg-white text-start fw-semibold">
+                                            Chi tiết
+                                        </div>
+                                    </div>
+
+                                    <p class="text-start fw-semibold fs-5 pt-4 pb-2 my-0">Chọn loại vé của bạn</p>
+                                    <div class="row ticket">
+                                        <input type="radio" class="btn-check" name="options-outlined"
+                                            id="success-outlined" autocomplete="off" checked>
+                                        <label class="btn col p-0 mx-2" for="success-outlined">
+                                            <div class="card">
+                                                <div class="card-header d-flex text-start pt-3 bg-white">
+                                                    <img src="../img/seat1.webp" alt="" class="label-img">
+                                                    <div class="label-title">
+                                                        <p class="fw-semibold">Phổ thông</p>
+                                                        <p style="color: orange;" class="d-flex fw-semibold">
+                                                            2,500,000 VND <span
+                                                                class="text-black fw-normal align-self-end">/khách</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body bg-white">
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="../img/suitcase1.webp" alt="">
+                                                        <p class="mt-0">Hành lý xách tay 1 x 10 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="../img/suitcase2.webp" alt="">
+                                                        <p class="mt-0">Hành lý 2 x 23 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="../img/calendar1.webp" alt="">
+                                                        <p class="mt-0 text-secondary">Lên lịch lại không khả dụng</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex">
+                                                        <img src="../img/cash1.webp" alt="">
+                                                        <p class="mt-0 text-secondary">Hoàn tiền không có sẵn</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer text-body-secondary bg-white w-100 d-flex">
+                                                    <div class="icon d-flex">
+                                                        <img src="../img/food1.webp" alt="">
+                                                        <img src="../img/food2.webp" alt="">
+                                                        <img src="../img/food3.webp" alt="">
+                                                        <img src="../img/food4.webp" alt="">
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="fw-semibold">Xem chi tiết</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <input type="radio" class="btn-check" name="options-outlined"
+                                            id="danger-outlined" autocomplete="off">
+                                        <label class="btn col p-0 mx-2" for="danger-outlined">
+                                            <div class="card">
+                                                <div class="card-header d-flex text-start pt-3 bg-white">
+                                                    <img src="../img/seat2.webp" alt="" class="label-img">
+                                                    <div class="label-title">
+                                                        <p class="fw-semibold">Thương gia</p>
+                                                        <p style="color: orange;" class="d-flex fw-semibold">
+                                                            4,900,000 VND <span
+                                                                class="text-black fw-normal align-self-end">/khách</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body bg-white">
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="../img/suitcase1.webp" alt="">
+                                                        <p class="mt-0">Hành lý xách tay 1 x 10 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="../img/suitcase2.webp" alt="">
+                                                        <p class="mt-0">Hành lý 2 x 23 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="../img/calendar2.webp" alt="">
+                                                        <p class="mt-0">Phí đổi lịch bay miễn phí</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex">
+                                                        <img src="../img/cash2.webp" alt="">
+                                                        <p class="mt-0">Hoàn vé 50% phí</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer text-body-secondary bg-white w-100 d-flex">
+                                                    <div class="icon d-flex">
+                                                        <img src="../img/food1.webp" alt="">
+                                                        <img src="../img/food2.webp" alt="">
+                                                        <img src="../img/food3.webp" alt="">
+                                                        <img src="../img/food4.webp" alt="">
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="fw-semibold">Xem chi tiết</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-footer d-flex">
+                                    <div class="price text-start">Tổng cộng: <span>2,500,000 VND</span></div>
+                                    <button class="border-0 text-white rounded-1">Đặt chuyến</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12">
@@ -333,6 +511,9 @@
                                 <p class="card-text fw-light">3,000,000Đ</p>
                             </div>
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute"></a>
+                            <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body
+                                scrolling</button> -->
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12">
@@ -362,12 +543,14 @@
                                 <p class="card-text fw-light">72,990,000Đ</p>
                             </div>
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute"></a>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- <hr style="margin: 0;"> -->
+
         <section class="container-fluid brand bg-white">
             <div class="row row-cols-6 row-cols-md-6 m-0">
                 <div class="wrap-main w-100 my-0 mx-auto">
@@ -417,6 +600,7 @@
                 </div>
             </div>
         </section>
+
         <section class="category p-0">
             <div class="card-group row m-0">
                 <div class="card position-relative col-md-6 rounded-0 border-0 p-0">
@@ -487,6 +671,56 @@
                 </div>
             </div>
         </section>
+
+        <section class="feedback">
+            <h1 class="text-center fw-semibold my-5">Khách hàng nói gì về chúng tôi?</h1>
+            <div class="review d-flex">
+                <div class="toast d-block" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="../img/customer1.jpg" class="rounded me-2" alt="...">
+                        <strong class="me-auto fs-6 ms-2">Giuse Vũ Đăng Quang</strong>
+                        <!-- <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button> -->
+                    </div>
+                    <div class="toast-body lh-base">
+                        Double Chill cung cấp nhiều lựa chọn tour phong phú, từ các tour trong nước đến quốc tế, phù hợp
+                        với nhiều đối tượng khách hàng và ngân sách khác nhau. Ngoài ra, còn có các dịch vụ bổ sung như
+                        đặt vé máy bay, khách sạn và dịch vụ vận chuyển, rất tiện lợi.
+                    </div>
+                </div>
+            </div>
+            <div class="review d-flex">
+                <div class="toast d-block" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <strong class="fs-6">Quang nạnh nùng</strong>
+                        <img src="../img/customer2.jpg" class="rounded me-2" alt="...">
+                        <!-- <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button> -->
+                    </div>
+                    <div class="toast-body lh-base">
+                        Trong suốt quá trình từ khi đặt tour đến khi hoàn thành chuyến đi, tôi luôn nhận được sự hỗ trợ
+                        nhiệt tình từ đội ngũ nhân viên của Double Chill. Họ luôn sẵn sàng giải đáp mọi thắc mắc và xử
+                        lý các vấn đề phát sinh một cách nhanh chóng và chuyên nghiệp.
+                    </div>
+                </div>
+            </div>
+            <div class="review d-flex">
+                <div class="toast d-block" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="../img/customer3.jpg" class="rounded me-2" alt="...">
+                        <strong class="me-auto fs-6 ms-2">Binbungmo</strong>
+                        <!-- <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button> -->
+                    </div>
+                    <div class="toast-body lh-base">
+                        So với các trang web khác, Double Chill mang đến những gói tour với mức giá cạnh tranh và thường
+                        xuyên có các chương trình khuyến mãi hấp dẫn, giúp tôi tiết kiệm được chi phí mà vẫn có một
+                        chuyến đi thú vị.
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="container-fluid ship">
             <div class="row">
                 <div class="col-lg-3 col-md-6 p-0">

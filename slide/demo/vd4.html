@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nhúng angular vô -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script> -->
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+    <title>Document</title>
+</head>
+
+<!-- Cho biết AngularJS bắt đầu hoạt động tại đây -->
+<body ng-app="myapp">
+    <!-- Cho biết phạm vi quản lý của controller -->
+    <div ng-controller="myctrl">
+        <h1>{{welcome}}</h1>
+        <h1>{{student.name}}</h1>
+        <h1>{{student.class}}</h1>
+        <h1>{{class[0]}}</h1>
+        <h1>{{class[1]}}</h1>
+        <h1>{{class[2]}}</h1>
+    </div>
+
+    <script>
+
+        // Khai báo angular module và controller 
+        // Scope là nơi lưu các biến
+        angular.module('myapp',[]).controller('myctrl',function($scope){
+            // Biến chuỗi
+            $scope.welcome="wellcome to my angularjs";
+            
+            // Đối tượng Object 
+            $scope.student= {
+                name: "Vũ Đăng Quang",
+                class: "SD18401"
+            };
+
+            // Mảng
+            $scope.class=["SD18401","SD18402","SD18403"];
+
+        });
+    </script>
+</body>
+</html>

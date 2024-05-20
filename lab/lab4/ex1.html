@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+
+</head>
+
+<body ng-app="myapp">
+    <div ng-controller="myctrl">
+        <img src="../images/{{photo}}" alt="" style="width: 20%;">
+        <ul>
+            <li>Họ và tên: {{fullname}}</li>
+            <li>Ngày sinh: {{birthday}}</li>
+            <li>Giới tính: {{gender}}</li>
+            <li>Điểm trung bình: {{mark}}</li>
+        </ul>
+    </div>
+
+    <script>
+        var app = angular.module('myapp', []);
+        app.controller('myctrl', function ($scope){
+            $scope.fullname = "Vũ Đăng Quang";
+            $scope.birthday = "07-09-1998";
+            $scope.gender = "Nam";
+            $scope.photo = "16.jpg";
+            $scope.mark = 10;
+        });
+    </script>
+</body>
+
+</html>
