@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <form ng-app="app" action="" ng-controller="myctrl" class="w-25">
+        <div class="form-group mb-2">
+            <label class="form-label" for="">Chiều dài</label>
+            <input type="text" ng-model="length" class="form-control">
+        </div>
+        <div class="form-group mb-2">
+            <label class="form-label" for="">Chiều rộng</label>
+            <input type="text" ng-model="width" class="form-control" name="" id="">
+        </div>
+        <div class="form-group mb-2">
+            <label class="form-label" for="">Diện tích</label>
+            <input type="text" class="form-control" ng-model="acreage" readonly>
+        </div>
+        <div class="form-group mb-2">
+            <label class="form-label" for="">Chu vi</label>
+            <input type="text" class="form-control" ng-model="perimeter" readonly>
+        </div>
+        <hr>
+        <div class="form-group mb-2">
+            <button class="btn btn-dark" ng-click="calculate()" type="button">Calculate</button>
+        </div>
+    </form>
+
+    <script>
+        var app = angular.module('app', []);
+        app.controller('myctrl', function ($scope) {
+            $scope.calculate = function () {
+                var a = parseFloat($scope.width);
+                var b = parseFloat($scope.length);
+                $scope.acreage = a * b;
+                $scope.perimeter = (a + b) * 2;
+            };
+        });
+    </script>
+</body>
+
+</html>

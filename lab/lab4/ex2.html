@@ -12,23 +12,25 @@
 
 <body ng-app="myapp">
     <div ng-controller="myctrl">
-        <img src="../images/{{photo}}" alt="" style="width: 20%;">
+        <img src="../images/{{student.photo}}" alt="" style="width: 20%;">
         <ul>
-            <li>Họ và tên: {{fullname}}</li>
-            <li>Ngày sinh: {{birthday}}</li>
-            <li>Giới tính: {{gender}}</li>
-            <li>Điểm trung bình: {{mark}}</li>
+            <li>Họ và tên: {{student.fullname}}</li>
+            <li>Ngày sinh: {{student.birthday}}</li>
+            <li>Giới tính: {{student.gender}}</li>
+            <li>Điểm trung bình: {{student.mark}}</li>
         </ul>
     </div>
 
     <script>
         var app = angular.module('myapp', []);
         app.controller('myctrl', function ($scope){
-            $scope.fullname = "Vũ Đăng Quang";
-            $scope.birthday = "07-09-1998";
-            $scope.gender = "Nam";
-            $scope.photo = "16.jpg";
-            $scope.mark = 10;
+            $scope.student = {
+                fullname: 'Vũ Đăng Quang',
+                birthday: '07-09-1998',
+                gender: 'Nam',
+                photo: '16.jpg',
+                mark: 9.5
+            }
         });
     </script>
 </body>

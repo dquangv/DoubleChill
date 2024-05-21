@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body ng-app="myapp">
+    <div ng-controller="myctrl">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Hình</th>
+                    <th>Họ và tên</th>
+                    <th>Ngày Sinh</th>
+                    <th>Giới tính</th>
+                    <th>Điểm</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="../images/{{arr_student[0].photo}}" alt="" style="width: 180px;"></td>
+                    <td>{{arr_student[0].fullname}}</td>
+                    <td>{{arr_student[0].birthday}}</td>
+                    <td>{{arr_student[0].gender}}</td>
+                    <td>{{arr_student[0].mark}}</td>
+                </tr>
+                <tr>
+                    <td><img src="../images/{{arr_student[1].photo}}" alt="" style="width: 180px;"></td>
+                    <td>{{arr_student[1].fullname}}</td>
+                    <td>{{arr_student[1].birthday}}</td>
+                    <td>{{arr_student[1].gender}}</td>
+                    <td>{{arr_student[1].mark}}</td>
+                </tr>
+                <tr>
+                    <td><img src="../images/{{arr_student[2].photo}}" alt="" style="width: 180px;"></td>
+                    <td>{{arr_student[2].fullname}}</td>
+                    <td>{{arr_student[2].birthday}}</td>
+                    <td>{{arr_student[2].gender}}</td>
+                    <td>{{arr_student[2].mark}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        var app = angular.module('myapp', []);
+        app.controller('myctrl', function ($scope) {
+            $scope.arr_student = [{
+                fullname: 'Vũ Đăng Quang',
+                birthday: '07-09-1998',
+                gender: 'Nam',
+                photo: '16.jpg',
+                mark: 9.5
+            },
+            {
+                fullname: 'Vũ Hải Đăng',
+                birthday: '07-09-1998',
+                gender: 'Nam',
+                photo: '21.jpg',
+                mark: 10
+            },
+            {
+                fullname: 'Binbungmo',
+                birthday: '07-09-1998',
+                gender: 'Nam',
+                photo: '27.jpg',
+                mark: 9.5
+            }];
+        });
+    </script>
+</body>
+
+</html>
