@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body ng-app="app">
+    <form action="" ng-controller="myctrl1" class="w-25">
+        <div class="form-group mb-2">
+            <label class="form-label" for="">Họ và tên</label>
+            <input type="text" ng-model="student.fullname" class="form-control">
+        </div>
+        <div class="form-group mb-2">
+            <label class="form-label" for="">Ngày sinh</label>
+            <input type="text" ng-model="student.birthday" class="form-control" name="" id="">
+        </div>
+        <div class="form-group mb-2">
+            <label class="form-label" for="">Điểm</label>
+            <input type="text" ng-model="student.mark" class="form-control" name="" id="">
+        </div>
+        <hr>
+        <div class="form-group mb-2">
+            <button class="btn btn-dark" ng-click="save()" type="button">Lưu</button>
+            <button class="btn btn-dark" ng-click="cancel()" type="button">Huỷ</button>
+        </div>
+    </form>
+
+    <table ng-controller="myctrl2" class="table">
+        <thead>
+            <tr>
+                <th>Họ và tên</th>
+                <th>Ngày sinh</th>
+                <th>Điểm</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{students[0].fullname}}</td>
+                <td>{{students[0].birthday}}</td>
+                <td>{{students[0].mark}}</td>
+                <td>
+                    <a href="" ng-click="edit(0)">Sửa</a>
+                </td>
+            </tr>
+            <tr>
+                <td>{{students[1].fullname}}</td>
+                <td>{{students[1].birthday}}</td>
+                <td>{{students[1].mark}}</td>
+                <td>
+                    <a href="" ng-click="edit(1)">Sửa</a>
+                </td>
+            </tr>
+            <tr>
+                <td>{{students[2].fullname}}</td>
+                <td>{{students[2].birthday}}</td>
+                <td>{{students[2].mark}}</td>
+                <td>
+                    <a href="" ng-click="edit(2)">Sửa</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        var app = angular.module('app', []);
+
+
+        app.controller('myctrl2', function ($scope) {
+            $scope.$parent.students = [{
+                fullname: 'Vũ Đăng Quang',
+                birthday: '07-09-1998',
+                mark: 9.5
+            },
+            {
+                fullname: 'Vũ Hải Đăng',
+                birthday: '07-09-1998',
+                mark: 10
+            },
+            {
+                fullname: 'Binbungmo',
+                birthday: '07-09-1998',
+                mark: 9.5
+            }];
+
+            $scope.edit = function (index) {
+                $scope.$parent.index = index;
+                $scope.$parent.student = angular.copy($scope.$parent.students[index]);
+            }
+        });
+
+        app.controller('myctrl1', function ($scope) {
+            $scope.save = function () {
+                $scope.$parent.students[$scope.$parent.index] = $scope.student;
+            }
+
+            $scope.cancel = function () {
+                $scope.$parent.student = angular.copy($scope.$parent.students[$scope.$parent.index]);
+            }
+        });
+    </script>
+
+</body>
+
+</html>

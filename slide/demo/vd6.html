@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </head>
+  <body ng-app="myapp">
+    <div ng-controller="myctrl" >
+      <label>Nhập số a:</label>
+      <!-- ng-model để lấy dữ liệu nhập input đưa vào biến number -->
+      <input type="text" ng-model="numberA" >
+      <hr>
+      <label>Nhập số b:</label>
+      <!-- ng-model để lấy dữ liệu nhập input đưa vào biến number -->
+      <input type="text" ng-model="numberB" >
+      <!-- ng-click để thực hiện hàm tinhBinhPhuon -->
+      <hr>
+      <button ng-click="tinhTong()">Tính bình phương</button>
+      <h1>{{result}}</h1>
+      <!-- ng-bind để xuất dữ liệu ra ngoài -->
+      <h1 ng-bind="result"></h1>
+    </div>
+    
+    </div>
+    <script>
+        angular.module("myapp",[]).controller("myctrl",function($scope){
+            //Khai báo hàm tính bình phương 
+          $scope.tinhTong=function(){
+                //Khai báo biến result bằng bình phương của biến number
+                $scope.result= parseFloat($scope.numberA)+parseFloat($scope.numberB);
+            }
+        });
+ 
+    </script>
+  </body>
+</html>

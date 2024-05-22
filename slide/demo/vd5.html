@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nhúng angular vô -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script> -->
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+    <title>Document</title>
+</head>
+
+<!-- Cho biết AngularJS bắt đầu hoạt động tại đây -->
+
+<body ng-app="myapp">
+    <!-- Cho biết phạm vi quản lý của controller -->
+    <div ng-controller="myctrl">
+        <h1 ng-dblclick="increaseCount()">Mouse move here</h1>
+        <h2>Count: {{count}}</h2>
+    </div>
+    <script>
+        angular.module("myapp", []).controller("myctrl", function ($scope) {
+            $scope.count = 0;
+            $scope.increaseCount = function () {
+                $scope.count++;
+            }
+        });
+
+    </script>
+</body>
+
+</html>
