@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="app" ng-controller="myctrl">
+    <div class="container">
+        <div class="row m-0 gx-3">
+            <div class="card text-center col-3 p-0" ng-repeat="pd in products">
+                <div class="card-header bg-primary">
+                    {{pd.name}}
+                </div>
+                <div class="card-body">
+                    <img src="../images/products/{{pd.image}}" alt="" class="img-fluid"
+                        style="height: 150px; max-width: 95%;">
+                </div>
+                <div class="card-footer text-body-secondary">
+                    ${{pd.price}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script>
+        var app = angular.module('app', []);
+        app.controller('myctrl', function ($scope) {
+            $scope.products = [
+                {
+                    name: 'Đồng hồ Thuỵ Sỹ',
+                    image: '1001.jpg',
+                    price: 1200
+                },
+                {
+                    name: 'Dell Star X',
+                    image: '1003.jpg',
+                    price: 700
+                },
+                {
+                    name: 'Sony Vaio 2017',
+                    image: '1004.jpg',
+                    price: 1700
+                },
+                {
+                    name: 'Máy ảnh Canon',
+                    image: '1005.jpg',
+                    price: 300
+                },
+                {
+                    name: 'Vòng cưới France',
+                    image: '1009.jpg',
+                    price: 7000
+                },
+                {
+                    name: 'Motorola thế hệ 5',
+                    image: '1011.jpg',
+                    price: 900
+                },
+                {
+                    name: 'Mũ cao bồi Mexico',
+                    image: '1014.jpg',
+                    price: 100
+                },
+                {
+                    name: 'Nước hoa Korea',
+                    image: '1023.jpg',
+                    price: 600
+                },
+            ]
+        });
+    </script>
+</body>
+
+</html>

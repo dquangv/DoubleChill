@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="app">
+    <div class="card w-50 m-auto" ng-controller="myctrl">
+        <div class="card-header">
+            TÍNH THƯỞNG TẾT NGUYÊN ĐÁN
+        </div>
+        <div class="card-body">
+            <form action="">
+                <div class="mb-3">
+                    <label for="" class="form-label">Họ và tên:</label>
+                    <input type="text" class="form-control" ng-model="fullname">
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Lương:</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" ng-model="salary"
+                            aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text">VNĐ</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Giới tính:</label>
+                    <div></div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" ng-model="gender" value="Nam"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Nam
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" ng-model="gender" value="Nu"
+                            name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Nữ
+                        </label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="" class="form-label">Tuổi:</label>
+                    <select class="form-select" ng-model="age" ng-options="x.age for x in ages"
+                        aria-label="Default select example">
+                    </select>
+                </div>
+        </div>
+        <div class="card-footer text-body-secondary">
+            TIỀN THƯỞNG: <strong>{{getBonus()|number:2}}</strong> VNĐ
+        </div>
+    </div>
+
+    <script>
+        var app = angular.module('app', []);
+        app.controller('myctrl', function ($scope) {
+            $scope.ages = [{
+                age: 'Dưới 25',
+                rate: 0.07
+            },
+            {
+                age: 'Từ 25 đến 40',
+                rate: 0.1
+            },
+            {
+                age: 'Trên 40',
+                rate: 0.15
+            }];
+
+            $scope.age = $scope.ages[1];
+            $scope.gender = 'Nam';
+
+            $scope.getBonus = function () {
+                var bonus = $scope.age.rate * $scope.salary;
+                if ($scope.gender == 'Nu') {
+                    bonus += 200000;
+                }
+                return bonus;
+            }
+        });
+    </script>
+</body>
+
+</html>

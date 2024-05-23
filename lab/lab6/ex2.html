@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="app">
+    <div class="card text-center w-50 m-auto" ng-controller="myctrl">
+        <div class="card-header">
+            BÁN HÀNG GIẢI KHÁT
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">TÊN HÀNG</th>
+                        <th scope="col">SỐ LƯỢNG</th>
+                        <th scope="col">ĐƠN GIÁ</th>
+                        <th scope="col">THÀNH TIỀN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in items" ng-init="item.quantity=1">
+                        <td>
+                            <input class="form-check-input" type="checkbox" ng-model="item.buy">
+                        </td>
+                        <td ng-bind="item.name"></td>
+                        <td>
+                            <div class="input-group">
+                                <input type="number" class="form-control" ng-model="item.quantity"
+                                    ng-disabled="!item.buy">
+                            </div>
+                        </td>
+                        <td ng-bind="item.price|currency"></td>
+                        <td ng-bind="item.price*item.quantity|currency"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer text-body-secondary">
+            TỔNG TIỀN: <strong>{{getAmount()|currency}}</strong>
+        </div>
+    </div>
+
+    <script>
+        angular.module('app', []).controller('myctrl', function ($scope) {
+            $scope.items = [
+                {
+                    name: 'Nước ngọt',
+                    price: 10000
+                },
+                {
+                    name: 'Cà phê đen',
+                    price: 12000
+                },
+                {
+                    name: 'Thuốc lá',
+                    price: 18000
+                }];
+            $scope.getAmount = function () {
+                var amount = 0;
+                for (var i = 0; i < $scope.items.length; i++) {
+                    if ($scope.items[i].buy) {
+                        amount += $scope.items[i].price*$scope.items[i].quantity;
+                    }
+                }
+                return amount;
+            }
+        });
+    </script>
+</body>
+
+</html>

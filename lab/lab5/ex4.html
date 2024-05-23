@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+
+<body ng-app="app">
+    <div ng-controller="myctrl">
+        <form action="">
+            <div class="mb-3">
+                <label for="" class="form-label">Họ và tên:</label>
+                <input type="text" class="form-control" ng-model="student.fullname">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Ngày sinh:</label>
+                <input type="text" class="form-control" ng-model="student.birthday">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Điểm:</label>
+                <input type="text" class="form-control" ng-model="student.mark">
+            </div>
+            <button type="button" class="btn btn-dark" ng-click="insert()" ng-show="index==-1">Thêm</button>
+            <button type="button" class="btn btn-dark" ng-click="update()" ng-show="index!=-1">Sửa</button>
+            <button type="button" class="btn btn-dark" ng-click="delete()" ng-show="index!=-1">Xoá</button>
+            <button type="button" class="btn btn-dark" ng-click="cancel()">Huỷ</button>
+            <button type="button" class="btn btn-dark" ng-click="clear()">Mới</button>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Họ và tên</th>
+                        <th>Ngày sinh</th>
+                        <th>Điểm</th>
+                        <th>Xếp loại</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="std in students">
+                        <td>{{std.fullname}}</td>
+                        <td>{{std.birthday}}</td>
+                        <td>{{std.mark}}</td>
+                        <td>
+                            <span ng-if="std.mark<5">Yếu/Kém</span>
+                            <span ng-if="std.mark>=5 && std.mark<=8">Trung bình/Khá</span>
+                            <span ng-if="std.mark>8">Giỏi/Xuất sắc</span>
+                        </td>
+                        <td>
+                            <a href="" ng-click="edit($index)">Sửa</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <script>
+                var app = angular.module('app', []);
+                app.controller('myctrl', function ($scope) {
+                    $scope.students = [{
+                        fullname: 'Vũ Đăng Quang',
+                        birthday: '07-09-1998',
+                        mark: 9.5
+                    },
+                    {
+                        fullname: 'Vũ Hải Đăng',
+                        birthday: '07-09-1998',
+                        mark: 10
+                    },
+                    {
+                        fullname: 'Binbungmo',
+                        birthday: '07-09-1998',
+                        mark: 9.5
+                    }];
+
+                    $scope.student = {};
+                    $scope.index = -1;
+
+                    $scope.clear = function () {
+                        $scope.student = {};
+                        $scope.index = -1;
+                    };
+
+                    $scope.insert = function () {
+                        $scope.students.push(angular.copy($scope.student));
+                        $scope.clear();
+                    }
+
+                    $scope.update = function () {
+                        $scope.students[$scope.index] = angular.copy($scope.student);
+                    }
+
+                    $scope.delete = function () {
+                        $scope.students.splice($scope.index, 1);
+                        $scope.clear();
+                    }
+
+                    $scope.edit = function (index) {
+                        $scope.index = index;
+                        $scope.student = angular.copy($scope.students[$scope.index]);
+                    }
+
+                    $scope.cancel = function () {
+                        if ($scope.index == -1) {
+                            $scope.clear();
+                        } else {
+                            $scope.student.copy($scope.students[$scope.index]);
+                        }
+                    }
+                });
+            </script>
+    </div>
