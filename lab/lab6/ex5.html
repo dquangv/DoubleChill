@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="app">
+    <div class="card text-center w-50 m-auto" ng-controller="myctrl">
+        <div class="card-header">
+            CUSTOM VALIDATION
+        </div>
+        <div class="card-body">
+            <form action="" name="frmUser">
+                <div class="mb-3">
+                    <label for="" class="form-label">Số Poly</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" ng-model="number"
+                            aria-label="Amount (to the nearest dollar)" name="number" check-number min="0">
+                    </div>
+                    <div class="mt-2 text-danger" ng-show="frmUser.number.$invalid && frmUser.number.$dirty">Số này
+                        không chia hết cho 2 và 9</div>
+                </div>
+            </form>
+        </div>
+        <div class="card-footer text-body-secondary">
+            <button type="button" class="btn btn-dark">Kiểm tra</button>
+        </div>
+    </div>
+
+    <script>
+        angular.module('app', []).controller('myctrl', function ($scope) { }).directive('checkNumber', function () {
+            return {
+                require: 'ngModel',
+                link: function (scope, element, attrs, mCtrl) {
+                    function fnCheckNumber(number) {
+                        if (parseInt(number) % 2 == 0 && parseInt(number) % 9 == 0) {
+                            mCtrl.$setValidity('charE', true);
+                        } else {
+                            mCtrl.$setValidity('charE', false);
+                        }
+                        return number;
+                    }
+                    mCtrl.$parsers.push(fnCheckNumber);
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
