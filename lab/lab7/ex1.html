@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="app">
+    <div class="card w-50 m-auto" ng-controller="myCtrl">
+        <div class="card-header fw-semibold">
+            DANH SÁCH HÀNG HOÁ
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-bordered m-0">
+                <thead>
+                    <tr class="fw-semibold">
+                        <th>SẢN PHẨM</th>
+                        <th>ĐƠN GIÁ</th>
+                        <th>GIẢM GIÁ</th>
+                        <th>NGÀY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="pro in products">
+                        <td>{{pro.name | uppercase}}</td>
+                        <td>{{pro.price | currency}}</td>
+                        <td>{{pro.discount | number : 2}}</td>
+                        <td>{{pro.date | date : "MMMM-dd,yyyy"}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="Prods.js"></script>
+    <script>
+        angular.module("app", []).controller("myCtrl", function ($scope, $http) {
+            $scope.products = list;
+        });
+    </script>
+</body>
+
+</html>

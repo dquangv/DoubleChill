@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="../../angular/angular-1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="app">
+    <div class="card w-50 m-auto" ng-controller="myCtrl">
+        <div class="card-header fw-semibold">
+            DANH SÁCH HÀNG HOÁ
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-bordered m-0">
+                <thead>
+                    <tr class="fw-semibold">
+                        <th><a href="#" ng-click="sortBy('name')">SẢN PHẨM</a></th>
+                        <th><a href="#" ng-click="sortBy('price')">ĐƠN GIÁ</a></th>
+                        <th><a href="#" ng-click="sortBy('discount')">GIẢM GIÁ</a></th>
+                        <th><a href="#" ng-click="sortBy('date')">NGÀY</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="pro in products | orderBy: prop | limitTo : 8 : begin">
+                        <td>{{pro.name | uppercase}}</td>
+                        <td>{{pro.price | currency}}</td>
+                        <td>{{pro.discount | percentage : 2}}</td>
+                        <td>{{pro.date | date : "MMMM-dd,yyyy"}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer text-body-secondary">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" ng-click="first()" aria-label="First">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" ng-click="previous()" aria-label="Previous">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" ng-click="next()" aria-label="Next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" ng-click="last()" aria-label="Last">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script src="Prods.js"></script>
+    <script>
+        var app = angular.module('app', []);
+
+        app.controller("myCtrl", function ($scope, $http) {
+            $scope.products = list;
+            $scope.prop = 'name';
+            $scope.sortBy = function (prop) {
+                $scope.prop = prop;
+            };
+
+            $scope.begin = 0;
+            $scope.pageCount = Math.ceil($scope.products.length / 8);
+
+            $scope.first = function () {
+                $scope.begin = 0;
+            };
+
+            $scope.previous = function () {
+                if ($scope.begin > 0) {
+                    $scope.begin -= 8;
+                }
+            }
+
+            $scope.next = function () {
+                if ($scope.begin < ($scope.pageCount - 1) * 8) {
+                    $scope.begin += 8;
+                }
+            }
+
+            $scope.last = function () {
+                $scope.begin = ($scope.pageCount - 1) * 8;
+            }
+        });
+
+        app.filter('percentage', function ($filter) {
+            return function (input, decimals) {
+                return $filter('number')(input * 100, decimals) + '%';
+            }
+        });
+    </script>
+</body>
+
+</html>
