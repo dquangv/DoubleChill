@@ -15,12 +15,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <title>Double Chill</title>
     <link rel="stylesheet" href="asm/css/style.css">
 </head>
 
-<body>
+<body ng-app="app">
     <!-- <header class="w-100 position-relative">
         <nav class="navbar navbar-expand-lg p-0" data-bs-theme="dark">
             <div class="first-header container">
@@ -181,26 +181,47 @@
         </nav>
     </header> -->
     <main>
-        <section class="sign-up">
+        <section class="sign-up" ng-controller="signUpCtrl">
             <div class="wrap-main">
                 <div class="row">
                     <div class="col signUp">
                         <h3 class="text-center">ĐĂNG KÝ</h3>
-                        <form action="">
+                        <form action="" name="frmCus" ng-submit="submitForm()">
                             <div class="form-group">
-                                <input type="text" placeholder="Họ & Tên *" class="form-control">
+                                <input type="text" placeholder="Họ & Tên *" class="form-control" ng-model="fullname"
+                                    name="txtName" required>
+                                <div class="mt-2 text-danger"
+                                    ng-hide="frmCus.txtName.$touched && frmCus.txtName.$invalid">Vui lòng nhập Họ & Tên
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" placeholder="Email *" class="form-control">
+                                <input type="email" placeholder="Email *" class="form-control" ng-model="email"
+                                    name="txtEmail" required>
+                                <div class="mt-2 text-danger"
+                                    ng-show="frmCus.txtEmail.$touched && frmCus.txtEmail.$invalid">Vui lòng nhập Email
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" placeholder="Mật khẩu *" class="form-control">
+                                <input type="password" placeholder="Mật khẩu *" class="form-control" ng-model="password"
+                                    name="txtPassword" required
+                                    ng-pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/">
+                                <div class="mt-2 text-danger"
+                                    ng-show="frmCus.txtPassword.$touched && frmCus.txtPassword.$invalid">
+                                    Mật khẩu phải có ít nhất 6 ký tự bao gồm ký tự hoa, ký tự thường, ký tự số và ký tự
+                                    đặc biệt
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" placeholder="Nhập lại mật khẩu *" class="form-control">
+                                <input type="password" placeholder="Nhập lại mật khẩu *" class="form-control"
+                                    ng-model="confirmPassword" name="txtConfirmPassword" required>
+                                <div class="mt-2 text-danger"
+                                    ng-show="frmCus.txtConfirmPassword.$touched && password !== confirmPassword">
+                                    Mật khẩu nhập lại không khớp
+                                </div>
                             </div>
                             <div class="sign-up-btn">
-                                <a href="" class="btn-signup">ĐĂNG KÝ</a>
+                                <button class="border-0 btn-signup" type="submit">ĐĂNG
+                                        KÝ</button>
                             </div>
                         </form>
                         <hr>
@@ -224,6 +245,24 @@
                             TÀI KHOẢN GMAIL
                         </a>
                     </div>
+
+                
+
+                    <script>
+                        var app = angular.module('app', []);
+
+                        app.controller('signUpCtrl', function ($scope) {
+                            $scope.submitForm = function () {
+                                if ($scope.frmCus.$valid && $scope.password === $scope.confirmPassword) {
+                                    alert('Form submitted successfully!');
+                                } else {
+                                    alert('Vui lòng điền đầy đủ thông tin và kiểm tra lại các lỗi.');
+                                }
+                            };
+                        });
+                    </script>
+
+                    
                     <!-- <div class="col">
                             <h3>TẠO TÀI KHOẢN</h3>
                             <form action="">

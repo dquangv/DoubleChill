@@ -1,0 +1,106 @@
+[
+    {
+        "image": "asm/img/baoloc2.jpg",
+        "duration": "3 NGÀY 2 ĐÊM",
+        "title": "Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
+        "price": "2,100,000Đ"
+    },
+    {
+        "image": "asm/img/sydney4.jpg",
+        "duration": "6 NGÀY 5 ĐÊM",
+        "title": "TOUR SYDNEY - MELBOURNE",
+        "price": "45,990,000Đ"
+    },
+    {
+        "image": "asm/img/danang3.jpg",
+        "duration": "3 NGÀY 2 ĐÊM",
+        "title": "TOUR ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
+        "price": "4,290,000Đ"
+    },
+    {
+        "image": "asm/img/binhba1.jpg",
+        "duration": "4 NGÀY 3 ĐÊM",
+        "title": "TOUR NHA TRANG: BÌNH BA",
+        "price": "2,500,000Đ",
+        "details": {
+            "header": "TP. HCM → Nha trang: Bình Ba | Thứ 7, 01/06/2024",
+            "flight": {
+                "logo": "asm/img/vietjetair.webp",
+                "airline": "Vietjet Air",
+                "class": "Phổ thông",
+                "start_time": "04:20",
+                "start_place": "HCM",
+                "start_date": "01/06/24",
+                "end_time": "06:20",
+                "end_place": "NT",
+                "end_date": "01/06/24"
+            },
+            "tickets": [
+                {
+                    "type": "Phổ thông",
+                    "price": "2,500,000 VND",
+                    "luggage": ["Hành lý xách tay 1 x 10 kg", "Hành lý 2 x 23 kg"],
+                    "reschedule": "Lên lịch lại không khả dụng",
+                    "refund": "Hoàn tiền không có sẵn",
+                    "meals": ["asm/img/food1.webp", "asm/img/food2.webp", "asm/img/food3.webp", "asm/img/food4.webp"]
+                },
+                {
+                    "type": "Thương gia",
+                    "price": "4,900,000 VND",
+                    "luggage": ["Hành lý xách tay 1 x 10 kg", "Hành lý 2 x 23 kg"],
+                    "reschedule": "Phí đổi lịch bay miễn phí",
+                    "refund": "Hoàn vé 50% phí",
+                    "meals": ["asm/img/food1.webp", "asm/img/food2.webp", "asm/img/food3.webp", "asm/img/food4.webp"]
+                }
+            ]
+        }
+    },
+    {
+        "image": "asm/img/diepson1.jpg",
+        "duration": "3 NGÀY 3 ĐÊM",
+        "title": "TOUR PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
+        "price": "2,086,000Đ"
+    },
+    {
+        "image": "asm/img/condao1.jpg",
+        "duration": "4 NGÀY 3 ĐÊM",
+        "title": "TOUR MIỀN TÂY: CÔN ĐẢO",
+        "price": "2,899,000Đ"
+    },
+    {
+        "image": "asm/img/kyoto1.jpg",
+        "duration": "5 NGÀY 5 ĐÊM",
+        "title": "TOUR NHẬT BẢN: OSAKA - KYOTO - TOKYO",
+        "price": "27,990,000Đ"
+    },
+    {
+        "image": "asm/img/thuonghai1.jpg",
+        "duration": "4 NGÀY 3 ĐÊM",
+        "title": "TOUR TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
+        "price": "11,950,000Đ"
+    },
+    {
+        "image": "asm/img/phuket1.jpg",
+        "duration": "4 NGÀY 3 ĐÊM",
+        "title": "TOUR THÁI LAI: PHUKET - ĐẢO PHI PHI",
+        "price": "11,580,000Đ"
+    },
+    {
+        "image": "asm/img/hoian1.jpg",
+        "duration": "3 NGÀY 2 ĐÊM",
+        "title": "TOUR HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
+        "price": "3,000,000Đ"
+    },
+    {
+        "image": "asm/img/daolyson1.jpg",
+        "duration": "2 NGÀY 1 ĐÊM",
+        "title": "TOUR QUẢNG NGÃI: ĐẢO LÝ SƠN",
+        "price": "1,250,000Đ"
+    },
+    {
+        "image": "asm/img/chauau1.jpg",
+        "duration": "11 NGÀY 10 ĐÊM",
+        "title": "TOUR CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
+        "price": "72,990,000Đ"
+    }
+]
