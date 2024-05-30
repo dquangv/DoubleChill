@@ -40,29 +40,28 @@
                 <a class="position-absolute d-block w-100 h-100" href="asm/html/foreign.html"></a>
             </div>
         </div>
-        <section class="container-fluid mb-5 product m-0">
+        <section class="container-fluid mb-5 product m-0" ng-controller="homeCtrl">
             <div class="wrap-main w-100 my-0 mx-auto">
                 <div class="text-center">
                     <h1 class="fw-semibold lh-base">ĐỊA ĐIỂM YÊU THÍCH</h1>
                     <a href="" class="text-black fw-semibold">XEM TẤT CẢ</a>
                 </div>
                 <div class="row d-flex flex-wrap">
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours">
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"
-                                    style="background-image: url(asm/img/baoloc2.jpg);"></span>
+                                    style="background-image: url({{tour.image}});"></span>
                             </div>
                             <div class="card-body p-0">
-                                <p class="card-text fw-light fst-italic">3 NGÀY 2 ĐÊM</p>
-                                <h5 class="card-title fw-semibold text-black lh-base">Tour Bảo Lộc: Thác Damb'ri - Hồ Tà
-                                    Đùng</h5>
-                                <p class="card-text fw-light">2,100,000Đ</p>
+                                <p class="card-text fw-light fst-italic">{{tour.duration}}</p>
+                                <h5 class="card-title fw-semibold text-black lh-base">{{tour.title}}</h5>
+                                <p class="card-text fw-light">{{tour.price}}Đ</p>
                             </div>
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute"></a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-12">
+                    <!-- <div class="col-md-3 col-sm-12">
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"
@@ -120,7 +119,6 @@
                                             01/06/2024
                                         </div>
                                         <div class="card-body row p-0 m-0 border-0 bg-white">
-                                            <!-- <h5 class="card-title">Special title treatment</h5> -->
                                             <div class="air-logo col-md-4 m-0 d-flex align-items-center py-0 ps-4">
                                                 <img src="asm/img/vietjetair.webp" alt="">
                                                 <div class="air-brand ms-2 text-start">
@@ -135,7 +133,7 @@
                                                     <p>01/06/24</p>
                                                 </div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
-                                                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    viewBox="0 0 512 512">
                                                     <path
                                                         d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z" />
                                                 </svg>
@@ -341,9 +339,6 @@
                                 <p class="card-text fw-light">3,000,000Đ</p>
                             </div>
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute"></a>
-                            <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body
-                                scrolling</button> -->
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12">
@@ -375,7 +370,7 @@
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute"></a>
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
