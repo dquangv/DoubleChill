@@ -190,9 +190,9 @@
                                     style="background-image: url(asm/img/binhba1.jpg);"></span></a>
                         </div>
                         <div class="text">
-                            <p>4 NGÀY 3 ĐÊM</p>
-                            <p class="fw-semibold">TOUR NHA TRANG: BÌNH BA</p>
-                            <p>Giá: 2,500,000Đ</p>
+                            <p>{{detailPro.duration}}</p>
+                            <p class="fw-semibold">{{detailPro.title}}</p>
+                            <p>Giá: {{detailPro.price}}Đ</p>
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                     </div>
                 </div>
             </div>
-            <hr>
+            <!-- <hr>
             <div class="row">
                 <div class="col-sm-7">
                     <div class="d-flex">
@@ -257,10 +257,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <hr>
             <div class="total-price text-end">
-                Tổng cộng: <span>34,780,000Đ</span>
+                Tổng cộng: <span>{{detailPro.price}}Đ</span>
             </div>
             <div class="pay-button text-end">
                 <a class="text-black fw-semibold" href="">TIẾP TỤC ĐẶT CHUYẾN</a>

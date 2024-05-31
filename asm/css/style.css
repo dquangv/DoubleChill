@@ -514,6 +514,11 @@ main .product .product-detail .air-logo img {
     height: 50%;
 }
 
+main .product .product-detail .air-logo .air-brand .air-brand-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
 main .product .product-detail .air-logo .air-brand .air-standard {
     font-size: 13px;
 }
