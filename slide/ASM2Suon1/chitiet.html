@@ -7,12 +7,12 @@
                 <div class="d-flex">
                     <div class="img-product position-relative bg-white">
                         <a href=""><span class="position-absolute top-50 start-50"
-                                style="background-image: url(img/binhba1.jpg);"></span></a>
+                                style="background-image: url(img/{{detailPro.image}});"></span></a>
                     </div>
                     <div class="text">
                         <p>4 NGÀY 3 ĐÊM</p>
-                        <p class="fw-semibold">TOUR NHA TRANG: BÌNH BA</p>
-                        <p>Giá: 2,500,000Đ</p>
+                        <p class="fw-semibold">{{detailPro.name}}</p>
+                        <p>Giá: {{detailPro.price}}Đ</p>
                     </div>
                 </div>
             </div>
@@ -20,67 +20,16 @@
                 <div class="d-flex">
                     <input class="text-center text-black fw-medium" type="text" value="1">
                     <div class="sum">
-                        <p>Thành tiền: <span>2,500,000Đ</span></p>
+                        <p>Thành tiền: <span>{{detailPro.price}}Đ</span></p>
                         <a href="#">XOÁ</a>
                     </div>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="d-flex">
-                    <div class="img-product position-relative bg-white">
-                        <a href=""><span class="position-absolute top-50 start-50"
-                                style="background-image: url(img/danang3.jpg);"></span></a>
-                    </div>
-                    <div class="text">
-                        <p>3 NGÀY 2 ĐÊM</p>
-                        <p class="fw-semibold">TOUR ĐÀ NẴNG - HỘI AN - CÙ LAO
-                            CHÀM</p>
-                        <p>Giá: 4,290,000Đ</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="d-flex">
-                    <input class="text-center text-black fw-medium" type="text" value="1">
-                    <div class="sum">
-                        <p>Thành tiền: <span>4,290,000Đ</span></p>
-                        <a href="#">XOÁ</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="d-flex">
-                    <div class="img-product position-relative bg-white">
-                        <a href=""><span class="position-absolute top-50 start-50"
-                                style="background-image: url(img/kyoto1.jpg);"></span></a>
-                    </div>
-                    <div class="text">
-                        <p>5 NGÀY 5 ĐÊM</p>
-                        <p class="fw-semibold">TOUR NHẬT BẢN: OSAKA - KYOTO -
-                            TOKYO</p>
-                        <p>Giá: 27,990,000Đ</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-5">
-                <div class="d-flex">
-                    <input class="text-center text-black fw-medium" type="text" value="1">
-                    <div class="sum">
-                        <p>Thành tiền: <span>27,990,000Đ</span></p>
-                        <a href="#">XOÁ</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <hr>
         <div class="total-price text-end">
-            Tổng cộng: <span>34,780,000Đ</span>
+            Tổng cộng: <span>{{detailPro.price}}Đ</span>
         </div>
         <div class="pay-button text-end">
             <a class="text-black fw-semibold" href="">TIẾP TỤC ĐẶT CHUYẾN</a>

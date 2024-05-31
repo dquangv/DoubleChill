@@ -4,12 +4,12 @@
         <img src="img/{{p.image}}" alt="" class="img-fluid">
         <p>{{p.name}}</p>
         <p>Giá: {{p.price}}đ</p>
-        <button class="btn btn-primary">Xem chi tiết</button>
+        <a class="btn btn-primary" href="#!detail/{{p.id}}">Xem chi tiết</a>
     </div>
     <div class="col-md-3" ng-repeat="p in products | filter: 'miền Nam'">
         <img src="img/{{p.image}}" alt="" class="img-fluid">
         <p>{{p.name}}</p>
         <p>Giá: {{p.price}}đ</p>
-        <button class="btn btn-primary">Xem chi tiết</button>
+        <a class="btn btn-primary" href="#!detail/{{p.id}}">Xem chi tiết</a>
     </div>
 </div>
