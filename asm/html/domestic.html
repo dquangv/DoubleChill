@@ -215,7 +215,7 @@
                     <h1 class="fw-semibold lh-base">TOUR TRONG NƯỚC</h1>
                 </div>
                 <div class="row filldomestic">
-                    <select class="form-select place-select col-md-2" aria-label="Default select example">
+                    <select class="form-select place-select col-md-2" aria-label="Default select example" ng-model="selectedPlace">
                         <option selected>Địa điểm</option>
                         <option value="1">Vũng Tàu</option>
                         <option value="2">Đà Lạt</option>
@@ -225,14 +225,14 @@
                         <option value="3">Huế</option>
                         <option value="3">Đà Nẵng</option>
                     </select>
-                    <select class="form-select fill-select col-md-2" aria-label="Default select example">
+                    <select class="form-select fill-select col-md-2" aria-label="Default select example" ng-model="sortOrder">
                         <option selected>Sắp xếp theo</option>
-                        <option value="1">Giá tăng</option>
-                        <option value="2">Giá giảm</option>
+                        <option value="priceAsc">Giá tăng</option>
+                        <option value="priceDesc">Giá giảm</option>
                     </select>
                 </div>
                 <div class="row d-flex flex-wrap">
-                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | filter : 'domestic'">
+                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | filter : 'domestic' | orderBy : sortTours">
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"

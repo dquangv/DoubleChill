@@ -19,6 +19,25 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
         // console.log($scope.tours);
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
     });
+
+    // $scope.selectedPlace = '';
+    // $scope.sortOrder = '';
+
+    $scope.filterTours = function(tour) {
+        if ($scope.selectedPlace && tour.location !== $scope.selectedPlace) {
+            return false;
+        }
+        return true;
+    }
+
+    $scope.sortTours = function(tour) {
+        if ($scope.sortOrder === 'priceAsc') {
+            return price;
+        } else if ($scope.sortOrder === 'priceDesc') {
+            return -price;
+        }
+        return ;
+    };
 });
 
 app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http) {

@@ -1238,7 +1238,10 @@
             "title": "Tour Việt Nam: Nha Trang - Đà Lạt",
             "price": "6,000,000",
             "area": "domestic",
-            "location": "Nha Trang, Đà Lạt",
+            "location": [
+                "Nha Trang",
+                " Đà Lạt"
+            ],
             "details": {
                 "header": "TP. HCM → Nha Trang - Đà Lạt",
                 "date": "Thứ 4, 03/07/2024",
