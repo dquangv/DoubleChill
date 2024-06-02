@@ -7,7 +7,7 @@
             "title": "Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
             "price": "2,100,000",
             "area": "domestic",
-            "location": "Bảo Lộc",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
                 "date": "Thứ 7, 01/06/2024",
@@ -77,10 +77,7 @@
             "title": "TOUR ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
             "price": "4,290,000",
             "area": "domestic",
-            "location": [
-                "Đà Nẵng",
-                "Hội An"
-            ],
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
                 "date": "Thứ 7, 01/06/2024",
@@ -115,7 +112,7 @@
             "title": "TOUR NHA TRANG: BÌNH BA",
             "price": "2,500,000",
             "area": "domestic",
-            "location": "Nha Trang",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → NHA TRANG: BÌNH BA",
                 "date": "Thứ 7, 01/06/2024",
@@ -150,7 +147,7 @@
             "title": "TOUR PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
             "price": "2,086,000",
             "area": "domestic",
-            "location": "Khác",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
                 "date": "Thứ 7, 01/06/2024",
@@ -185,7 +182,7 @@
             "title": "TOUR MIỀN TÂY: CÔN ĐẢO",
             "price": "2,899,000",
             "area": "domestic",
-            "location": "Miền Tây",
+            "location": "Miền Nam",
             "details": {
                 "header": "TP. HCM → MIỀN TÂY: CÔN ĐẢO",
                 "date": "Thứ 7, 01/06/2024",
@@ -325,10 +322,7 @@
             "title": "TOUR HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
             "price": "3,000,000",
             "area": "domestic",
-            "location": [
-                "Huế",
-                "Đà Nẵng"
-            ],
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
                 "date": "Thứ 7, 01/06/2024",
@@ -363,7 +357,7 @@
             "title": "TOUR QUẢNG NGÃI: ĐẢO LÝ SƠN",
             "price": "1,250,000",
             "area": "domestic",
-            "location": "Khác",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → QUẢNG NGÃI: ĐẢO LÝ SƠN",
                 "date": "Thứ 7, 01/06/2024",
@@ -433,7 +427,7 @@
             "title": "Tour Hà Nội: Văn Miếu - Hồ Gươm",
             "price": "3,200,000",
             "area": "domestic",
-            "location": "Hà Nội",
+            "location": "Miền Bắc",
             "details": {
                 "header": "TP. HCM → Hà Nội: Văn Miếu - Hồ Gươm",
                 "date": "Thứ 5, 05/06/2024",
@@ -468,7 +462,7 @@
             "title": "Tour Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
             "price": "2,500,000",
             "area": "domestic",
-            "location": "Đà Nẵng",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
                 "date": "Thứ 6, 07/06/2024",
@@ -503,7 +497,7 @@
             "title": "Tour Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
             "price": "3,800,000",
             "area": "domestic",
-            "location": "Nha Trang",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
                 "date": "Thứ 7, 08/06/2024",
@@ -538,7 +532,7 @@
             "title": "Tour Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
             "price": "2,300,000",
             "area": "domestic",
-            "location": "Đà Lạt",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
                 "date": "Chủ Nhật, 09/06/2024",
@@ -573,7 +567,7 @@
             "title": "Tour Phú Quốc: Vinpearl Safari - Suối Tranh",
             "price": "4,500,000",
             "area": "domestic",
-            "location": "Phú Quốc",
+            "location": "Miền Nam",
             "details": {
                 "header": "TP. HCM → Phú Quốc: Vinpearl Safari - Suối Tranh",
                 "date": "Thứ 2, 10/06/2024",
@@ -608,7 +602,7 @@
             "title": "Tour Huế: Đại Nội - Chùa Thiên Mụ",
             "price": "2,400,000",
             "area": "domestic",
-            "location": "Huế",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Huế: Đại Nội - Chùa Thiên Mụ",
                 "date": "Thứ 3, 11/06/2024",
@@ -643,7 +637,7 @@
             "title": "Tour Quảng Bình: Động Phong Nha - Động Thiên Đường",
             "price": "3,600,000",
             "area": "domestic",
-            "location": "Quảng Bình",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Quảng Bình: Động Phong Nha - Động Thiên Đường",
                 "date": "Thứ 4, 12/06/2024",
@@ -678,7 +672,7 @@
             "title": "Tour Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
             "price": "1,500,000",
             "area": "domestic",
-            "location": "Vũng Tàu",
+            "location": "Miền Nam",
             "details": {
                 "header": "TP. HCM → Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
                 "date": "Thứ 7, 14/06/2024",
@@ -713,7 +707,7 @@
             "title": "Tour Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
             "price": "2,700,000",
             "area": "domestic",
-            "location": "Sài Gòn",
+            "location": "Miền Nam",
             "details": {
                 "header": "Hà Nội → Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
                 "date": "Thứ 5, 15/06/2024",
@@ -748,7 +742,7 @@
             "title": "Tour Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
             "price": "2,100,000",
             "area": "domestic",
-            "location": "Cần Thơ",
+            "location": "Miền Nam",
             "details": {
                 "header": "TP. HCM → Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
                 "date": "Thứ 7, 16/06/2024",
@@ -782,8 +776,8 @@
             "duration": "5 NGÀY 4 ĐÊM",
             "title": "Tour Thái Lan: Bangkok - Pattaya",
             "price": "7,500,000",
-            "area": "international",
-            "location": "Thái Lan",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Thái Lan: Bangkok - Pattaya",
                 "date": "Thứ 2, 01/07/2024",
@@ -817,8 +811,8 @@
             "duration": "4 NGÀY 3 ĐÊM",
             "title": "Tour Singapore: Gardens by the Bay - Marina Bay Sands",
             "price": "9,000,000",
-            "area": "international",
-            "location": "Singapore",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Singapore: Gardens by the Bay - Marina Bay Sands",
                 "date": "Thứ 3, 02/07/2024",
@@ -852,8 +846,8 @@
             "duration": "7 NGÀY 6 ĐÊM",
             "title": "Tour Nhật Bản: Tokyo - Kyoto - Osaka",
             "price": "25,000,000",
-            "area": "international",
-            "location": "Nhật Bản",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Nhật Bản: Tokyo - Kyoto - Osaka",
                 "date": "Thứ 4, 03/07/2024",
@@ -887,8 +881,8 @@
             "duration": "6 NGÀY 5 ĐÊM",
             "title": "Tour Hàn Quốc: Seoul - Jeju",
             "price": "20,000,000",
-            "area": "international",
-            "location": "Hàn Quốc",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Hàn Quốc: Seoul - Jeju",
                 "date": "Thứ 5, 04/07/2024",
@@ -922,8 +916,8 @@
             "duration": "4 NGÀY 3 ĐÊM",
             "title": "Tour Malaysia: Kuala Lumpur - Genting Highlands",
             "price": "8,000,000",
-            "area": "international",
-            "location": "Malaysia",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Malaysia: Kuala Lumpur - Genting Highlands",
                 "date": "Thứ 6, 05/07/2024",
@@ -957,8 +951,8 @@
             "duration": "6 NGÀY 5 ĐÊM",
             "title": "Tour Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
             "price": "22,000,000",
-            "area": "international",
-            "location": "Trung Quốc",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
                 "date": "Thứ 7, 06/07/2024",
@@ -992,8 +986,8 @@
             "duration": "8 NGÀY 7 ĐÊM",
             "title": "Tour Pháp: Paris - Marseille - Nice",
             "price": "45,000,000",
-            "area": "international",
-            "location": "Pháp",
+            "area": "foreign",
+            "location": "Châu Âu",
             "details": {
                 "header": "TP. HCM → Pháp: Paris - Marseille - Nice",
                 "date": "Chủ Nhật, 07/07/2024",
@@ -1027,8 +1021,8 @@
             "duration": "9 NGÀY 8 ĐÊM",
             "title": "Tour Ý: Rome - Florence - Venice",
             "price": "50,000,000",
-            "area": "international",
-            "location": "Ý",
+            "area": "foreign",
+            "location": "Châu Âu",
             "details": {
                 "header": "TP. HCM → Ý: Rome - Florence - Venice",
                 "date": "Thứ 2, 08/07/2024",
@@ -1062,8 +1056,8 @@
             "duration": "10 NGÀY 9 ĐÊM",
             "title": "Tour Anh: London - Manchester - Edinburgh",
             "price": "55,000,000",
-            "area": "international",
-            "location": "Anh",
+            "area": "foreign",
+            "location": "Châu Âu",
             "details": {
                 "header": "TP. HCM → Anh: London - Manchester - Edinburgh",
                 "date": "Thứ 3, 09/07/2024",
@@ -1097,8 +1091,8 @@
             "duration": "9 NGÀY 8 ĐÊM",
             "title": "Tour Đức: Berlin - Munich - Frankfurt",
             "price": "48,000,000",
-            "area": "international",
-            "location": "Đức",
+            "area": "foreign",
+            "location": "Châu Âu",
             "details": {
                 "header": "TP. HCM → Đức: Berlin - Munich - Frankfurt",
                 "date": "Thứ 4, 10/07/2024",
@@ -1132,8 +1126,8 @@
             "duration": "10 NGÀY 9 ĐÊM",
             "title": "Tour Úc: Sydney - Melbourne - Brisbane",
             "price": "60,000,000",
-            "area": "international",
-            "location": "Úc",
+            "area": "foreign",
+            "location": "Khác",
             "details": {
                 "header": "TP. HCM → Úc: Sydney - Melbourne - Brisbane",
                 "date": "Thứ 5, 11/07/2024",
@@ -1168,7 +1162,7 @@
             "title": "Tour Việt Nam: Hà Nội - Hạ Long",
             "price": "5,000,000",
             "area": "domestic",
-            "location": "Hà Nội, Hạ Long",
+            "location": "Miền Bắc",
             "details": {
                 "header": "TP. HCM → Hà Nội - Hạ Long",
                 "date": "Thứ 2, 01/07/2024",
@@ -1203,7 +1197,7 @@
             "title": "Tour Việt Nam: Đà Nẵng - Hội An",
             "price": "4,500,000",
             "area": "domestic",
-            "location": "Đà Nẵng, Hội An",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Đà Nẵng - Hội An",
                 "date": "Thứ 3, 02/07/2024",
@@ -1238,10 +1232,7 @@
             "title": "Tour Việt Nam: Nha Trang - Đà Lạt",
             "price": "6,000,000",
             "area": "domestic",
-            "location": [
-                "Nha Trang",
-                " Đà Lạt"
-            ],
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Nha Trang - Đà Lạt",
                 "date": "Thứ 4, 03/07/2024",
@@ -1276,7 +1267,7 @@
             "title": "Tour Việt Nam: Phú Quốc",
             "price": "5,500,000",
             "area": "domestic",
-            "location": "Phú Quốc",
+            "location": "Miền Nam",
             "details": {
                 "header": "TP. HCM → Phú Quốc",
                 "date": "Thứ 5, 04/07/2024",
@@ -1311,7 +1302,7 @@
             "title": "Tour Việt Nam: Sapa",
             "price": "4,800,000",
             "area": "domestic",
-            "location": "Sapa",
+            "location": "Miền Bắc",
             "details": {
                 "header": "TP. HCM → Sapa",
                 "date": "Thứ 6, 05/07/2024",
@@ -1346,7 +1337,7 @@
             "title": "Tour Việt Nam: Cần Thơ - Châu Đốc",
             "price": "4,200,000",
             "area": "domestic",
-            "location": "Cần Thơ, Châu Đốc",
+            "location": "Miền Nam",
             "details": {
                 "header": "TP. HCM → Cần Thơ - Châu Đốc",
                 "date": "Thứ 7, 06/07/2024",
@@ -1381,7 +1372,7 @@
             "title": "Tour Việt Nam: Quy Nhơn - Phú Yên",
             "price": "5,300,000",
             "area": "domestic",
-            "location": "Quy Nhơn, Phú Yên",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Quy Nhơn - Phú Yên",
                 "date": "Chủ Nhật, 07/07/2024",
@@ -1416,7 +1407,7 @@
             "title": "Tour Việt Nam: Huế - Quảng Bình",
             "price": "5,700,000",
             "area": "domestic",
-            "location": "Huế, Quảng Bình",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Huế - Quảng Bình",
                 "date": "Thứ 2, 08/07/2024",
@@ -1451,7 +1442,7 @@
             "title": "Tour Việt Nam: Hồ Chí Minh - Côn Đảo",
             "price": "4,600,000",
             "area": "domestic",
-            "location": "Hồ Chí Minh, Côn Đảo",
+            "location": "Miền Nam",
             "details": {
                 "header": "TP. HCM → Côn Đảo",
                 "date": "Thứ 3, 09/07/2024",
@@ -1486,7 +1477,7 @@
             "title": "Tour Việt Nam: Buôn Ma Thuột - Pleiku",
             "price": "5,400,000",
             "area": "domestic",
-            "location": "Buôn Ma Thuột, Pleiku",
+            "location": "Miền Trung",
             "details": {
                 "header": "TP. HCM → Buôn Ma Thuột - Pleiku",
                 "date": "Thứ 4, 10/07/2024",
@@ -1520,8 +1511,8 @@
             "duration": "5 NGÀY 4 ĐÊM",
             "title": "Tour Quốc tế: Nhật Bản - Tokyo - Kyoto",
             "price": "20,000,000",
-            "area": "international",
-            "location": "Nhật Bản",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Tokyo - Kyoto",
                 "date": "Thứ 2, 01/08/2024",
@@ -1555,8 +1546,8 @@
             "duration": "6 NGÀY 5 ĐÊM",
             "title": "Tour Quốc tế: Hàn Quốc - Seoul - Busan",
             "price": "18,000,000",
-            "area": "international",
-            "location": "Hàn Quốc",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Seoul - Busan",
                 "date": "Thứ 3, 02/08/2024",
@@ -1590,8 +1581,8 @@
             "duration": "7 NGÀY 6 ĐÊM",
             "title": "Tour Quốc tế: Pháp - Paris - Lyon",
             "price": "35,000,000",
-            "area": "international",
-            "location": "Pháp",
+            "area": "foreign",
+            "location": "Châu Âu",
             "details": {
                 "header": "TP. HCM → Paris - Lyon",
                 "date": "Thứ 4, 03/08/2024",
@@ -1625,8 +1616,8 @@
             "duration": "5 NGÀY 4 ĐÊM",
             "title": "Tour Quốc tế: Mỹ - New York - Washington D.C.",
             "price": "40,000,000",
-            "area": "international",
-            "location": "Mỹ",
+            "area": "foreign",
+            "location": "Khác",
             "details": {
                 "header": "TP. HCM → New York - Washington D.C.",
                 "date": "Thứ 5, 04/08/2024",
@@ -1660,8 +1651,8 @@
             "duration": "6 NGÀY 5 ĐÊM",
             "title": "Tour Quốc tế: Úc - Sydney - Melbourne",
             "price": "30,000,000",
-            "area": "international",
-            "location": "Úc",
+            "area": "foreign",
+            "location": "Khác",
             "details": {
                 "header": "TP. HCM → Sydney - Melbourne",
                 "date": "Thứ 6, 05/08/2024",
@@ -1695,8 +1686,8 @@
             "duration": "5 NGÀY 4 ĐÊM",
             "title": "Tour Quốc tế: Thái Lan - Bangkok - Pattaya",
             "price": "12,000,000",
-            "area": "international",
-            "location": "Thái Lan",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Bangkok - Pattaya",
                 "date": "Thứ 7, 06/08/2024",
@@ -1730,8 +1721,8 @@
             "duration": "4 NGÀY 3 ĐÊM",
             "title": "Tour Quốc tế: Singapore",
             "price": "10,000,000",
-            "area": "international",
-            "location": "Singapore",
+            "area": "foreign",
+            "location": "Châu Á",
             "details": {
                 "header": "TP. HCM → Singapore",
                 "date": "Chủ Nhật, 07/08/2024",

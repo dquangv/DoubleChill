@@ -215,24 +215,23 @@
                     <h1 class="fw-semibold lh-base">TOUR TRONG NƯỚC</h1>
                 </div>
                 <div class="row filldomestic">
-                    <select class="form-select place-select col-md-2" aria-label="Default select example" ng-model="selectedPlace">
-                        <option selected>Địa điểm</option>
-                        <option value="1">Vũng Tàu</option>
-                        <option value="2">Đà Lạt</option>
-                        <option value="3">Phú Quốc</option>
-                        <option value="3">Nha Trang</option>
-                        <option value="3">Hà Nội</option>
-                        <option value="3">Huế</option>
-                        <option value="3">Đà Nẵng</option>
+                    <select class="form-select place-select col-md-2" aria-label="Default select example"
+                        ng-model="locationFilter">
+                        <option value="" selected>Địa điểm</option>
+                        <option value="Miền Bắc">Miền Bắc</option>
+                        <option value="Miền Trung">Miền Trung</option>
+                        <option value="Miền Nam">Miền Nam</option>
                     </select>
-                    <select class="form-select fill-select col-md-2" aria-label="Default select example" ng-model="sortOrder">
-                        <option selected>Sắp xếp theo</option>
+                    <select class="form-select fill-select col-md-2" aria-label="Default select example"
+                        ng-model="sortOrder">
+                        <option selected value="">Sắp xếp theo</option>
                         <option value="priceAsc">Giá tăng</option>
                         <option value="priceDesc">Giá giảm</option>
                     </select>
                 </div>
                 <div class="row d-flex flex-wrap">
-                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | filter : 'domestic' | orderBy : sortTours">
+                    <div class="col-md-3 col-sm-12"
+                        ng-repeat="tour in tours | filter : {area : 'domestic', location : locationFilter} | orderBy : sortOrderFunc">
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"

@@ -177,6 +177,7 @@ header .container .menu-item-list {
     opacity: 0;
     transition: opacity 0.5s ease, transform 0.5s ease;
     transform: translateY(-20px);
+    z-index: 100;
 }
 
 header .container .menu-item-list .menu-item {
@@ -251,11 +252,24 @@ header .container .d-flex a:hover {
     text-decoration: underline;
 }
 
-header .navbar:last-child.fix {
+header .navbar:nth-child(2).fix {
     position: fixed !important;
     top: -1px;
     width: 100%;
-    z-index: 100;
+    z-index: 50;
+}
+
+#search-box {
+    display: none;
+}
+
+#search-box.fixed {
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    z-index: 55;
+    background-color: white;
+    padding: 10px 0; 
 }
 
 /* header .navbar:last-child {

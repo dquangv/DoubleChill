@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <title>Double Chill</title>
     <link rel="stylesheet" href="asm/css/style.css">
 </head>
@@ -65,27 +65,14 @@
                                 TOUR TRONG NƯỚC
                             </a>
                             <ul class="menu-item-list position-absolute bg-white p-0 rounded-0">
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">VŨNG TÀU</a>
+                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">MIỀN BẮC</a>
                                 </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">ĐÀ LẠT</a>
+                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">MIỀN
+                                        TRUNG</a>
                                 </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">PHÚ QUỐC</a>
+                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">MIỀN NAM</a>
                                 </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">NHA TRANG</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">HÀ NỘI</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">HUẾ</a></li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">ĐÀ NẴNG</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">HỘI AN</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">CẦN THƠ</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">TIỀN
-                                        GIANG</a></li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">KHÁC</a>
-                                </li>
+
                             </ul>
                         </li>
                         <li class="nav-item position-relative">
@@ -93,24 +80,11 @@
                                 TOUR NƯỚC NGOÀI
                             </a>
                             <ul class="menu-item-list position-absolute bg-white p-0 rounded-0">
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">THÁI LAN</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">ĐÀI LOAN</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">HÀN QUỐC</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">SINGAPORE</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">HỒNG KÔNG</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">CAMPUCHIA</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">NHẬT BẢN</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">TRUNG
-                                        QUỐC</a></li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">LÀO</a></li>
                                 <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">CHÂU ÂU</a>
+                                </li>
+                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">CHÂU Á</a>
+                                </li>
+                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">KHÁC</a>
                                 </li>
                             </ul>
                         </li>
@@ -136,8 +110,8 @@
                             <span class="align-middle text-black fw-normal">&#47;</span>
                         </li>
                         <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold align-middle" href="#!cart/:id"
-                                style="display: inline-block;">GIỎ HÀNG
+                            <a class="align-middle nav-link position-relative fw-semibold align-middle"
+                                href="#!cart/:id" style="display: inline-block;">GIỎ HÀNG
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-handbag-fill" viewBox="0 0 16 16">
                                     <path
@@ -151,8 +125,8 @@
                             </a>
                         </li>
                         <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold" href=""
-                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <a class="align-middle nav-link position-relative fw-semibold" href="" id="search-tour" onclick="searchPro(event)"
+                                data-bs-target="#exampleModal">
                                 <p class="m-0">TÌM KIẾM</p>
                                 <svg style="color: #000; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg"
                                     width="16" height="16" fill="currentColor" class="bi bi-search align-middle"
@@ -161,27 +135,54 @@
                                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                                 </svg>
                             </a>
-                            
-                            <div class="modal bg-transparent" id="exampleModal" tabindex="-1"
+
+                            <!-- <div class="modal bg-transparent" id="exampleModal" tabindex="-1"
                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog bg-transparent border-0">
                                     <div class="modal-content bg-transparent border-0">
-                                       
+
                                         <div class="modal-body bg-transparent rounded-1 p-0 border-0 d-flex">
                                             <input class="form-control col-7 me-2" list="datalistOptions"
-                                                id="exampleDataList" placeholder="Bạn đang tìm...">
-                                            <button type="button" class="btn btn-primary m-0 fw-semibold col-3">Tìm
+                                                id="exampleDataList" placeholder="Bạn đang tìm..." ng-model="searchQuery">
+                                            <button type="button" class="btn btn-primary m-0 fw-semibold col-3" ng-click="search()">Tìm
                                                 kiếm</button>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </li>
-
-                        
                     </ul>
                 </div>
             </div>
+            <!-- <div class="rounded-1 p-0 border-0 d-flex row">
+                <input class="form-control col-7 me-2" list="datalistOptions" id="exampleDataList"
+                    placeholder="Bạn đang tìm..." ng-model="searchQuery">
+                <button type="button" class="btn btn-primary m-0 fw-semibold col-3" ng-click="search()">Tìm
+                    kiếm</button>
+            </div> -->
         </nav>
+        <div id="search-box" class="bg-white py-2">
+            <div class="row w-75 m-auto">
+                <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Bạn đang tìm...">
+                </div>
+                <div class="col-2">
+                    <button class="btn w-100 text-white" type="button" style="background-color: #001985;"
+                        ng-click="search()">Tìm
+                        kiếm</button>
+                </div>
+            </div>
+        </div>
+        <!-- <script>
+            document.getElementById("search-trigger").addEventListener("click", function () {
+                var searchBox = document.getElementById("search-box");
+                if (searchBox.style.display === "none" || searchBox.style.display === "") {
+                    searchBox.style.display = "block";
+                } else {
+                    searchBox.style.display = "none";
+                }
+            });
+        </script> -->
     </header>
+
 </body>

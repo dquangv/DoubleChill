@@ -20,33 +20,31 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
     });
 
-    // $scope.selectedPlace = '';
-    // $scope.sortOrder = '';
-
-    $scope.filterTours = function(tour) {
-        if ($scope.selectedPlace && tour.location !== $scope.selectedPlace) {
-            return false;
-        }
-        return true;
+    $scope.searchTour = '';
+    $scope.searchQuery = '';
+    $scope.search = function() {
+        $scope.searchTour = $scope.searchQuery;
+        console.log($scope.searchTour);
     }
-
-    $scope.sortTours = function(tour) {
-        if ($scope.sortOrder === 'priceAsc') {
-            return price;
-        } else if ($scope.sortOrder === 'priceDesc') {
-            return -price;
-        }
-        return ;
-    };
 });
 
 app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http) {
     $scope.tours = [];
     $http.get("http://localhost:3000/tours").then(function (reponse) {
         $scope.tours = reponse.data;
-        // console.log($scope.tours);
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
     });
+
+    $scope.sortOrderFunc = function (tour) {
+        switch ($scope.sortOrder) {
+            case 'priceAsc':
+                return Number(tour.price.replace(/,/g, ''));
+            case 'priceDesc':
+                return -Number(tour.price.replace(/,/g, ''));
+            default:
+                return 0;
+        }
+    };
 });
 
 app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -56,4 +54,15 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
         // console.log($scope.tours);
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
     });
+
+    $scope.sortOrderFunc = function (tour) {
+        switch ($scope.sortOrder) {
+            case 'priceAsc':
+                return Number(tour.price.replace(/,/g, ''));
+            case 'priceDesc':
+                return -Number(tour.price.replace(/,/g, ''));
+            default:
+                return 0;
+        }
+    };
 });

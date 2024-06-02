@@ -47,7 +47,7 @@
                     <a href="" class="text-black fw-semibold">XEM TẤT CẢ</a>
                 </div>
                 <div class="row d-flex flex-wrap">
-                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | limitTo : 16">
+                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | filter : searchTour | limitTo : 16">
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"
