@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <title>Double Chill</title>
     <link rel="stylesheet" href="asm/css/style.css">
 </head>
@@ -27,20 +27,46 @@
 
     <script src="asm/js/index.js"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <script>
         window.addEventListener('scroll', function () {
             var navbar1Height = document.querySelector('.navbar:nth-child(1)').offsetHeight;
             var navbar2 = document.querySelector('.navbar:nth-child(2)');
+            var searchBox = document.getElementById('search-box');
 
             if (window.scrollY > navbar1Height) {
                 navbar2.classList.add('fix');
+                searchBox.classList.add('fixed');
             } else {
                 navbar2.classList.remove('fix');
+                searchBox.classList.remove('fixed');
             }
         });
+
+        // document.getElementById('search-tour').onclick = function (event) {
+        //     event.preventDefault();
+        //     var searchBox = document.getElementById('search-box');
+
+        //     if (searchBox.classList.contains('d-block')) {
+        //         searchBox.classList.remove('d-block');
+        //     } else {
+        //         searchBox.classList.add('d-block');
+        //     }
+        // };
+
+        function searchPro(event) {
+            event.preventDefault();
+            var searchBox = document.getElementById('search-box');
+
+            if (searchBox.classList.contains('d-block')) {
+                searchBox.classList.remove('d-block');
+            } else {
+                searchBox.classList.add('d-block');
+            }
+        }
     </script>
 </body>
+
 </html>
 
 
