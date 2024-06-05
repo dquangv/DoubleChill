@@ -231,7 +231,7 @@
                 </div>
                 <div class="row d-flex flex-wrap">
                     <div class="col-md-3 col-sm-12"
-                        ng-repeat="tour in tours | filter : {area : 'domestic', location : locationFilter} | orderBy : sortOrderFunc">
+                        ng-repeat="tour in tours | filter : {area : 'domestic', location : locationFilter, title: searchTour} | orderBy : sortOrderFunc | limitTo : 8 : begin">
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"
@@ -240,7 +240,7 @@
                             <div class="card-body p-0">
                                 <p class="card-text fw-light fst-italic">{{tour.duration}}</p>
                                 <h5 class="card-title fw-semibold text-black lh-base">{{tour.title}}</h5>
-                                <p class="card-text fw-light">{{tour.price}}Đ</p>
+                                <p class="card-text fw-light">{{tour.price | currency : '' : 0}}Đ</p>
                             </div>
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute" data-bs-toggle="offcanvas"
                                 data-bs-target="#{{tour.id}}" aria-Fcontrols="offcanvasScrolling"></a>
@@ -303,7 +303,7 @@
                                                     <div class="label-title">
                                                         <p class="fw-semibold">{{tour.details.tickets[0].type}}</p>
                                                         <p style="color: orange;" class="d-flex fw-semibold">
-                                                            {{tour.details.tickets[0].price}} VND <span
+                                                            {{tour.details.tickets[0].price | currency : '' : 0}} VND <span
                                                                 class="text-black fw-normal align-self-end">/khách</span>
                                                         </p>
                                                     </div>
@@ -348,7 +348,7 @@
                                                     <div class="label-title">
                                                         <p class="fw-semibold">{{tour.details.tickets[1].type}}</p>
                                                         <p style="color: orange;" class="d-flex fw-semibold">
-                                                            {{tour.details.tickets[1].price}} VND <span
+                                                            {{tour.details.tickets[1].price | currency : '' : 0}} VND <span
                                                                 class="text-black fw-normal align-self-end">/khách</span>
                                                         </p>
                                                     </div>
@@ -387,7 +387,7 @@
                                     </div>
                                 </div>
                                 <div class="offcanvas-footer d-flex">
-                                    <div class="price text-start">Tổng cộng: <span>{{tour.details.tickets[0].price}}
+                                    <div class="price text-start">Tổng cộng: <span>{{tour.details.tickets[0].price | currency : '' : 0}}
                                             VND</span></div>
                                     <button class="border-0 text-white rounded-1">Đặt chuyến</button>
                                 </div>
@@ -399,16 +399,16 @@
 
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link text-black" href="#" aria-label="Previous">
+                    <li class="page-item" ng-class="{active : currentPage === prePage}">
+                        <a class="page-link text-black" href="" aria-label="Previous" ng-click="previous()">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
-                    <li class="page-item active"><a class="page-link text-black" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link text-black" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link text-black" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link text-black" href="#" aria-label="Next">
+                    <li class="page-item" ng-class="{active : currentPage === 1}"><a class="page-link text-black" href="" ng-click="first()">1</a></li>
+                    <li class="page-item" ng-class="{active : currentPage === 2}"><a class="page-link text-black" href="" ng-click="second()">2</a></li>
+                    <li class="page-item" ng-class="{active : currentPage === 3}"><a class="page-link text-black" href="" ng-click="third()">3</a></li>
+                    <li class="page-item" ng-class="{active : currentPage === nextPage}">
+                        <a class="page-link text-black" href="" aria-label="Next" ng-click="last()">
                             <span aria-hidden="true">&raquo;</span>
                         </a>
                     </li>

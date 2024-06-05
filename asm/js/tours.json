@@ -1,1754 +1,2818 @@
 {
-    "tours": [
-        {
-            "id": "baoloc2",
-            "image": "asm/img/baoloc2.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
-            "price": "2,100,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietjetair.webp",
-                    "airline": "Vietjet Air",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "BL",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "baoloc2.pt",
-                        "type": "Phổ thông",
-                        "price": "2,100,000"
-                    },
-                    {
-                        "id": "baoloc2.tg",
-                        "type": "Thương gia",
-                        "price": "4,900,000"
-                    }
-                ]
-            }
+  "tours": [
+    {
+      "id": "baoloc2",
+      "image": "asm/img/baoloc2.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
+      "price": "2100000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietjetair.webp",
+          "airline": "Vietjet Air",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "BL",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "sydney4",
-            "image": "asm/img/sydney4.jpg",
-            "duration": "6 NGÀY 5 ĐÊM",
-            "title": "TOUR SYDNEY - MELBOURNE",
-            "price": "45,990,000",
-            "area": "foreign",
-            "location": "Châu Âu",
-            "details": {
-                "header": "TP. HCM → SYDNEY - MELBOURNE",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/singaporeairlines.webp",
-                    "airline": "Singapore Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "SYD",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "sydney4.pt",
-                        "type": "Phổ thông",
-                        "price": "45,990,000"
-                    },
-                    {
-                        "id": "sydney4.tg",
-                        "type": "Thương gia",
-                        "price": "60,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "baoloc2.pt",
+            "type": "Phổ thông",
+            "price": "2100000"
+          },
+          {
+            "id": "baoloc2.tg",
+            "type": "Thương gia",
+            "price": "4900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sydney4",
+      "image": "asm/img/sydney4.jpg",
+      "duration": "6 NGÀY 5 ĐÊM",
+      "title": "TOUR SYDNEY - MELBOURNE",
+      "price": "45990000",
+      "area": "foreign",
+      "location": "Châu Âu",
+      "details": {
+        "header": "TP. HCM → SYDNEY - MELBOURNE",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/singaporeairlines.webp",
+          "airline": "Singapore Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "SYD",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "danang3",
-            "image": "asm/img/danang3.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "TOUR ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
-            "price": "4,290,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "ĐN",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "danang3.pt",
-                        "type": "Phổ thông",
-                        "price": "4,290,000"
-                    },
-                    {
-                        "id": "danang3.tg",
-                        "type": "Thương gia",
-                        "price": "7,500,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "sydney4.pt",
+            "type": "Phổ thông",
+            "price": "45990000"
+          },
+          {
+            "id": "sydney4.tg",
+            "type": "Thương gia",
+            "price": "60000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "danang3",
+      "image": "asm/img/danang3.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "TOUR ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
+      "price": "4290000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "ĐN",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "binhba1",
-            "image": "asm/img/binhba1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "TOUR NHA TRANG: BÌNH BA",
-            "price": "2,500,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → NHA TRANG: BÌNH BA",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietjetair.webp",
-                    "airline": "Vietjet Air",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "NT",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "binhba1.pt",
-                        "type": "Phổ thông",
-                        "price": "2,500,000"
-                    },
-                    {
-                        "id": "binhba1.tg",
-                        "type": "Thương gia",
-                        "price": "4,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "danang3.pt",
+            "type": "Phổ thông",
+            "price": "4290000"
+          },
+          {
+            "id": "danang3.tg",
+            "type": "Thương gia",
+            "price": "7500000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "binhba1",
+      "image": "asm/img/binhba1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "TOUR NHA TRANG: BÌNH BA",
+      "price": "2500000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → NHA TRANG: BÌNH BA",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietjetair.webp",
+          "airline": "Vietjet Air",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "NT",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "diepson1",
-            "image": "asm/img/diepson1.jpg",
-            "duration": "3 NGÀY 3 ĐÊM",
-            "title": "TOUR PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
-            "price": "2,086,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/singaporeairlines.webp",
-                    "airline": "Singapore Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "PY",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "diepson1.pt",
-                        "type": "Phổ thông",
-                        "price": "2,086,000"
-                    },
-                    {
-                        "id": "diepson1.tg",
-                        "type": "Thương gia",
-                        "price": "4,300,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "binhba1.pt",
+            "type": "Phổ thông",
+            "price": "2500000"
+          },
+          {
+            "id": "binhba1.tg",
+            "type": "Thương gia",
+            "price": "4900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "diepson1",
+      "image": "asm/img/diepson1.jpg",
+      "duration": "3 NGÀY 3 ĐÊM",
+      "title": "TOUR PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
+      "price": "2086000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/singaporeairlines.webp",
+          "airline": "Singapore Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "PY",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "condao1",
-            "image": "asm/img/condao1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "TOUR MIỀN TÂY: CÔN ĐẢO",
-            "price": "2,899,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "TP. HCM → MIỀN TÂY: CÔN ĐẢO",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "MT",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "condao1.pt",
-                        "type": "Phổ thông",
-                        "price": "2,899,000"
-                    },
-                    {
-                        "id": "condao1.tg",
-                        "type": "Thương gia",
-                        "price": "5,200,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "diepson1.pt",
+            "type": "Phổ thông",
+            "price": "2086000"
+          },
+          {
+            "id": "diepson1.tg",
+            "type": "Thương gia",
+            "price": "4300000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "condao1",
+      "image": "asm/img/condao1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "TOUR MIỀN TÂY: CÔN ĐẢO",
+      "price": "2899000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → MIỀN TÂY: CÔN ĐẢO",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "MT",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "kyoto1",
-            "image": "asm/img/kyoto1.jpg",
-            "duration": "5 NGÀY 5 ĐÊM",
-            "title": "TOUR NHẬT BẢN: OSAKA - KYOTO - TOKYO",
-            "price": "27,990,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → NHẬT BẢN: OSAKA - KYOTO - TOKYO",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietjetair.webp",
-                    "airline": "Vietjet Air",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "NB",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "kyoto1.pt",
-                        "type": "Phổ thông",
-                        "price": "27,990,000"
-                    },
-                    {
-                        "id": "kyoto1.tg",
-                        "type": "Thương gia",
-                        "price": "35,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "condao1.pt",
+            "type": "Phổ thông",
+            "price": "2899000"
+          },
+          {
+            "id": "condao1.tg",
+            "type": "Thương gia",
+            "price": "5200000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kyoto1",
+      "image": "asm/img/kyoto1.jpg",
+      "duration": "5 NGÀY 5 ĐÊM",
+      "title": "TOUR NHẬT BẢN: OSAKA - KYOTO - TOKYO",
+      "price": "27990000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → NHẬT BẢN: OSAKA - KYOTO - TOKYO",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietjetair.webp",
+          "airline": "Vietjet Air",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "NB",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "thuonghai1",
-            "image": "asm/img/thuonghai1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "TOUR TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
-            "price": "11,950,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/singaporeairlines.webp",
-                    "airline": "Singapore Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "TQ",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "thuonghai1.pt",
-                        "type": "Phổ thông",
-                        "price": "11,950,000"
-                    },
-                    {
-                        "id": "thuonghai1.tg",
-                        "type": "Thương gia",
-                        "price": "19,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "kyoto1.pt",
+            "type": "Phổ thông",
+            "price": "27990000"
+          },
+          {
+            "id": "kyoto1.tg",
+            "type": "Thương gia",
+            "price": "35900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thuonghai1",
+      "image": "asm/img/thuonghai1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "TOUR TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
+      "price": "11950000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/singaporeairlines.webp",
+          "airline": "Singapore Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "TQ",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "phuket1",
-            "image": "asm/img/phuket1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "TOUR THÁI LAI: PHUKET - ĐẢO PHI PHI",
-            "price": "11,580,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → THÁI LAI: PHUKET - ĐẢO PHI PHI",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "TL",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "phuket1.pt",
-                        "type": "Phổ thông",
-                        "price": "11,580,000"
-                    },
-                    {
-                        "id": "phuket1.tg",
-                        "type": "Thương gia",
-                        "price": "19,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "thuonghai1.pt",
+            "type": "Phổ thông",
+            "price": "11950000"
+          },
+          {
+            "id": "thuonghai1.tg",
+            "type": "Thương gia",
+            "price": "19900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "phuket1",
+      "image": "asm/img/phuket1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "TOUR THÁI LAI: PHUKET - ĐẢO PHI PHI",
+      "price": "11580000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → THÁI LAI: PHUKET - ĐẢO PHI PHI",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "TL",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "hoian1",
-            "image": "asm/img/hoian1.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "TOUR HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
-            "price": "3,000,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietjetair.webp",
-                    "airline": "Vietjet Air",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "H",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "hoian1.pt",
-                        "type": "Phổ thông",
-                        "price": "3,000,000"
-                    },
-                    {
-                        "id": "hoian1.tg",
-                        "type": "Thương gia",
-                        "price": "5,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "phuket1.pt",
+            "type": "Phổ thông",
+            "price": "11580000"
+          },
+          {
+            "id": "phuket1.tg",
+            "type": "Thương gia",
+            "price": "19900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hoian1",
+      "image": "asm/img/hoian1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "TOUR HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
+      "price": "3000000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietjetair.webp",
+          "airline": "Vietjet Air",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "H",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "daolyson1",
-            "image": "asm/img/daolyson1.jpg",
-            "duration": "2 NGÀY 1 ĐÊM",
-            "title": "TOUR QUẢNG NGÃI: ĐẢO LÝ SƠN",
-            "price": "1,250,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → QUẢNG NGÃI: ĐẢO LÝ SƠN",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/singaporeairlines.webp",
-                    "airline": "Singapore Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "QN",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "daolyson1.pt",
-                        "type": "Phổ thông",
-                        "price": "1,250,000"
-                    },
-                    {
-                        "id": "daolyson1.tg",
-                        "type": "Thương gia",
-                        "price": "2,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "hoian1.pt",
+            "type": "Phổ thông",
+            "price": "3000000"
+          },
+          {
+            "id": "hoian1.tg",
+            "type": "Thương gia",
+            "price": "5900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "daolyson1",
+      "image": "asm/img/daolyson1.jpg",
+      "duration": "2 NGÀY 1 ĐÊM",
+      "title": "TOUR QUẢNG NGÃI: ĐẢO LÝ SƠN",
+      "price": "1250000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → QUẢNG NGÃI: ĐẢO LÝ SƠN",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/singaporeairlines.webp",
+          "airline": "Singapore Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "QN",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "chauau1",
-            "image": "asm/img/chauau1.jpg",
-            "duration": "11 NGÀY 10 ĐÊM",
-            "title": "TOUR CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
-            "price": "72,990,000",
-            "area": "foreign",
-            "location": "Châu Âu",
-            "details": {
-                "header": "TP. HCM → CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
-                "date": "Thứ 7, 01/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "04:20",
-                    "start_place": "HCM",
-                    "start_date": "01/06/24",
-                    "end_time": "06:20",
-                    "end_place": "CA",
-                    "end_date": "01/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "chauau1.pt",
-                        "type": "Phổ thông",
-                        "price": "72,990,000"
-                    },
-                    {
-                        "id": "chauau1.tg",
-                        "type": "Thương gia",
-                        "price": "100,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "daolyson1.pt",
+            "type": "Phổ thông",
+            "price": "1250000"
+          },
+          {
+            "id": "daolyson1.tg",
+            "type": "Thương gia",
+            "price": "2900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chauau1",
+      "image": "asm/img/chauau1.jpg",
+      "duration": "11 NGÀY 10 ĐÊM",
+      "title": "TOUR CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
+      "price": "72990000",
+      "area": "foreign",
+      "location": "Châu Âu",
+      "details": {
+        "header": "TP. HCM → CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
+        "date": "Thứ 7, 01/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "04:20",
+          "start_place": "HCM",
+          "start_date": "01/06/24",
+          "end_time": "06:20",
+          "end_place": "CA",
+          "end_date": "01/06/24"
         },
-        {
-            "id": "hanoi1",
-            "image": "asm/img/hanoi1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Hà Nội: Văn Miếu - Hồ Gươm",
-            "price": "3,200,000",
-            "area": "domestic",
-            "location": "Miền Bắc",
-            "details": {
-                "header": "TP. HCM → Hà Nội: Văn Miếu - Hồ Gươm",
-                "date": "Thứ 5, 05/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "08:00",
-                    "start_place": "HCM",
-                    "start_date": "05/06/24",
-                    "end_time": "10:00",
-                    "end_place": "HAN",
-                    "end_date": "05/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "hanoi1.pt",
-                        "type": "Phổ thông",
-                        "price": "3,200,000"
-                    },
-                    {
-                        "id": "hanoi1.tg",
-                        "type": "Thương gia",
-                        "price": "6,800,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "chauau1.pt",
+            "type": "Phổ thông",
+            "price": "72990000"
+          },
+          {
+            "id": "chauau1.tg",
+            "type": "Thương gia",
+            "price": "100900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hanoi1",
+      "image": "asm/img/hanoi1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Hà Nội: Văn Miếu - Hồ Gươm",
+      "price": "3200000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hà Nội: Văn Miếu - Hồ Gươm",
+        "date": "Thứ 5, 05/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "05/06/24",
+          "end_time": "10:00",
+          "end_place": "HAN",
+          "end_date": "05/06/24"
         },
-        {
-            "id": "danang1",
-            "image": "asm/img/danang1.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
-            "price": "2,500,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
-                "date": "Thứ 6, 07/06/2024",
-                "flight": {
-                    "logo": "asm/img/bambooairways.webp",
-                    "airline": "Bamboo Airways",
-                    "start_time": "07:30",
-                    "start_place": "HCM",
-                    "start_date": "07/06/24",
-                    "end_time": "09:00",
-                    "end_place": "DAD",
-                    "end_date": "07/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "danang1.pt",
-                        "type": "Phổ thông",
-                        "price": "2,500,000"
-                    },
-                    {
-                        "id": "danang1.tg",
-                        "type": "Thương gia",
-                        "price": "5,200,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "hanoi1.pt",
+            "type": "Phổ thông",
+            "price": "3200000"
+          },
+          {
+            "id": "hanoi1.tg",
+            "type": "Thương gia",
+            "price": "6800000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "danang1",
+      "image": "asm/img/danang1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
+      "price": "2500000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
+        "date": "Thứ 6, 07/06/2024",
+        "flight": {
+          "logo": "asm/img/bambooairways.webp",
+          "airline": "Bamboo Airways",
+          "start_time": "07:30",
+          "start_place": "HCM",
+          "start_date": "07/06/24",
+          "end_time": "09:00",
+          "end_place": "DAD",
+          "end_date": "07/06/24"
         },
-        {
-            "id": "nhatrang1",
-            "image": "asm/img/nhatrang1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
-            "price": "3,800,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
-                "date": "Thứ 7, 08/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietjetair.webp",
-                    "airline": "Vietjet Air",
-                    "start_time": "06:00",
-                    "start_place": "HCM",
-                    "start_date": "08/06/24",
-                    "end_time": "07:20",
-                    "end_place": "NHA",
-                    "end_date": "08/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "nhatrang1.pt",
-                        "type": "Phổ thông",
-                        "price": "3,800,000"
-                    },
-                    {
-                        "id": "nhatrang1.tg",
-                        "type": "Thương gia",
-                        "price": "8,200,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "danang1.pt",
+            "type": "Phổ thông",
+            "price": "2500000"
+          },
+          {
+            "id": "danang1.tg",
+            "type": "Thương gia",
+            "price": "5200000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nhatrang1",
+      "image": "asm/img/nhatrang1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
+      "price": "3800000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
+        "date": "Thứ 7, 08/06/2024",
+        "flight": {
+          "logo": "asm/img/vietjetair.webp",
+          "airline": "Vietjet Air",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "08/06/24",
+          "end_time": "07:20",
+          "end_place": "NHA",
+          "end_date": "08/06/24"
         },
-        {
-            "id": "dalat1",
-            "image": "asm/img/dalat1.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
-            "price": "2,300,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
-                "date": "Chủ Nhật, 09/06/2024",
-                "flight": {
-                    "logo": "asm/img/bambooairways.webp",
-                    "airline": "Bamboo Airways",
-                    "start_time": "05:45",
-                    "start_place": "HCM",
-                    "start_date": "09/06/24",
-                    "end_time": "07:00",
-                    "end_place": "DLI",
-                    "end_date": "09/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "dalat1.pt",
-                        "type": "Phổ thông",
-                        "price": "2,300,000"
-                    },
-                    {
-                        "id": "dalat1.tg",
-                        "type": "Thương gia",
-                        "price": "5,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "nhatrang1.pt",
+            "type": "Phổ thông",
+            "price": "3800000"
+          },
+          {
+            "id": "nhatrang1.tg",
+            "type": "Thương gia",
+            "price": "8200000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dalat1",
+      "image": "asm/img/dalat1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
+      "price": "2300000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
+        "date": "Chủ Nhật, 09/06/2024",
+        "flight": {
+          "logo": "asm/img/bambooairways.webp",
+          "airline": "Bamboo Airways",
+          "start_time": "05:45",
+          "start_place": "HCM",
+          "start_date": "09/06/24",
+          "end_time": "07:00",
+          "end_place": "DLI",
+          "end_date": "09/06/24"
         },
-        {
-            "id": "phuquoc1",
-            "image": "asm/img/phuquoc1.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Phú Quốc: Vinpearl Safari - Suối Tranh",
-            "price": "4,500,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "TP. HCM → Phú Quốc: Vinpearl Safari - Suối Tranh",
-                "date": "Thứ 2, 10/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "09:00",
-                    "start_place": "HCM",
-                    "start_date": "10/06/24",
-                    "end_time": "10:20",
-                    "end_place": "PQC",
-                    "end_date": "10/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "phuquoc1.pt",
-                        "type": "Phổ thông",
-                        "price": "4,500,000"
-                    },
-                    {
-                        "id": "phuquoc1.tg",
-                        "type": "Thương gia",
-                        "price": "9,500,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "dalat1.pt",
+            "type": "Phổ thông",
+            "price": "2300000"
+          },
+          {
+            "id": "dalat1.tg",
+            "type": "Thương gia",
+            "price": "5000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "phuquoc1",
+      "image": "asm/img/phuquoc1.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Phú Quốc: Vinpearl Safari - Suối Tranh",
+      "price": "4500000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Phú Quốc: Vinpearl Safari - Suối Tranh",
+        "date": "Thứ 2, 10/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "10/06/24",
+          "end_time": "10:20",
+          "end_place": "PQC",
+          "end_date": "10/06/24"
         },
-        {
-            "id": "hue1",
-            "image": "asm/img/hue1.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Huế: Đại Nội - Chùa Thiên Mụ",
-            "price": "2,400,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Huế: Đại Nội - Chùa Thiên Mụ",
-                "date": "Thứ 3, 11/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "07:15",
-                    "start_place": "HCM",
-                    "start_date": "11/06/24",
-                    "end_time": "08:45",
-                    "end_place": "HUI",
-                    "end_date": "11/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "hue1.pt",
-                        "type": "Phổ thông",
-                        "price": "2,400,000"
-                    },
-                    {
-                        "id": "hue1.tg",
-                        "type": "Thương gia",
-                        "price": "5,300,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "phuquoc1.pt",
+            "type": "Phổ thông",
+            "price": "4500000"
+          },
+          {
+            "id": "phuquoc1.tg",
+            "type": "Thương gia",
+            "price": "9500000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hue1",
+      "image": "asm/img/hue1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Huế: Đại Nội - Chùa Thiên Mụ",
+      "price": "2400000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Huế: Đại Nội - Chùa Thiên Mụ",
+        "date": "Thứ 3, 11/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:15",
+          "start_place": "HCM",
+          "start_date": "11/06/24",
+          "end_time": "08:45",
+          "end_place": "HUI",
+          "end_date": "11/06/24"
         },
-        {
-            "id": "quangbinh1",
-            "image": "asm/img/quangbinh1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Quảng Bình: Động Phong Nha - Động Thiên Đường",
-            "price": "3,600,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Quảng Bình: Động Phong Nha - Động Thiên Đường",
-                "date": "Thứ 4, 12/06/2024",
-                "flight": {
-                    "logo": "asm/img/bambooairways.webp",
-                    "airline": "Bamboo Airways",
-                    "start_time": "06:30",
-                    "start_place": "HCM",
-                    "start_date": "12/06/24",
-                    "end_time": "08:00",
-                    "end_place": "VDH",
-                    "end_date": "12/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "quangbinh1.pt",
-                        "type": "Phổ thông",
-                        "price": "3,600,000"
-                    },
-                    {
-                        "id": "quangbinh1.tg",
-                        "type": "Thương gia",
-                        "price": "7,800,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "hue1.pt",
+            "type": "Phổ thông",
+            "price": "2400000"
+          },
+          {
+            "id": "hue1.tg",
+            "type": "Thương gia",
+            "price": "5300000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "quangbinh1",
+      "image": "asm/img/quangbinh1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Quảng Bình: Động Phong Nha - Động Thiên Đường",
+      "price": "3600000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Quảng Bình: Động Phong Nha - Động Thiên Đường",
+        "date": "Thứ 4, 12/06/2024",
+        "flight": {
+          "logo": "asm/img/bambooairways.webp",
+          "airline": "Bamboo Airways",
+          "start_time": "06:30",
+          "start_place": "HCM",
+          "start_date": "12/06/24",
+          "end_time": "08:00",
+          "end_place": "VDH",
+          "end_date": "12/06/24"
         },
-        {
-            "id": "vungtau1",
-            "image": "asm/img/vungtau1.jpg",
-            "duration": "2 NGÀY 1 ĐÊM",
-            "title": "Tour Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
-            "price": "1,500,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "TP. HCM → Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
-                "date": "Thứ 7, 14/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietjetair.webp",
-                    "airline": "Vietjet Air",
-                    "start_time": "06:00",
-                    "start_place": "HCM",
-                    "start_date": "14/06/24",
-                    "end_time": "07:00",
-                    "end_place": "VTG",
-                    "end_date": "14/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vungtau1.pt",
-                        "type": "Phổ thông",
-                        "price": "1,500,000"
-                    },
-                    {
-                        "id": "vungtau1.tg",
-                        "type": "Thương gia",
-                        "price": "3,200,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "quangbinh1.pt",
+            "type": "Phổ thông",
+            "price": "3600000"
+          },
+          {
+            "id": "quangbinh1.tg",
+            "type": "Thương gia",
+            "price": "7800000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vungtau1",
+      "image": "asm/img/vungtau1.jpg",
+      "duration": "2 NGÀY 1 ĐÊM",
+      "title": "Tour Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
+      "price": "1500000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
+        "date": "Thứ 7, 14/06/2024",
+        "flight": {
+          "logo": "asm/img/vietjetair.webp",
+          "airline": "Vietjet Air",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "14/06/24",
+          "end_time": "07:00",
+          "end_place": "VTG",
+          "end_date": "14/06/24"
         },
-        {
-            "id": "saigon1",
-            "image": "asm/img/saigon1.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
-            "price": "2,700,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "Hà Nội → Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
-                "date": "Thứ 5, 15/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "07:00",
-                    "start_place": "HAN",
-                    "start_date": "15/06/24",
-                    "end_time": "09:00",
-                    "end_place": "SGN",
-                    "end_date": "15/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "saigon1.pt",
-                        "type": "Phổ thông",
-                        "price": "2,700,000"
-                    },
-                    {
-                        "id": "saigon1.tg",
-                        "type": "Thương gia",
-                        "price": "5,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vungtau1.pt",
+            "type": "Phổ thông",
+            "price": "1500000"
+          },
+          {
+            "id": "vungtau1.tg",
+            "type": "Thương gia",
+            "price": "3200000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "saigon1",
+      "image": "asm/img/saigon1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
+      "price": "2700000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "Hà Nội → Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
+        "date": "Thứ 5, 15/06/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HAN",
+          "start_date": "15/06/24",
+          "end_time": "09:00",
+          "end_place": "SGN",
+          "end_date": "15/06/24"
         },
-        {
-            "id": "cantho1",
-            "image": "asm/img/cantho1.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
-            "price": "2,100,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "TP. HCM → Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
-                "date": "Thứ 7, 16/06/2024",
-                "flight": {
-                    "logo": "asm/img/vietjetair.webp",
-                    "airline": "Vietjet Air",
-                    "start_time": "05:30",
-                    "start_place": "HCM",
-                    "start_date": "16/06/24",
-                    "end_time": "06:30",
-                    "end_place": "VCA",
-                    "end_date": "17/06/24"
-                },
-                "tickets": [
-                    {
-                        "id": "saigon1.pt",
-                        "type": "Phổ thông",
-                        "price": "1,700,000"
-                    },
-                    {
-                        "id": "saigon1.tg",
-                        "type": "Thương gia",
-                        "price": "3,900,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "saigon1.pt",
+            "type": "Phổ thông",
+            "price": "2700000"
+          },
+          {
+            "id": "saigon1.tg",
+            "type": "Thương gia",
+            "price": "5900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cantho1",
+      "image": "asm/img/cantho1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
+      "price": "2100000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
+        "date": "Thứ 7, 16/06/2024",
+        "flight": {
+          "logo": "asm/img/vietjetair.webp",
+          "airline": "Vietjet Air",
+          "start_time": "05:30",
+          "start_place": "HCM",
+          "start_date": "16/06/24",
+          "end_time": "06:30",
+          "end_place": "VCA",
+          "end_date": "17/06/24"
         },
-        {
-            "id": "thailand1",
-            "image": "asm/img/thailand1.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Thái Lan: Bangkok - Pattaya",
-            "price": "7,500,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Thái Lan: Bangkok - Pattaya",
-                "date": "Thứ 2, 01/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "09:00",
-                    "start_place": "HCM",
-                    "start_date": "01/07/24",
-                    "end_time": "11:00",
-                    "end_place": "BKK",
-                    "end_date": "01/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "thailand1.pt",
-                        "type": "Phổ thông",
-                        "price": "7,500,000"
-                    },
-                    {
-                        "id": "thailand1.tg",
-                        "type": "Thương gia",
-                        "price": "15,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "saigon1.pt",
+            "type": "Phổ thông",
+            "price": "1700000"
+          },
+          {
+            "id": "saigon1.tg",
+            "type": "Thương gia",
+            "price": "3900000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "thailand1",
+      "image": "asm/img/thailand1.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Thái Lan: Bangkok - Pattaya",
+      "price": "7500000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Thái Lan: Bangkok - Pattaya",
+        "date": "Thứ 2, 01/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "01/07/24",
+          "end_time": "11:00",
+          "end_place": "BKK",
+          "end_date": "01/07/24"
         },
-        {
-            "id": "singapore1",
-            "image": "asm/img/singapore1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Singapore: Gardens by the Bay - Marina Bay Sands",
-            "price": "9,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Singapore: Gardens by the Bay - Marina Bay Sands",
-                "date": "Thứ 3, 02/07/2024",
-                "flight": {
-                    "logo": "asm/img/singaporeairlines.webp",
-                    "airline": "Singapore Airlines",
-                    "start_time": "08:30",
-                    "start_place": "HCM",
-                    "start_date": "02/07/24",
-                    "end_time": "11:30",
-                    "end_place": "SIN",
-                    "end_date": "02/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "singapore1.pt",
-                        "type": "Phổ thông",
-                        "price": "9,000,000"
-                    },
-                    {
-                        "id": "singapore1.tg",
-                        "type": "Thương gia",
-                        "price": "18,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "thailand1.pt",
+            "type": "Phổ thông",
+            "price": "7500000"
+          },
+          {
+            "id": "thailand1.tg",
+            "type": "Thương gia",
+            "price": "15000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "singapore1",
+      "image": "asm/img/singapore1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Singapore: Gardens by the Bay - Marina Bay Sands",
+      "price": "9000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Singapore: Gardens by the Bay - Marina Bay Sands",
+        "date": "Thứ 3, 02/07/2024",
+        "flight": {
+          "logo": "asm/img/singaporeairlines.webp",
+          "airline": "Singapore Airlines",
+          "start_time": "08:30",
+          "start_place": "HCM",
+          "start_date": "02/07/24",
+          "end_time": "11:30",
+          "end_place": "SIN",
+          "end_date": "02/07/24"
         },
-        {
-            "id": "japan1",
-            "image": "asm/img/japan1.jpg",
-            "duration": "7 NGÀY 6 ĐÊM",
-            "title": "Tour Nhật Bản: Tokyo - Kyoto - Osaka",
-            "price": "25,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Nhật Bản: Tokyo - Kyoto - Osaka",
-                "date": "Thứ 4, 03/07/2024",
-                "flight": {
-                    "logo": "asm/img/japanairlines.webp",
-                    "airline": "Japan Airlines",
-                    "start_time": "23:30",
-                    "start_place": "HCM",
-                    "start_date": "03/07/24",
-                    "end_time": "07:30",
-                    "end_place": "NRT",
-                    "end_date": "04/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "japan1.pt",
-                        "type": "Phổ thông",
-                        "price": "25,000,000"
-                    },
-                    {
-                        "id": "japan1.tg",
-                        "type": "Thương gia",
-                        "price": "50,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "singapore1.pt",
+            "type": "Phổ thông",
+            "price": "9000000"
+          },
+          {
+            "id": "singapore1.tg",
+            "type": "Thương gia",
+            "price": "18000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "japan1",
+      "image": "asm/img/japan1.jpg",
+      "duration": "7 NGÀY 6 ĐÊM",
+      "title": "Tour Nhật Bản: Tokyo - Kyoto - Osaka",
+      "price": "25000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Nhật Bản: Tokyo - Kyoto - Osaka",
+        "date": "Thứ 4, 03/07/2024",
+        "flight": {
+          "logo": "asm/img/japanairlines.webp",
+          "airline": "Japan Airlines",
+          "start_time": "23:30",
+          "start_place": "HCM",
+          "start_date": "03/07/24",
+          "end_time": "07:30",
+          "end_place": "NRT",
+          "end_date": "04/07/24"
         },
-        {
-            "id": "korea1",
-            "image": "asm/img/korea1.jpg",
-            "duration": "6 NGÀY 5 ĐÊM",
-            "title": "Tour Hàn Quốc: Seoul - Jeju",
-            "price": "20,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Hàn Quốc: Seoul - Jeju",
-                "date": "Thứ 5, 04/07/2024",
-                "flight": {
-                    "logo": "asm/img/koreanair.webp",
-                    "airline": "Korean Air",
-                    "start_time": "23:50",
-                    "start_place": "HCM",
-                    "start_date": "04/07/24",
-                    "end_time": "06:30",
-                    "end_place": "ICN",
-                    "end_date": "05/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "korea1.pt",
-                        "type": "Phổ thông",
-                        "price": "20,000,000"
-                    },
-                    {
-                        "id": "korea1.tg",
-                        "type": "Thương gia",
-                        "price": "40,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "japan1.pt",
+            "type": "Phổ thông",
+            "price": "25000000"
+          },
+          {
+            "id": "japan1.tg",
+            "type": "Thương gia",
+            "price": "50000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "korea1",
+      "image": "asm/img/korea1.jpg",
+      "duration": "6 NGÀY 5 ĐÊM",
+      "title": "Tour Hàn Quốc: Seoul - Jeju",
+      "price": "20000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Hàn Quốc: Seoul - Jeju",
+        "date": "Thứ 5, 04/07/2024",
+        "flight": {
+          "logo": "asm/img/koreanair.webp",
+          "airline": "Korean Air",
+          "start_time": "23:50",
+          "start_place": "HCM",
+          "start_date": "04/07/24",
+          "end_time": "06:30",
+          "end_place": "ICN",
+          "end_date": "05/07/24"
         },
-        {
-            "id": "malaysia1",
-            "image": "asm/img/malaysia1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Malaysia: Kuala Lumpur - Genting Highlands",
-            "price": "8,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Malaysia: Kuala Lumpur - Genting Highlands",
-                "date": "Thứ 6, 05/07/2024",
-                "flight": {
-                    "logo": "asm/img/airasia.webp",
-                    "airline": "AirAsia",
-                    "start_time": "10:00",
-                    "start_place": "HCM",
-                    "start_date": "05/07/24",
-                    "end_time": "13:00",
-                    "end_place": "KUL",
-                    "end_date": "05/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "malaysia1.pt",
-                        "type": "Phổ thông",
-                        "price": "8,000,000"
-                    },
-                    {
-                        "id": "malaysia1.tg",
-                        "type": "Thương gia",
-                        "price": "16,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "korea1.pt",
+            "type": "Phổ thông",
+            "price": "20000000"
+          },
+          {
+            "id": "korea1.tg",
+            "type": "Thương gia",
+            "price": "40000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "malaysia1",
+      "image": "asm/img/malaysia1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Malaysia: Kuala Lumpur - Genting Highlands",
+      "price": "8000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Malaysia: Kuala Lumpur - Genting Highlands",
+        "date": "Thứ 6, 05/07/2024",
+        "flight": {
+          "logo": "asm/img/airasia.webp",
+          "airline": "AirAsia",
+          "start_time": "10:00",
+          "start_place": "HCM",
+          "start_date": "05/07/24",
+          "end_time": "13:00",
+          "end_place": "KUL",
+          "end_date": "05/07/24"
         },
-        {
-            "id": "china1",
-            "image": "asm/img/china1.jpg",
-            "duration": "6 NGÀY 5 ĐÊM",
-            "title": "Tour Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
-            "price": "22,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
-                "date": "Thứ 7, 06/07/2024",
-                "flight": {
-                    "logo": "asm/img/chinaairlines.webp",
-                    "airline": "China Airlines",
-                    "start_time": "23:00",
-                    "start_place": "HCM",
-                    "start_date": "06/07/24",
-                    "end_time": "05:30",
-                    "end_place": "PEK",
-                    "end_date": "07/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "china1.pt",
-                        "type": "Phổ thông",
-                        "price": "22,000,000"
-                    },
-                    {
-                        "id": "china1.tg",
-                        "type": "Thương gia",
-                        "price": "44,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "malaysia1.pt",
+            "type": "Phổ thông",
+            "price": "8000000"
+          },
+          {
+            "id": "malaysia1.tg",
+            "type": "Thương gia",
+            "price": "16000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "china1",
+      "image": "asm/img/china1.jpg",
+      "duration": "6 NGÀY 5 ĐÊM",
+      "title": "Tour Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
+      "price": "22000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
+        "date": "Thứ 7, 06/07/2024",
+        "flight": {
+          "logo": "asm/img/chinaairlines.webp",
+          "airline": "China Airlines",
+          "start_time": "23:00",
+          "start_place": "HCM",
+          "start_date": "06/07/24",
+          "end_time": "05:30",
+          "end_place": "PEK",
+          "end_date": "07/07/24"
         },
-        {
-            "id": "france1",
-            "image": "asm/img/france1.jpg",
-            "duration": "8 NGÀY 7 ĐÊM",
-            "title": "Tour Pháp: Paris - Marseille - Nice",
-            "price": "45,000,000",
-            "area": "foreign",
-            "location": "Châu Âu",
-            "details": {
-                "header": "TP. HCM → Pháp: Paris - Marseille - Nice",
-                "date": "Chủ Nhật, 07/07/2024",
-                "flight": {
-                    "logo": "asm/img/airfrance.webp",
-                    "airline": "Air France",
-                    "start_time": "22:30",
-                    "start_place": "HCM",
-                    "start_date": "07/07/24",
-                    "end_time": "06:30",
-                    "end_place": "CDG",
-                    "end_date": "08/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "france1.pt",
-                        "type": "Phổ thông",
-                        "price": "45,000,000"
-                    },
-                    {
-                        "id": "france1.tg",
-                        "type": "Thương gia",
-                        "price": "90,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "china1.pt",
+            "type": "Phổ thông",
+            "price": "22000000"
+          },
+          {
+            "id": "china1.tg",
+            "type": "Thương gia",
+            "price": "44000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "france1",
+      "image": "asm/img/france1.jpg",
+      "duration": "8 NGÀY 7 ĐÊM",
+      "title": "Tour Pháp: Paris - Marseille - Nice",
+      "price": "45000000",
+      "area": "foreign",
+      "location": "Châu Âu",
+      "details": {
+        "header": "TP. HCM → Pháp: Paris - Marseille - Nice",
+        "date": "Chủ Nhật, 07/07/2024",
+        "flight": {
+          "logo": "asm/img/airfrance.webp",
+          "airline": "Air France",
+          "start_time": "22:30",
+          "start_place": "HCM",
+          "start_date": "07/07/24",
+          "end_time": "06:30",
+          "end_place": "CDG",
+          "end_date": "08/07/24"
         },
-        {
-            "id": "italy1",
-            "image": "asm/img/italy1.jpg",
-            "duration": "9 NGÀY 8 ĐÊM",
-            "title": "Tour Ý: Rome - Florence - Venice",
-            "price": "50,000,000",
-            "area": "foreign",
-            "location": "Châu Âu",
-            "details": {
-                "header": "TP. HCM → Ý: Rome - Florence - Venice",
-                "date": "Thứ 2, 08/07/2024",
-                "flight": {
-                    "logo": "asm/img/italianairlines.webp",
-                    "airline": "Alitalia",
-                    "start_time": "21:00",
-                    "start_place": "HCM",
-                    "start_date": "08/07/24",
-                    "end_time": "06:00",
-                    "end_place": "FCO",
-                    "end_date": "09/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "italy1.pt",
-                        "type": "Phổ thông",
-                        "price": "50,000,000"
-                    },
-                    {
-                        "id": "italy1.tg",
-                        "type": "Thương gia",
-                        "price": "100,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "france1.pt",
+            "type": "Phổ thông",
+            "price": "45000000"
+          },
+          {
+            "id": "france1.tg",
+            "type": "Thương gia",
+            "price": "90000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "italy1",
+      "image": "asm/img/italy1.jpg",
+      "duration": "9 NGÀY 8 ĐÊM",
+      "title": "Tour Ý: Rome - Florence - Venice",
+      "price": "50000000",
+      "area": "foreign",
+      "location": "Châu Âu",
+      "details": {
+        "header": "TP. HCM → Ý: Rome - Florence - Venice",
+        "date": "Thứ 2, 08/07/2024",
+        "flight": {
+          "logo": "asm/img/italianairlines.webp",
+          "airline": "Alitalia",
+          "start_time": "21:00",
+          "start_place": "HCM",
+          "start_date": "08/07/24",
+          "end_time": "06:00",
+          "end_place": "FCO",
+          "end_date": "09/07/24"
         },
-        {
-            "id": "uk1",
-            "image": "asm/img/uk1.jpg",
-            "duration": "10 NGÀY 9 ĐÊM",
-            "title": "Tour Anh: London - Manchester - Edinburgh",
-            "price": "55,000,000",
-            "area": "foreign",
-            "location": "Châu Âu",
-            "details": {
-                "header": "TP. HCM → Anh: London - Manchester - Edinburgh",
-                "date": "Thứ 3, 09/07/2024",
-                "flight": {
-                    "logo": "asm/img/britishairways.webp",
-                    "airline": "British Airways",
-                    "start_time": "23:45",
-                    "start_place": "HCM",
-                    "start_date": "09/07/24",
-                    "end_time": "07:30",
-                    "end_place": "LHR",
-                    "end_date": "10/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "uk1.pt",
-                        "type": "Phổ thông",
-                        "price": "55,000,000"
-                    },
-                    {
-                        "id": "uk1.tg",
-                        "type": "Thương gia",
-                        "price": "110,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "italy1.pt",
+            "type": "Phổ thông",
+            "price": "50000000"
+          },
+          {
+            "id": "italy1.tg",
+            "type": "Thương gia",
+            "price": "100000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uk1",
+      "image": "asm/img/uk1.jpg",
+      "duration": "10 NGÀY 9 ĐÊM",
+      "title": "Tour Anh: London - Manchester - Edinburgh",
+      "price": "55000000",
+      "area": "foreign",
+      "location": "Châu Âu",
+      "details": {
+        "header": "TP. HCM → Anh: London - Manchester - Edinburgh",
+        "date": "Thứ 3, 09/07/2024",
+        "flight": {
+          "logo": "asm/img/britishairways.webp",
+          "airline": "British Airways",
+          "start_time": "23:45",
+          "start_place": "HCM",
+          "start_date": "09/07/24",
+          "end_time": "07:30",
+          "end_place": "LHR",
+          "end_date": "10/07/24"
         },
-        {
-            "id": "germany1",
-            "image": "asm/img/germany1.jpg",
-            "duration": "9 NGÀY 8 ĐÊM",
-            "title": "Tour Đức: Berlin - Munich - Frankfurt",
-            "price": "48,000,000",
-            "area": "foreign",
-            "location": "Châu Âu",
-            "details": {
-                "header": "TP. HCM → Đức: Berlin - Munich - Frankfurt",
-                "date": "Thứ 4, 10/07/2024",
-                "flight": {
-                    "logo": "asm/img/lufthansa.webp",
-                    "airline": "Lufthansa",
-                    "start_time": "22:00",
-                    "start_place": "HCM",
-                    "start_date": "10/07/24",
-                    "end_time": "06:00",
-                    "end_place": "FRA",
-                    "end_date": "11/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "germany1.pt",
-                        "type": "Phổ thông",
-                        "price": "48,000,000"
-                    },
-                    {
-                        "id": "germany1.tg",
-                        "type": "Thương gia",
-                        "price": "96,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "uk1.pt",
+            "type": "Phổ thông",
+            "price": "55000000"
+          },
+          {
+            "id": "uk1.tg",
+            "type": "Thương gia",
+            "price": "110000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "germany1",
+      "image": "asm/img/germany1.jpg",
+      "duration": "9 NGÀY 8 ĐÊM",
+      "title": "Tour Đức: Berlin - Munich - Frankfurt",
+      "price": "48000000",
+      "area": "foreign",
+      "location": "Châu Âu",
+      "details": {
+        "header": "TP. HCM → Đức: Berlin - Munich - Frankfurt",
+        "date": "Thứ 4, 10/07/2024",
+        "flight": {
+          "logo": "asm/img/lufthansa.webp",
+          "airline": "Lufthansa",
+          "start_time": "22:00",
+          "start_place": "HCM",
+          "start_date": "10/07/24",
+          "end_time": "06:00",
+          "end_place": "FRA",
+          "end_date": "11/07/24"
         },
-        {
-            "id": "australia1",
-            "image": "asm/img/australia1.jpg",
-            "duration": "10 NGÀY 9 ĐÊM",
-            "title": "Tour Úc: Sydney - Melbourne - Brisbane",
-            "price": "60,000,000",
-            "area": "foreign",
-            "location": "Khác",
-            "details": {
-                "header": "TP. HCM → Úc: Sydney - Melbourne - Brisbane",
-                "date": "Thứ 5, 11/07/2024",
-                "flight": {
-                    "logo": "asm/img/qantas.webp",
-                    "airline": "Qantas",
-                    "start_time": "23:55",
-                    "start_place": "HCM",
-                    "start_date": "11/07/24",
-                    "end_time": "12:00",
-                    "end_place": "SYD",
-                    "end_date": "12/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "australia1.pt",
-                        "type": "Phổ thông",
-                        "price": "60,000,000"
-                    },
-                    {
-                        "id": "australia1.tg",
-                        "type": "Thương gia",
-                        "price": "120,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "germany1.pt",
+            "type": "Phổ thông",
+            "price": "48000000"
+          },
+          {
+            "id": "germany1.tg",
+            "type": "Thương gia",
+            "price": "96000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "australia1",
+      "image": "asm/img/australia1.jpg",
+      "duration": "10 NGÀY 9 ĐÊM",
+      "title": "Tour Úc: Sydney - Melbourne - Brisbane",
+      "price": "60000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "TP. HCM → Úc: Sydney - Melbourne - Brisbane",
+        "date": "Thứ 5, 11/07/2024",
+        "flight": {
+          "logo": "asm/img/qantas.webp",
+          "airline": "Qantas",
+          "start_time": "23:55",
+          "start_place": "HCM",
+          "start_date": "11/07/24",
+          "end_time": "12:00",
+          "end_place": "SYD",
+          "end_date": "12/07/24"
         },
-        {
-            "id": "vietnam1",
-            "image": "asm/img/vietnam1.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Việt Nam: Hà Nội - Hạ Long",
-            "price": "5,000,000",
-            "area": "domestic",
-            "location": "Miền Bắc",
-            "details": {
-                "header": "TP. HCM → Hà Nội - Hạ Long",
-                "date": "Thứ 2, 01/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "07:00",
-                    "start_place": "HCM",
-                    "start_date": "01/07/24",
-                    "end_time": "09:00",
-                    "end_place": "HAN",
-                    "end_date": "01/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam1.pt",
-                        "type": "Phổ thông",
-                        "price": "5,000,000"
-                    },
-                    {
-                        "id": "vietnam1.tg",
-                        "type": "Thương gia",
-                        "price": "10,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "australia1.pt",
+            "type": "Phổ thông",
+            "price": "60000000"
+          },
+          {
+            "id": "australia1.tg",
+            "type": "Thương gia",
+            "price": "120000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam1",
+      "image": "asm/img/vietnam1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Việt Nam: Hà Nội - Hạ Long",
+      "price": "5000000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hà Nội - Hạ Long",
+        "date": "Thứ 2, 01/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "01/07/24",
+          "end_time": "09:00",
+          "end_place": "HAN",
+          "end_date": "01/07/24"
         },
-        {
-            "id": "vietnam2",
-            "image": "asm/img/vietnam2.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Việt Nam: Đà Nẵng - Hội An",
-            "price": "4,500,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Đà Nẵng - Hội An",
-                "date": "Thứ 3, 02/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "08:00",
-                    "start_place": "HCM",
-                    "start_date": "02/07/24",
-                    "end_time": "09:30",
-                    "end_place": "DAD",
-                    "end_date": "02/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam2.pt",
-                        "type": "Phổ thông",
-                        "price": "4,500,000"
-                    },
-                    {
-                        "id": "vietnam2.tg",
-                        "type": "Thương gia",
-                        "price": "9,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam1.pt",
+            "type": "Phổ thông",
+            "price": "5000000"
+          },
+          {
+            "id": "vietnam1.tg",
+            "type": "Thương gia",
+            "price": "10000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam2",
+      "image": "asm/img/vietnam2.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Việt Nam: Đà Nẵng - Hội An",
+      "price": "4500000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Đà Nẵng - Hội An",
+        "date": "Thứ 3, 02/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "02/07/24",
+          "end_time": "09:30",
+          "end_place": "DAD",
+          "end_date": "02/07/24"
         },
-        {
-            "id": "vietnam3",
-            "image": "asm/img/vietnam3.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Việt Nam: Nha Trang - Đà Lạt",
-            "price": "6,000,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Nha Trang - Đà Lạt",
-                "date": "Thứ 4, 03/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "09:00",
-                    "start_place": "HCM",
-                    "start_date": "03/07/24",
-                    "end_time": "10:30",
-                    "end_place": "CXR",
-                    "end_date": "03/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam3.pt",
-                        "type": "Phổ thông",
-                        "price": "6,000,000"
-                    },
-                    {
-                        "id": "vietnam3.tg",
-                        "type": "Thương gia",
-                        "price": "12,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam2.pt",
+            "type": "Phổ thông",
+            "price": "4500000"
+          },
+          {
+            "id": "vietnam2.tg",
+            "type": "Thương gia",
+            "price": "9000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam3",
+      "image": "asm/img/vietnam3.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Việt Nam: Nha Trang - Đà Lạt",
+      "price": "6000000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Nha Trang - Đà Lạt",
+        "date": "Thứ 4, 03/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "03/07/24",
+          "end_time": "10:30",
+          "end_place": "CXR",
+          "end_date": "03/07/24"
         },
-        {
-            "id": "vietnam4",
-            "image": "asm/img/vietnam4.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Việt Nam: Phú Quốc",
-            "price": "5,500,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "TP. HCM → Phú Quốc",
-                "date": "Thứ 5, 04/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "10:00",
-                    "start_place": "HCM",
-                    "start_date": "04/07/24",
-                    "end_time": "11:00",
-                    "end_place": "PQC",
-                    "end_date": "04/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam4.pt",
-                        "type": "Phổ thông",
-                        "price": "5,500,000"
-                    },
-                    {
-                        "id": "vietnam4.tg",
-                        "type": "Thương gia",
-                        "price": "11,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam3.pt",
+            "type": "Phổ thông",
+            "price": "6000000"
+          },
+          {
+            "id": "vietnam3.tg",
+            "type": "Thương gia",
+            "price": "12000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam4",
+      "image": "asm/img/vietnam4.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Việt Nam: Phú Quốc",
+      "price": "5500000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Phú Quốc",
+        "date": "Thứ 5, 04/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "10:00",
+          "start_place": "HCM",
+          "start_date": "04/07/24",
+          "end_time": "11:00",
+          "end_place": "PQC",
+          "end_date": "04/07/24"
         },
-        {
-            "id": "vietnam5",
-            "image": "asm/img/vietnam5.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Việt Nam: Sapa",
-            "price": "4,800,000",
-            "area": "domestic",
-            "location": "Miền Bắc",
-            "details": {
-                "header": "TP. HCM → Sapa",
-                "date": "Thứ 6, 05/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "06:00",
-                    "start_place": "HCM",
-                    "start_date": "05/07/24",
-                    "end_time": "08:00",
-                    "end_place": "HAN",
-                    "end_date": "05/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam5.pt",
-                        "type": "Phổ thông",
-                        "price": "4,800,000"
-                    },
-                    {
-                        "id": "vietnam5.tg",
-                        "type": "Thương gia",
-                        "price": "9,600,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam4.pt",
+            "type": "Phổ thông",
+            "price": "5,500000"
+          },
+          {
+            "id": "vietnam4.tg",
+            "type": "Thương gia",
+            "price": "11000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam5",
+      "image": "asm/img/vietnam5.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Việt Nam: Sapa",
+      "price": "4800000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Sapa",
+        "date": "Thứ 6, 05/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "05/07/24",
+          "end_time": "08:00",
+          "end_place": "HAN",
+          "end_date": "05/07/24"
         },
-        {
-            "id": "vietnam6",
-            "image": "asm/img/vietnam6.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Việt Nam: Cần Thơ - Châu Đốc",
-            "price": "4,200,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "TP. HCM → Cần Thơ - Châu Đốc",
-                "date": "Thứ 7, 06/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "07:30",
-                    "start_place": "HCM",
-                    "start_date": "06/07/24",
-                    "end_time": "08:30",
-                    "end_place": "VCA",
-                    "end_date": "06/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam6.pt",
-                        "type": "Phổ thông",
-                        "price": "4,200,000"
-                    },
-                    {
-                        "id": "vietnam6.tg",
-                        "type": "Thương gia",
-                        "price": "8,400,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam5.pt",
+            "type": "Phổ thông",
+            "price": "4800000"
+          },
+          {
+            "id": "vietnam5.tg",
+            "type": "Thương gia",
+            "price": "9600000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam6",
+      "image": "asm/img/vietnam6.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Việt Nam: Cần Thơ - Châu Đốc",
+      "price": "4200000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Cần Thơ - Châu Đốc",
+        "date": "Thứ 7, 06/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:30",
+          "start_place": "HCM",
+          "start_date": "06/07/24",
+          "end_time": "08:30",
+          "end_place": "VCA",
+          "end_date": "06/07/24"
         },
-        {
-            "id": "vietnam7",
-            "image": "asm/img/vietnam7.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Việt Nam: Quy Nhơn - Phú Yên",
-            "price": "5,300,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Quy Nhơn - Phú Yên",
-                "date": "Chủ Nhật, 07/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "08:00",
-                    "start_place": "HCM",
-                    "start_date": "07/07/24",
-                    "end_time": "09:00",
-                    "end_place": "UIH",
-                    "end_date": "07/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam7.pt",
-                        "type": "Phổ thông",
-                        "price": "5,300,000"
-                    },
-                    {
-                        "id": "vietnam7.tg",
-                        "type": "Thương gia",
-                        "price": "10,600,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam6.pt",
+            "type": "Phổ thông",
+            "price": "4200000"
+          },
+          {
+            "id": "vietnam6.tg",
+            "type": "Thương gia",
+            "price": "8400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam7",
+      "image": "asm/img/vietnam7.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Việt Nam: Quy Nhơn - Phú Yên",
+      "price": "5300000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Quy Nhơn - Phú Yên",
+        "date": "Chủ Nhật, 07/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "07/07/24",
+          "end_time": "09:00",
+          "end_place": "UIH",
+          "end_date": "07/07/24"
         },
-        {
-            "id": "vietnam8",
-            "image": "asm/img/vietnam8.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Việt Nam: Huế - Quảng Bình",
-            "price": "5,700,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Huế - Quảng Bình",
-                "date": "Thứ 2, 08/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "06:30",
-                    "start_place": "HCM",
-                    "start_date": "08/07/24",
-                    "end_time": "08:00",
-                    "end_place": "HUI",
-                    "end_date": "08/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam8.pt",
-                        "type": "Phổ thông",
-                        "price": "5,700,000"
-                    },
-                    {
-                        "id": "vietnam8.tg",
-                        "type": "Thương gia",
-                        "price": "11,400,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam7.pt",
+            "type": "Phổ thông",
+            "price": "5300000"
+          },
+          {
+            "id": "vietnam7.tg",
+            "type": "Thương gia",
+            "price": "10600000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam8",
+      "image": "asm/img/vietnam8.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Việt Nam: Huế - Quảng Bình",
+      "price": "5700000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Huế - Quảng Bình",
+        "date": "Thứ 2, 08/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:30",
+          "start_place": "HCM",
+          "start_date": "08/07/24",
+          "end_time": "08:00",
+          "end_place": "HUI",
+          "end_date": "08/07/24"
         },
-        {
-            "id": "vietnam9",
-            "image": "asm/img/vietnam9.jpg",
-            "duration": "3 NGÀY 2 ĐÊM",
-            "title": "Tour Việt Nam: Hồ Chí Minh - Côn Đảo",
-            "price": "4,600,000",
-            "area": "domestic",
-            "location": "Miền Nam",
-            "details": {
-                "header": "TP. HCM → Côn Đảo",
-                "date": "Thứ 3, 09/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "09:00",
-                    "start_place": "HCM",
-                    "start_date": "09/07/24",
-                    "end_time": "10:30",
-                    "end_place": "VCS",
-                    "end_date": "09/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam9.pt",
-                        "type": "Phổ thông",
-                        "price": "4,600,000"
-                    },
-                    {
-                        "id": "vietnam9.tg",
-                        "type": "Thương gia",
-                        "price": "9,200,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam8.pt",
+            "type": "Phổ thông",
+            "price": "5700000"
+          },
+          {
+            "id": "vietnam8.tg",
+            "type": "Thương gia",
+            "price": "11400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam9",
+      "image": "asm/img/vietnam9.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour Việt Nam: Hồ Chí Minh - Côn Đảo",
+      "price": "4600000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Côn Đảo",
+        "date": "Thứ 3, 09/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "09/07/24",
+          "end_time": "10:30",
+          "end_place": "VCS",
+          "end_date": "09/07/24"
         },
-        {
-            "id": "vietnam10",
-            "image": "asm/img/vietnam10.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Việt Nam: Buôn Ma Thuột - Pleiku",
-            "price": "5,400,000",
-            "area": "domestic",
-            "location": "Miền Trung",
-            "details": {
-                "header": "TP. HCM → Buôn Ma Thuột - Pleiku",
-                "date": "Thứ 4, 10/07/2024",
-                "flight": {
-                    "logo": "asm/img/vietnamairlines.webp",
-                    "airline": "Vietnam Airlines",
-                    "start_time": "07:00",
-                    "start_place": "HCM",
-                    "start_date": "10/07/24",
-                    "end_time": "08:30",
-                    "end_place": "BMV",
-                    "end_date": "10/07/24"
-                },
-                "tickets": [
-                    {
-                        "id": "vietnam10.pt",
-                        "type": "Phổ thông",
-                        "price": "5,400,000"
-                    },
-                    {
-                        "id": "vietnam10.tg",
-                        "type": "Thương gia",
-                        "price": "10,800,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam9.pt",
+            "type": "Phổ thông",
+            "price": "4600000"
+          },
+          {
+            "id": "vietnam9.tg",
+            "type": "Thương gia",
+            "price": "9200000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vietnam10",
+      "image": "asm/img/vietnam10.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Việt Nam: Buôn Ma Thuột - Pleiku",
+      "price": "5400000",
+      "area": "domestic",
+      "location": "Miền Trung",
+      "details": {
+        "header": "TP. HCM → Buôn Ma Thuột - Pleiku",
+        "date": "Thứ 4, 10/07/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "10/07/24",
+          "end_time": "08:30",
+          "end_place": "BMV",
+          "end_date": "10/07/24"
         },
-        {
-            "id": "international1",
-            "image": "asm/img/international1.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Quốc tế: Nhật Bản - Tokyo - Kyoto",
-            "price": "20,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Tokyo - Kyoto",
-                "date": "Thứ 2, 01/08/2024",
-                "flight": {
-                    "logo": "asm/img/japanairlines.webp",
-                    "airline": "Japan Airlines",
-                    "start_time": "06:00",
-                    "start_place": "HCM",
-                    "start_date": "01/08/24",
-                    "end_time": "14:00",
-                    "end_place": "NRT",
-                    "end_date": "01/08/24"
-                },
-                "tickets": [
-                    {
-                        "id": "international1.pt",
-                        "type": "Phổ thông",
-                        "price": "20,000,000"
-                    },
-                    {
-                        "id": "international1.tg",
-                        "type": "Thương gia",
-                        "price": "40,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "vietnam10.pt",
+            "type": "Phổ thông",
+            "price": "5400000"
+          },
+          {
+            "id": "vietnam10.tg",
+            "type": "Thương gia",
+            "price": "10800000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "international1",
+      "image": "asm/img/international1.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Quốc tế: Nhật Bản - Tokyo - Kyoto",
+      "price": "20000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Tokyo - Kyoto",
+        "date": "Thứ 2, 01/08/2024",
+        "flight": {
+          "logo": "asm/img/japanairlines.webp",
+          "airline": "Japan Airlines",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "01/08/24",
+          "end_time": "14:00",
+          "end_place": "NRT",
+          "end_date": "01/08/24"
         },
-        {
-            "id": "international2",
-            "image": "asm/img/international2.jpg",
-            "duration": "6 NGÀY 5 ĐÊM",
-            "title": "Tour Quốc tế: Hàn Quốc - Seoul - Busan",
-            "price": "18,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Seoul - Busan",
-                "date": "Thứ 3, 02/08/2024",
-                "flight": {
-                    "logo": "asm/img/koreanair.webp",
-                    "airline": "Korean Air",
-                    "start_time": "08:00",
-                    "start_place": "HCM",
-                    "start_date": "02/08/24",
-                    "end_time": "16:00",
-                    "end_place": "ICN",
-                    "end_date": "02/08/24"
-                },
-                "tickets": [
-                    {
-                        "id": "international2.pt",
-                        "type": "Phổ thông",
-                        "price": "18,000,000"
-                    },
-                    {
-                        "id": "international2.tg",
-                        "type": "Thương gia",
-                        "price": "36,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "international1.pt",
+            "type": "Phổ thông",
+            "price": "20000000"
+          },
+          {
+            "id": "international1.tg",
+            "type": "Thương gia",
+            "price": "40000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "international2",
+      "image": "asm/img/international2.jpg",
+      "duration": "6 NGÀY 5 ĐÊM",
+      "title": "Tour Quốc tế: Hàn Quốc - Seoul - Busan",
+      "price": "18000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Seoul - Busan",
+        "date": "Thứ 3, 02/08/2024",
+        "flight": {
+          "logo": "asm/img/koreanair.webp",
+          "airline": "Korean Air",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "02/08/24",
+          "end_time": "16:00",
+          "end_place": "ICN",
+          "end_date": "02/08/24"
         },
-        {
-            "id": "international3",
-            "image": "asm/img/international3.jpg",
-            "duration": "7 NGÀY 6 ĐÊM",
-            "title": "Tour Quốc tế: Pháp - Paris - Lyon",
-            "price": "35,000,000",
-            "area": "foreign",
-            "location": "Châu Âu",
-            "details": {
-                "header": "TP. HCM → Paris - Lyon",
-                "date": "Thứ 4, 03/08/2024",
-                "flight": {
-                    "logo": "asm/img/airfrance.webp",
-                    "airline": "Air France",
-                    "start_time": "10:00",
-                    "start_place": "HCM",
-                    "start_date": "03/08/24",
-                    "end_time": "18:00",
-                    "end_place": "CDG",
-                    "end_date": "03/08/24"
-                },
-                "tickets": [
-                    {
-                        "id": "international3.pt",
-                        "type": "Phổ thông",
-                        "price": "35,000,000"
-                    },
-                    {
-                        "id": "international3.tg",
-                        "type": "Thương gia",
-                        "price": "70,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "international2.pt",
+            "type": "Phổ thông",
+            "price": "18000000"
+          },
+          {
+            "id": "international2.tg",
+            "type": "Thương gia",
+            "price": "36000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "international3",
+      "image": "asm/img/international3.jpg",
+      "duration": "7 NGÀY 6 ĐÊM",
+      "title": "Tour Quốc tế: Pháp - Paris - Lyon",
+      "price": "35000000",
+      "area": "foreign",
+      "location": "Châu Âu",
+      "details": {
+        "header": "TP. HCM → Paris - Lyon",
+        "date": "Thứ 4, 03/08/2024",
+        "flight": {
+          "logo": "asm/img/airfrance.webp",
+          "airline": "Air France",
+          "start_time": "10:00",
+          "start_place": "HCM",
+          "start_date": "03/08/24",
+          "end_time": "18:00",
+          "end_place": "CDG",
+          "end_date": "03/08/24"
         },
-        {
-            "id": "international4",
-            "image": "asm/img/international4.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Quốc tế: Mỹ - New York - Washington D.C.",
-            "price": "40,000,000",
-            "area": "foreign",
-            "location": "Khác",
-            "details": {
-                "header": "TP. HCM → New York - Washington D.C.",
-                "date": "Thứ 5, 04/08/2024",
-                "flight": {
-                    "logo": "asm/img/americanairlines.webp",
-                    "airline": "American Airlines",
-                    "start_time": "07:00",
-                    "start_place": "HCM",
-                    "start_date": "04/08/24",
-                    "end_time": "19:00",
-                    "end_place": "JFK",
-                    "end_date": "04/08/24"
-                },
-                "tickets": [
-                    {
-                        "id": "international4.pt",
-                        "type": "Phổ thông",
-                        "price": "40,000,000"
-                    },
-                    {
-                        "id": "international4.tg",
-                        "type": "Thương gia",
-                        "price": "80,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "international3.pt",
+            "type": "Phổ thông",
+            "price": "35000000"
+          },
+          {
+            "id": "international3.tg",
+            "type": "Thương gia",
+            "price": "70000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "international4",
+      "image": "asm/img/international4.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Quốc tế: Mỹ - New York - Washington D.C.",
+      "price": "40000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "TP. HCM → New York - Washington D.C.",
+        "date": "Thứ 5, 04/08/2024",
+        "flight": {
+          "logo": "asm/img/americanairlines.webp",
+          "airline": "American Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "04/08/24",
+          "end_time": "19:00",
+          "end_place": "JFK",
+          "end_date": "04/08/24"
         },
-        {
-            "id": "international5",
-            "image": "asm/img/international5.jpg",
-            "duration": "6 NGÀY 5 ĐÊM",
-            "title": "Tour Quốc tế: Úc - Sydney - Melbourne",
-            "price": "30,000,000",
-            "area": "foreign",
-            "location": "Khác",
-            "details": {
-                "header": "TP. HCM → Sydney - Melbourne",
-                "date": "Thứ 6, 05/08/2024",
-                "flight": {
-                    "logo": "asm/img/qantas.webp",
-                    "airline": "Qantas",
-                    "start_time": "12:00",
-                    "start_place": "HCM",
-                    "start_date": "05/08/24",
-                    "end_time": "22:00",
-                    "end_place": "SYD",
-                    "end_date": "05/08/24"
-                },
-                "tickets": [
-                    {
-                        "id": "international5.pt",
-                        "type": "Phổ thông",
-                        "price": "30,000,000"
-                    },
-                    {
-                        "id": "international5.tg",
-                        "type": "Thương gia",
-                        "price": "60,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "international4.pt",
+            "type": "Phổ thông",
+            "price": "40000000"
+          },
+          {
+            "id": "international4.tg",
+            "type": "Thương gia",
+            "price": "80000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "international5",
+      "image": "asm/img/international5.jpg",
+      "duration": "6 NGÀY 5 ĐÊM",
+      "title": "Tour Quốc tế: Úc - Sydney - Melbourne",
+      "price": "30000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "TP. HCM → Sydney - Melbourne",
+        "date": "Thứ 6, 05/08/2024",
+        "flight": {
+          "logo": "asm/img/qantas.webp",
+          "airline": "Qantas",
+          "start_time": "12:00",
+          "start_place": "HCM",
+          "start_date": "05/08/24",
+          "end_time": "22:00",
+          "end_place": "SYD",
+          "end_date": "05/08/24"
         },
-        {
-            "id": "international6",
-            "image": "asm/img/international6.jpg",
-            "duration": "5 NGÀY 4 ĐÊM",
-            "title": "Tour Quốc tế: Thái Lan - Bangkok - Pattaya",
-            "price": "12,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Bangkok - Pattaya",
-                "date": "Thứ 7, 06/08/2024",
-                "flight": {
-                    "logo": "asm/img/thaiairways.webp",
-                    "airline": "Thai Airways",
-                    "start_time": "13:00",
-                    "start_place": "HCM",
-                    "start_date": "06/08/24",
-                    "end_time": "15:00",
-                    "end_place": "BKK",
-                    "end_date": "06/08/24"
-                },
-                "tickets": [
-                    {
-                        "id": "international6.pt",
-                        "type": "Phổ thông",
-                        "price": "12,000,000"
-                    },
-                    {
-                        "id": "international6.tg",
-                        "type": "Thương gia",
-                        "price": "24,000,000"
-                    }
-                ]
-            }
+        "tickets": [
+          {
+            "id": "international5.pt",
+            "type": "Phổ thông",
+            "price": "30000000"
+          },
+          {
+            "id": "international5.tg",
+            "type": "Thương gia",
+            "price": "60000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "international6",
+      "image": "asm/img/international6.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour Quốc tế: Thái Lan - Bangkok - Pattaya",
+      "price": "12000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Bangkok - Pattaya",
+        "date": "Thứ 7, 06/08/2024",
+        "flight": {
+          "logo": "asm/img/thaiairways.webp",
+          "airline": "Thai Airways",
+          "start_time": "13:00",
+          "start_place": "HCM",
+          "start_date": "06/08/24",
+          "end_time": "15:00",
+          "end_place": "BKK",
+          "end_date": "06/08/24"
         },
-        {
-            "id": "international7",
-            "image": "asm/img/international7.jpg",
-            "duration": "4 NGÀY 3 ĐÊM",
-            "title": "Tour Quốc tế: Singapore",
-            "price": "10,000,000",
-            "area": "foreign",
-            "location": "Châu Á",
-            "details": {
-                "header": "TP. HCM → Singapore",
-                "date": "Chủ Nhật, 07/08/2024",
-                "flight": {
-                    "logo": "asm/img/singaporeairlines.webp",
-                    "airline": "Singapore Airlines",
-                    "start_time": "15:00",
-                    "start_place": "HCM",
-                    "start_date": "07/08/24",
-                    "end_time": "18:00",
-                    "end_place": "SIN",
-                    "end_date": "07/08/24"
-                },
-                "tickets": [
-                    {
-                        "id": "international7.pt",
-                        "type": "Phổ thông",
-                        "price": "10,000,000"
-                    },
-                    {
-                        "id": "international7.tg",
-                        "type": "Thương gia",
-                        "price": "20,000,000"
-                    }
-                ]
-            }
-        }
-    ]
+        "tickets": [
+          {
+            "id": "international6.pt",
+            "type": "Phổ thông",
+            "price": "12000000"
+          },
+          {
+            "id": "international6.tg",
+            "type": "Thương gia",
+            "price": "24000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "international7",
+      "image": "asm/img/international7.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour Quốc tế: Singapore",
+      "price": "10000000",
+      "area": "foreign",
+      "location": "Châu Á",
+      "details": {
+        "header": "TP. HCM → Singapore",
+        "date": "Chủ Nhật, 07/08/2024",
+        "flight": {
+          "logo": "asm/img/singaporeairlines.webp",
+          "airline": "Singapore Airlines",
+          "start_time": "15:00",
+          "start_place": "HCM",
+          "start_date": "07/08/24",
+          "end_time": "18:00",
+          "end_place": "SIN",
+          "end_date": "07/08/24"
+        },
+        "tickets": [
+          {
+            "id": "international7.pt",
+            "type": "Phổ thông",
+            "price": "10000000"
+          },
+          {
+            "id": "international7.tg",
+            "type": "Thương gia",
+            "price": "20000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn1",
+      "image": "asm/img/northvn1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Bắc: Hà Nội - Ninh Bình",
+      "price": "3500000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hà Nội - Ninh Bình",
+        "date": "Thứ 2, 01/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "01/08/24",
+          "end_time": "09:00",
+          "end_place": "HAN",
+          "end_date": "01/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn1.pt",
+            "type": "Phổ thông",
+            "price": "3500000"
+          },
+          {
+            "id": "northvn1.tg",
+            "type": "Thương gia",
+            "price": "7000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn2",
+      "image": "asm/img/northvn2.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Bắc: Hạ Long - Quảng Ninh",
+      "price": "4200000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hạ Long - Quảng Ninh",
+        "date": "Thứ 3, 02/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "02/08/24",
+          "end_time": "10:00",
+          "end_place": "VDO",
+          "end_date": "02/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn2.pt",
+            "type": "Phổ thông",
+            "price": "4200000"
+          },
+          {
+            "id": "northvn2.tg",
+            "type": "Thương gia",
+            "price": "8400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn3",
+      "image": "asm/img/northvn3.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour miền Bắc: Sapa - Lào Cai",
+      "price": "5500000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Sapa - Lào Cai",
+        "date": "Thứ 4, 03/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "03/08/24",
+          "end_time": "08:00",
+          "end_place": "HAN",
+          "end_date": "03/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn3.pt",
+            "type": "Phổ thông",
+            "price": "5500000"
+          },
+          {
+            "id": "northvn3.tg",
+            "type": "Thương gia",
+            "price": "11000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn4",
+      "image": "asm/img/northvn4.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Bắc: Hà Giang",
+      "price": "5000000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hà Giang",
+        "date": "Thứ 5, 04/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:30",
+          "start_place": "HCM",
+          "start_date": "04/08/24",
+          "end_time": "09:30",
+          "end_place": "HAN",
+          "end_date": "04/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn4.pt",
+            "type": "Phổ thông",
+            "price": "5000000"
+          },
+          {
+            "id": "northvn4.tg",
+            "type": "Thương gia",
+            "price": "10000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn5",
+      "image": "asm/img/northvn5.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Bắc: Mộc Châu - Sơn La",
+      "price": "4000000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Mộc Châu - Sơn La",
+        "date": "Thứ 6, 05/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "05/08/24",
+          "end_time": "10:00",
+          "end_place": "HAN",
+          "end_date": "05/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn5.pt",
+            "type": "Phổ thông",
+            "price": "4000000"
+          },
+          {
+            "id": "northvn5.tg",
+            "type": "Thương gia",
+            "price": "8000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn6",
+      "image": "asm/img/northvn6.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Bắc: Yên Bái - Mù Cang Chải",
+      "price": "4500000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Yên Bái - Mù Cang Chải",
+        "date": "Thứ 7, 06/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "06/08/24",
+          "end_time": "09:00",
+          "end_place": "HAN",
+          "end_date": "06/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn6.pt",
+            "type": "Phổ thông",
+            "price": "4500000"
+          },
+          {
+            "id": "northvn6.tg",
+            "type": "Thương gia",
+            "price": "9000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn7",
+      "image": "asm/img/northvn7.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Bắc: Cao Bằng - Thác Bản Giốc",
+      "price": "3800000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Cao Bằng - Thác Bản Giốc",
+        "date": "Chủ Nhật, 07/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "07/08/24",
+          "end_time": "11:00",
+          "end_place": "HAN",
+          "end_date": "07/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn7.pt",
+            "type": "Phổ thông",
+            "price": "3800000"
+          },
+          {
+            "id": "northvn7.tg",
+            "type": "Thương gia",
+            "price": "7600000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn8",
+      "image": "asm/img/northvn8.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour miền Bắc: Điện Biên Phủ",
+      "price": "5200000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Điện Biên Phủ",
+        "date": "Thứ 2, 08/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "08/08/24",
+          "end_time": "09:00",
+          "end_place": "HAN",
+          "end_date": "08/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn8.pt",
+            "type": "Phổ thông",
+            "price": "5200000"
+          },
+          {
+            "id": "northvn8.tg",
+            "type": "Thương gia",
+            "price": "10400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn9",
+      "image": "asm/img/northvn9.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Bắc: Bắc Kạn - Hồ Ba Bể",
+      "price": "4300000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Bắc Kạn - Hồ Ba Bể",
+        "date": "Thứ 3, 09/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "09/08/24",
+          "end_time": "08:00",
+          "end_place": "HAN",
+          "end_date": "09/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn9.pt",
+            "type": "Phổ thông",
+            "price": "4300000"
+          },
+          {
+            "id": "northvn9.tg",
+            "type": "Thương gia",
+            "price": "8600000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn10",
+      "image": "asm/img/northvn10.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Bắc: Phú Thọ - Đền Hùng",
+      "price": "3200000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Phú Thọ - Đền Hùng",
+        "date": "Thứ 4, 10/08/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "10/08/24",
+          "end_time": "11:00",
+          "end_place": "HAN",
+          "end_date": "10/08/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn10.pt",
+            "type": "Phổ thông",
+            "price": "3200000"
+          },
+          {
+            "id": "northvn10.tg",
+            "type": "Thương gia",
+            "price": "6400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn1",
+      "image": "asm/img/northvn1.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Bắc: Hà Nội - Tràng An",
+      "price": "4500000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hà Nội - Tràng An",
+        "date": "Thứ 2, 01/09/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "01/09/24",
+          "end_time": "08:00",
+          "end_place": "HAN",
+          "end_date": "01/09/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn1.pt",
+            "type": "Phổ thông",
+            "price": "4500000"
+          },
+          {
+            "id": "northvn1.tg",
+            "type": "Thương gia",
+            "price": "9000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn2",
+      "image": "asm/img/northvn2.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour miền Bắc: Hạ Long - Cát Bà",
+      "price": "5800000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hạ Long - Cát Bà",
+        "date": "Thứ 3, 02/09/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "02/09/24",
+          "end_time": "09:00",
+          "end_place": "HAN",
+          "end_date": "02/09/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn2.pt",
+            "type": "Phổ thông",
+            "price": "5800000"
+          },
+          {
+            "id": "northvn2.tg",
+            "type": "Thương gia",
+            "price": "11600000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn3",
+      "image": "asm/img/northvn3.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Bắc: Hà Giang - Đồng Văn",
+      "price": "5000000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Hà Giang - Đồng Văn",
+        "date": "Thứ 4, 03/09/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:30",
+          "start_place": "HCM",
+          "start_date": "03/09/24",
+          "end_time": "08:30",
+          "end_place": "HAN",
+          "end_date": "03/09/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn3.pt",
+            "type": "Phổ thông",
+            "price": "5000000"
+          },
+          {
+            "id": "northvn3.tg",
+            "type": "Thương gia",
+            "price": "10000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn4",
+      "image": "asm/img/northvn4.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Bắc: Sapa - Núi Hàm Rồng",
+      "price": "4200000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Sapa - Núi Hàm Rồng",
+        "date": "Thứ 5, 04/09/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "04/09/24",
+          "end_time": "10:00",
+          "end_place": "HAN",
+          "end_date": "04/09/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn4.pt",
+            "type": "Phổ thông",
+            "price": "4200000"
+          },
+          {
+            "id": "northvn4.tg",
+            "type": "Thương gia",
+            "price": "8400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn5",
+      "image": "asm/img/northvn5.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour miền Bắc: Cao Bằng - Thác Bản Giốc",
+      "price": "5500000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Cao Bằng - Thác Bản Giốc",
+        "date": "Thứ 6, 05/09/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "05/09/24",
+          "end_time": "11:00",
+          "end_place": "HAN",
+          "end_date": "05/09/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn5.pt",
+            "type": "Phổ thông",
+            "price": "5500000"
+          },
+          {
+            "id": "northvn5.tg",
+            "type": "Thương gia",
+            "price": "11000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn6",
+      "image": "asm/img/northvn6.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Bắc: Mộc Châu - Sơn La",
+      "price": "4000000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Mộc Châu - Sơn La",
+        "date": "Thứ 7, 06/09/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:30",
+          "start_place": "HCM",
+          "start_date": "06/09/24",
+          "end_time": "09:30",
+          "end_place": "HAN",
+          "end_date": "06/09/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn6.pt",
+            "type": "Phổ thông",
+            "price": "4000000"
+          },
+          {
+            "id": "northvn6.tg",
+            "type": "Thương gia",
+            "price": "8000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "northvn7",
+      "image": "asm/img/northvn7.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Bắc: Yên Bái - Mù Cang Chải",
+      "price": "4500000",
+      "area": "domestic",
+      "location": "Miền Bắc",
+      "details": {
+        "header": "TP. HCM → Yên Bái - Mù Cang Chải",
+        "date": "Chủ Nhật, 07/09/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "07/09/24",
+          "end_time": "11:00",
+          "end_place": "HAN",
+          "end_date": "07/09/24"
+        },
+        "tickets": [
+          {
+            "id": "northvn7.pt",
+            "type": "Phổ thông",
+            "price": "4500000"
+          },
+          {
+            "id": "northvn7.tg",
+            "type": "Thương gia",
+            "price": "9000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn1",
+      "image": "asm/img/southvn1.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Nam: Phú Quốc",
+      "price": "4200000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Phú Quốc",
+        "date": "Thứ 2, 01/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:00",
+          "start_place": "HCM",
+          "start_date": "01/10/24",
+          "end_time": "08:30",
+          "end_place": "PQC",
+          "end_date": "01/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn1.pt",
+            "type": "Phổ thông",
+            "price": "4200000"
+          },
+          {
+            "id": "southvn1.tg",
+            "type": "Thương gia",
+            "price": "8400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn2",
+      "image": "asm/img/southvn2.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Nam: Cần Thơ - Châu Đốc",
+      "price": "3800000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Cần Thơ - Châu Đốc",
+        "date": "Thứ 3, 02/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "02/10/24",
+          "end_time": "09:00",
+          "end_place": "VCA",
+          "end_date": "02/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn2.pt",
+            "type": "Phổ thông",
+            "price": "3800000"
+          },
+          {
+            "id": "southvn2.tg",
+            "type": "Thương gia",
+            "price": "7600000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn3",
+      "image": "asm/img/southvn3.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour miền Nam: Vũng Tàu - Côn Đảo",
+      "price": "5500000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Vũng Tàu - Côn Đảo",
+        "date": "Thứ 4, 03/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:00",
+          "start_place": "HCM",
+          "start_date": "03/10/24",
+          "end_time": "07:00",
+          "end_place": "VCS",
+          "end_date": "03/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn3.pt",
+            "type": "Phổ thông",
+            "price": "5500000"
+          },
+          {
+            "id": "southvn3.tg",
+            "type": "Thương gia",
+            "price": "11000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn4",
+      "image": "asm/img/southvn4.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Nam: Đồng Tháp - Sa Đéc",
+      "price": "3200000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Đồng Tháp - Sa Đéc",
+        "date": "Thứ 5, 04/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:30",
+          "start_place": "HCM",
+          "start_date": "04/10/24",
+          "end_time": "08:30",
+          "end_place": "VCA",
+          "end_date": "04/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn4.pt",
+            "type": "Phổ thông",
+            "price": "3200000"
+          },
+          {
+            "id": "southvn4.tg",
+            "type": "Thương gia",
+            "price": "6400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn5",
+      "image": "asm/img/southvn5.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Nam: Bạc Liêu - Sóc Trăng",
+      "price": "4000000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Bạc Liêu - Sóc Trăng",
+        "date": "Thứ 6, 05/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "06:30",
+          "start_place": "HCM",
+          "start_date": "05/10/24",
+          "end_time": "07:30",
+          "end_place": "VCA",
+          "end_date": "05/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn5.pt",
+            "type": "Phổ thông",
+            "price": "4000000"
+          },
+          {
+            "id": "southvn5.tg",
+            "type": "Thương gia",
+            "price": "8000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn6",
+      "image": "asm/img/southvn6.jpg",
+      "duration": "5 NGÀY 4 ĐÊM",
+      "title": "Tour miền Nam: Kiên Giang - Hà Tiên",
+      "price": "5200000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Kiên Giang - Hà Tiên",
+        "date": "Thứ 7, 06/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "09:00",
+          "start_place": "HCM",
+          "start_date": "06/10/24",
+          "end_time": "10:30",
+          "end_place": "VKG",
+          "end_date": "06/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn6.pt",
+            "type": "Phổ thông",
+            "price": "5200000"
+          },
+          {
+            "id": "southvn6.tg",
+            "type": "Thương gia",
+            "price": "10400000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn7",
+      "image": "asm/img/southvn7.jpg",
+      "duration": "3 NGÀY 2 ĐÊM",
+      "title": "Tour miền Nam: Tây Ninh - Núi Bà Đen",
+      "price": "3500000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Tây Ninh - Núi Bà Đen",
+        "date": "Chủ Nhật, 07/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "08:00",
+          "start_place": "HCM",
+          "start_date": "07/10/24",
+          "end_time": "09:00",
+          "end_place": "SGN",
+          "end_date": "07/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn7.pt",
+            "type": "Phổ thông",
+            "price": "3500000"
+          },
+          {
+            "id": "southvn7.tg",
+            "type": "Thương gia",
+            "price": "7000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "southvn8",
+      "image": "asm/img/southvn8.jpg",
+      "duration": "4 NGÀY 3 ĐÊM",
+      "title": "Tour miền Nam: Bình Dương - Thủ Dầu Một",
+      "price": "3600000",
+      "area": "domestic",
+      "location": "Miền Nam",
+      "details": {
+        "header": "TP. HCM → Bình Dương - Thủ Dầu Một",
+        "date": "Thứ 2, 08/10/2024",
+        "flight": {
+          "logo": "asm/img/vietnamairlines.webp",
+          "airline": "Vietnam Airlines",
+          "start_time": "07:30",
+          "start_place": "HCM",
+          "start_date": "08/10/24",
+          "end_time": "08:30",
+          "end_place": "SGN",
+          "end_date": "08/10/24"
+        },
+        "tickets": [
+          {
+            "id": "southvn8.pt",
+            "type": "Phổ thông",
+            "price": "3600000"
+          },
+          {
+            "id": "southvn8.tg",
+            "type": "Thương gia",
+            "price": "7200000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "usa1",
+      "image": "asm/img/usa1.jpg",
+      "duration": "9 NGÀY 8 ĐÊM",
+      "title": "Tour USA: New York - Los Angeles",
+      "price": "80000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "HCMC → New York - Los Angeles",
+        "date": "Monday, 12/07/2024",
+        "flight": {
+          "logo": "asm/img/delta.webp",
+          "airline": "Delta Air Lines",
+          "start_time": "09:30",
+          "start_place": "HCMC",
+          "start_date": "12/07/24",
+          "end_time": "22:00",
+          "end_place": "JFK",
+          "end_date": "12/07/24"
+        },
+        "tickets": [
+          {
+            "id": "usa1.economy",
+            "type": "Economy",
+            "price": "80000000"
+          },
+          {
+            "id": "usa1.business",
+            "type": "Business",
+            "price": "160000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "usa2",
+      "image": "asm/img/usa2.jpg",
+      "duration": "10 NGÀY 9 ĐÊM",
+      "title": "Tour USA: San Francisco - Yosemite - Los Angeles",
+      "price": "85000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "HCMC → San Francisco - Yosemite - Los Angeles",
+        "date": "Tuesday, 13/07/2024",
+        "flight": {
+          "logo": "asm/img/united.webp",
+          "airline": "United Airlines",
+          "start_time": "08:00",
+          "start_place": "HCMC",
+          "start_date": "13/07/24",
+          "end_time": "20:00",
+          "end_place": "SFO",
+          "end_date": "13/07/24"
+        },
+        "tickets": [
+          {
+            "id": "usa2.economy",
+            "type": "Economy",
+            "price": "85000000"
+          },
+          {
+            "id": "usa2.business",
+            "type": "Business",
+            "price": "170000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "usa3",
+      "image": "asm/img/usa3.jpg",
+      "duration": "11 NGÀY 10 ĐÊM",
+      "title": "Tour USA: Las Vegas - Grand Canyon",
+      "price": "90000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "HCMC → Las Vegas - Grand Canyon",
+        "date": "Wednesday, 14/07/2024",
+        "flight": {
+          "logo": "asm/img/southwest.webp",
+          "airline": "Southwest Airlines",
+          "start_time": "10:30",
+          "start_place": "HCMC",
+          "start_date": "14/07/24",
+          "end_time": "21:00",
+          "end_place": "LAS",
+          "end_date": "14/07/24"
+        },
+        "tickets": [
+          {
+            "id": "usa3.economy",
+            "type": "Economy",
+            "price": "90000000"
+          },
+          {
+            "id": "usa3.business",
+            "type": "Business",
+            "price": "180000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "canada1",
+      "image": "asm/img/canada1.jpg",
+      "duration": "12 NGÀY 11 ĐÊM",
+      "title": "Tour Canada: Vancouver - Jasper - Banff",
+      "price": "95000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "HCMC → Vancouver - Jasper - Banff",
+        "date": "Thursday, 15/07/2024",
+        "flight": {
+          "logo": "asm/img/aircanada.webp",
+          "airline": "Air Canada",
+          "start_time": "09:00",
+          "start_place": "HCMC",
+          "start_date": "15/07/24",
+          "end_time": "20:30",
+          "end_place": "YVR",
+          "end_date": "15/07/24"
+        },
+        "tickets": [
+          {
+            "id": "canada1.economy",
+            "type": "Economy",
+            "price": "95000000"
+          },
+          {
+            "id": "canada1.business",
+            "type": "Business",
+            "price": "190000000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "usa4",
+      "image": "asm/img/usa4.jpg",
+      "duration": "13 NGÀY 12 ĐÊM",
+      "title": "Tour USA: Boston - Washington D.C. - Miami",
+      "price": "100000000",
+      "area": "foreign",
+      "location": "Khác",
+      "details": {
+        "header": "HCMC → Boston - Washington D.C. - Miami",
+        "date": "Friday, 16/07/2024",
+        "flight": {
+          "logo": "asm/img/jetblue.webp",
+          "airline": "JetBlue Airways",
+          "start_time": "08:30",
+          "start_place": "HCMC",
+          "start_date": "16/07/24",
+          "end_time": "23:00",
+          "end_place": "BOS",
+          "end_date": "16/07/24"
+        },
+        "tickets": [
+          {
+            "id": "usa4.economy",
+            "type": "Economy",
+            "price": "100000000"
+          },
+          {
+            "id": "usa4.business",
+            "type": "Business",
+            "price": "200000000"
+          }
+        ]
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Vũ Đăng Quang",
+      "email": "vudangquang7799@gmail.com",
+      "password": "Quang123@"
+    },
+    {
+      "id": 2,
+      "name": "fsdfs",
+      "email": "bobvu7799@gmail.com",
+      "password": "Bin123@"
+    }
+  ]
 }

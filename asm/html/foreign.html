@@ -226,7 +226,7 @@
                     </select>
                 </div>
                 <div class="row d-flex flex-wrap">
-                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | filter : {area : 'foreign', location: locationFilter} | orderBy : sortOrderFunc">
+                    <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | filter : {area : 'foreign', location: locationFilter, title: searchTour} | orderBy : sortOrderFunc | limitTo : 16">
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"
@@ -235,7 +235,7 @@
                             <div class="card-body p-0">
                                 <p class="card-text fw-light fst-italic">{{tour.duration}}</p>
                                 <h5 class="card-title fw-semibold text-black lh-base">{{tour.title}}</h5>
-                                <p class="card-text fw-light">{{tour.price}}Đ</p>
+                                <p class="card-text fw-light">{{tour.price | currency : '' : 0}}Đ</p>
                             </div>
                             <a href="#" class="w-100 h-100 top-0 start-0 position-absolute" data-bs-toggle="offcanvas"
                                 data-bs-target="#{{tour.id}}" aria-Fcontrols="offcanvasScrolling"></a>
@@ -298,7 +298,7 @@
                                                     <div class="label-title">
                                                         <p class="fw-semibold">{{tour.details.tickets[0].type}}</p>
                                                         <p style="color: orange;" class="d-flex fw-semibold">
-                                                            {{tour.details.tickets[0].price}} VND <span
+                                                            {{tour.details.tickets[0].price | currency : '' : 0}} VND <span
                                                                 class="text-black fw-normal align-self-end">/khách</span>
                                                         </p>
                                                     </div>
@@ -343,7 +343,7 @@
                                                     <div class="label-title">
                                                         <p class="fw-semibold">{{tour.details.tickets[1].type}}</p>
                                                         <p style="color: orange;" class="d-flex fw-semibold">
-                                                            {{tour.details.tickets[1].price}} VND <span
+                                                            {{tour.details.tickets[1].price | currency : '' : 0}} VND <span
                                                                 class="text-black fw-normal align-self-end">/khách</span>
                                                         </p>
                                                     </div>
@@ -382,7 +382,7 @@
                                     </div>
                                 </div>
                                 <div class="offcanvas-footer d-flex">
-                                    <div class="price text-start">Tổng cộng: <span>{{tour.details.tickets[0].price}}
+                                    <div class="price text-start">Tổng cộng: <span>{{tour.details.tickets[0].price | currency : '' : 0}}
                                             VND</span></div>
                                     <button class="border-0 text-white rounded-1">Đặt chuyến</button>
                                 </div>

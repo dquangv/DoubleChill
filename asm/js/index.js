@@ -6,8 +6,8 @@ app.config(function ($routeProvider) {
         .when("/domestic", { templateUrl: "asm/html/domestic.html", controller: "domesticCtrl" })
         .when("/foreign", { templateUrl: "asm/html/foreign.html", controller: "foreignCtrl" })
         .when("/contact", { templateUrl: "asm/html/contact.html", controller: "myCtrl" })
-        .when("/login", { templateUrl: "asm/html/login.html", controller: "myCtrl" })
-        .when("/signup", { templateUrl: "asm/html/signUp.html", controller: "myCtrl" })
+        .when("/login", { templateUrl: "asm/html/login.html", controller: "logInCtrl" })
+        .when("/signup", { templateUrl: "asm/html/signUp.html", controller: "signUpCtrl" })
         .when("/cart/:id", { templateUrl: "asm/html/cart.html", controller: "homeCtrl" })
         .otherwise({ templateUrl: "asm/html/home.html", controller: "myCtrl" })
 });
@@ -20,11 +20,11 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
     });
 
-    $scope.searchTour = '';
-    $scope.searchQuery = '';
-    $scope.search = function() {
-        $scope.searchTour = $scope.searchQuery;
-        console.log($scope.searchTour);
+});
+
+app.controller("indexCtrl", function ($scope, $rootScope, $routeParams, $http) {
+    $scope.search = function () {
+        $rootScope.searchTour = $scope.searchQuery;
     }
 });
 
@@ -33,6 +33,7 @@ app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http
     $http.get("http://localhost:3000/tours").then(function (reponse) {
         $scope.tours = reponse.data;
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
+        $scope.pageCount = Math.ceil($scope.tours.length / 16);
     });
 
     $scope.sortOrderFunc = function (tour) {
@@ -45,6 +46,33 @@ app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http
                 return 0;
         }
     };
+
+    $scope.begin = 0;
+    $scope.pageCount = Math.ceil($scope.tours.length / 8);
+
+    $scope.first = function () {
+        $scope.begin = 0;
+    };
+
+    $scope.previous = function () {
+        if ($scope.begin > 0) {
+            $scope.begin -= 8;
+        }
+    }
+
+    $scope.next = function () {
+        if ($scope.begin < ($scope.pageCount - 1) * 8) {
+            $scope.begin += 8;
+        }
+    }
+
+    $scope.second = function () {
+        $scope.begin = 8;
+    }
+
+    $scope.third = function () {
+        $scope.begin = 16;
+    }
 });
 
 app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -64,5 +92,99 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
             default:
                 return 0;
         }
+    };
+});
+
+app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) {
+    $scope.users = [];
+    $scope.emailExists = false;
+
+    $http.get("http://localhost:3000/users").then(function (reponse) {
+        $scope.users = reponse.data;
+    });
+
+    $scope.emailAlreadyExists = function (email) {
+        return $scope.users.some(function (user) {
+            return user.email === email;
+        });
+    };
+
+    $scope.submitForm = function (event) {
+        event.preventDefault();
+
+        if ($scope.emailAlreadyExists($scope.email)) {
+            $scope.emailExists = true;
+        } else {
+            $scope.emailExists = false;
+        }
+
+        if ($scope.frmCus.$valid && !$scope.emailExists) {
+            const newUser = {
+                id: $scope.users.length + 1,
+                name: $scope.name,
+                email: $scope.email,
+                password: $scope.password
+            };
+
+            $scope.users.push(newUser);
+
+            $http.post("http://localhost:3000/users", newUser)
+                .then(function (response) {
+                    alert('Đăng ký thành công');
+                }, function (error) {
+                    alert('Đăng ký thất bại');
+                });
+        }
+    };
+});
+
+
+app.controller('logInCtrl', function ($scope, $rootScope, $routeParams, $http, $window) {
+    $scope.users = [];
+    $scope.emailNotRegistered = false;
+    $scope.incorrectPassword = false;
+    $scope.emailEmpty = false;
+
+    $http.get("http://localhost:3000/users").then(function (reponse) {
+        $scope.users = reponse.data;
+    });
+
+
+    $scope.submitForm = function (event) {
+        event.preventDefault();
+
+        $scope.emailEmpty = false;
+        $scope.passwordEmpty = false;
+
+        if ($scope.email === undefined) {
+            $scope.emailEmpty = true;
+        } else if ($scope.emailEmpty) {
+            $scope.emailEmpty = false;
+        }
+
+        if ($scope.password === undefined) {
+            $scope.passwordEmpty = true;
+        } else if ($scope.passwordEmpty) {
+            $scope.passwordEmpty = false
+        }
+
+
+        if ($scope.frmCus.$valid && !$scope.emailEmpty && !$scope.passwordEmpty) {
+            const user = $scope.users.find(user => user.email === $scope.email);
+
+            if (user) {
+                if (user.password === $scope.password) {
+                    alert('Đăng nhập thành công');
+                    $window.location.reload();
+                } else {
+                    $scope.incorrectPassword = true;
+                    $scope.emailNotRegistered = false;
+                }
+            } else {
+                $scope.emailNotRegistered = true;
+                $scope.incorrectPassword = false;
+            }
+        }
+
     };
 });

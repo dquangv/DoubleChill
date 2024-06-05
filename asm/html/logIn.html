@@ -184,17 +184,34 @@
         </nav>
     </header> -->
     <main>
-        <section class="log-in">
+        <section class="log-in" ng-controller="logInCtrl">
             <div class="wrap-main">
                 <div class="row">
                     <div class="col logIn">
                         <h3 class="text-center">ĐĂNG NHẬP</h3>
-                        <form action="">
+                        <form action="" name="frmCus" ng-submit="submitForm($event)">
                             <div class="form-group">
-                                <input type="text" placeholder="Email *" class="form-control">
+                                <input type="email" placeholder="Email *" class="form-control" ng-model="email" name="txtEmail">
+                                <div class="mt-2 text-danger"
+                                    ng-show="emailEmpty">Vui lòng nhập Email
+                                </div>
+                                <!-- <div class="mt-2 text-danger"
+                                    ng-show="frmCus.txtEmail.$invalid">Vui lòng nhập đúng định dạng Email
+                                </div> -->
+                                <div class="mt-2 text-danger" ng-show="emailNotRegistered && !emailEmpty">
+                                    Email này chưa đăng ký
+                                </div>
                             </div>
+
                             <div class="form-group">
-                                <input type="text" placeholder="Mật khẩu *" class="form-control">
+                                <input type="password" placeholder="Mật khẩu *" class="form-control" ng-model="password" name="txtPassword">
+                                <div class="mt-2 text-danger"
+                                    ng-show="passwordEmpty">
+                                    Vui lòng nhập password
+                                </div>
+                                <div class="mt-2 text-danger" ng-show="incorrectPassword">
+                                    Mật khẩu không chính xác
+                                </div>
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="check">
@@ -202,7 +219,7 @@
                             </div>
 
                             <div class="log-in-btn">
-                                <a href="" class="btn-login">ĐĂNG NHẬP</a>
+                                <button class="btn-login border-0" type="submit">ĐĂNG NHẬP</button>
                                 <span>Quên mật khẩu?
                                     <a href="">Click vào đây!</a>
                                 </span>

@@ -25,7 +25,8 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="pro in products | orderBy: prop | limitTo : 8 : begin">
+                    <tr ng-repeat="pro in products | orderBy: prop | limitTo : 8 : 
+                    begin">
                         <td>{{pro.name | uppercase}}</td>
                         <td>{{pro.price | currency}}</td>
                         <td>{{pro.discount | percentage : 2}}</td>

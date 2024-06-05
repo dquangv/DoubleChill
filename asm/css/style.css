@@ -256,7 +256,7 @@ header .navbar:nth-child(2).fix {
     position: fixed !important;
     top: -1px;
     width: 100%;
-    z-index: 50;
+    z-index: 60;
 }
 
 #search-box {
