@@ -218,15 +218,15 @@
                     <select class="form-select place-select col-md-2" aria-label="Default select example"
                         ng-model="locationFilter">
                         <option value="" selected>Địa điểm</option>
-                        <option value="Miền Bắc">Miền Bắc</option>
-                        <option value="Miền Trung">Miền Trung</option>
-                        <option value="Miền Nam">Miền Nam</option>
+                        <option value="{{region}}" ng-repeat="region in regions">{{region}}</option>
+                        <!-- <option value="Miền Trung">Miền Trung</option>
+                        <option value="Miền Nam">Miền Nam</option> -->
                     </select>
                     <select class="form-select fill-select col-md-2" aria-label="Default select example"
                         ng-model="sortOrder">
                         <option selected value="">Sắp xếp theo</option>
-                        <option value="priceAsc">Giá tăng</option>
-                        <option value="priceDesc">Giá giảm</option>
+                        <option value="{{arrange}}" ng-repeat="arrange in arranges">{{arrange}}</option>
+                        <!-- <option value="priceDesc">Giá giảm</option> -->
                     </select>
                 </div>
                 <div class="row d-flex flex-wrap">

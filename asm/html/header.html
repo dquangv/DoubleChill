@@ -93,13 +93,13 @@
                                 LIÊN HỆ
                             </a>
                         </li>
-                        <li class="nav-item position-relative" style="display: inline-block;">
+                        <li class="nav-item position-relative" style="display: inline-block;" ng-if="!isLoggedIn">
                             <a class="align-middle nav-link position-relative fw-semibold"
                                 style="display: inline-block;" href="#!login">ĐĂNG NHẬP
                                 <span class="align-middle text-black fw-normal">&#47;</span>
                             </a>
                         </li>
-                        <li class="nav-item position-relative" style="display: inline-block;">
+                        <li class="nav-item position-relative" style="display: inline-block;" ng-if="!isLoggedIn">
                             <a class="align-middle nav-link position-relative fw-semibold" href="#!signup"
                                 style="display: inline-block; align-items: center;">ĐĂNG
                                 KÝ
@@ -109,9 +109,15 @@
                                 </svg></a>
                             <span class="align-middle text-black fw-normal">&#47;</span>
                         </li>
+                        <li class="nav-item position-relative" style="display: inline-block;" ng-if="isLoggedIn">
+                            <a class="align-middle nav-link position-relative fw-semibold"
+                                style="display: inline-block;" href="#">
+                                {{userName}}
+                            </a>
+                        </li>
                         <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold align-middle"
-                                href="#!cart/:id" style="display: inline-block;">GIỎ HÀNG
+                            <a class="align-middle nav-link position-relative fw-semibold align-middle" href="#!cart"
+                                style="display: inline-block;">GIỎ HÀNG
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-handbag-fill" viewBox="0 0 16 16">
                                     <path
@@ -125,8 +131,8 @@
                             </a>
                         </li>
                         <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold" href="" id="search-tour" onclick="searchPro(event)"
-                                data-bs-target="#exampleModal">
+                            <a class="align-middle nav-link position-relative fw-semibold" href="" id="search-tour"
+                                onclick="searchPro(event)" data-bs-target="#exampleModal">
                                 <p class="m-0">TÌM KIẾM</p>
                                 <svg style="color: #000; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg"
                                     width="16" height="16" fill="currentColor" class="bi bi-search align-middle"

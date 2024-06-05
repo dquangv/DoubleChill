@@ -191,14 +191,15 @@
                                 <input type="text" placeholder="Họ & Tên *" class="form-control" ng-model="name"
                                     name="txtName" required>
                                 <div class="mt-2 text-danger"
-                                    ng-show="frmUser.txtName.$touched && frmUser.txtName.$invalid">Vui lòng nhập Họ & Tên
+                                    ng-show="frmUser.txtName.$touched && frmUser.txtName.$invalid">Vui lòng nhập Họ &
+                                    Tên
                                 </div>
                             </div>
                             <div class="form-group">
                                 <input type="email" placeholder="Email *" class="form-control" ng-model="email"
                                     name="txtEmail" required>
                                 <div class="mt-2 text-danger"
-                                    ng-show="frmUser.txtEmail.$touched && frmUser.txtEmail.$invalid">Vui lòng nhập Email
+                                    ng-show="frmUser.txtEmail.$touched">Vui lòng nhập Email
                                 </div>
                                 <div class="mt-2 text-danger" ng-show="emailExists">
                                     Email đã tồn tại
@@ -222,6 +223,24 @@
                                     Mật khẩu nhập lại không khớp
                                 </div>
                             </div>
+                            <div class="form-group">
+                                <label class="mb-3">Giới Tính</label>
+                                <div class="radio">
+                                    <label><input type="radio" ng-model="gender" value="Nam"> Nam </label>
+                                    <label><input type="radio" ng-model="gender" value="Nữ"> Nữ </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="flex-row">
+                                    <div>
+                                        <input type="checkbox" ng-model="terms">
+                                        <label>Tôi đã đọc và chấp nhận các điều khoản</label>
+                                    </div>
+                                </div>
+                                <div class="text-danger opacity-75" ng-hide="terms">Vui lòng đồng ý với các điều
+                                    khoản.</div>
+                            </div>
+
                             <div class="sign-up-btn">
                                 <button class="border-0 btn-signup" type="submit">ĐĂNG
                                     KÝ</button>

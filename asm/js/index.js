@@ -8,7 +8,7 @@ app.config(function ($routeProvider) {
         .when("/contact", { templateUrl: "asm/html/contact.html", controller: "myCtrl" })
         .when("/login", { templateUrl: "asm/html/login.html", controller: "logInCtrl" })
         .when("/signup", { templateUrl: "asm/html/signUp.html", controller: "signUpCtrl" })
-        .when("/cart/:id", { templateUrl: "asm/html/cart.html", controller: "homeCtrl" })
+        .when("/cart", { templateUrl: "asm/html/cart.html", controller: "cartCtrl" })
         .otherwise({ templateUrl: "asm/html/home.html", controller: "myCtrl" })
 });
 
@@ -20,7 +20,37 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
     });
 
+    if (!$rootScope.cart) {
+        $rootScope.cart = [];
+    }
+
+    $scope.addToCart = function (tour) {
+        $rootScope.cart.push(tour);
+        alert("Đã đặt chuyến thành công!");
+    };
 });
+
+app.controller("cartCtrl", function ($scope, $rootScope) {
+    $scope.cart = $rootScope.cart;
+
+    $scope.removeFromCart = function (tour) {
+        const index = $scope.cart.indexOf(tour);
+        if (index > -1) {
+            $scope.cart.splice(index, 1);
+        }
+    };
+
+});
+
+
+app.filter('sumByKey', function () {
+    return function (data, key) {
+        if (!angular.isArray(data) || !key) return 0;
+        return data.reduce((sum, item) => sum + parseFloat(item[key]) || 0, 0);
+    };
+});
+
+
 
 app.controller("indexCtrl", function ($scope, $rootScope, $routeParams, $http) {
     $scope.search = function () {
@@ -36,11 +66,14 @@ app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http
         $scope.pageCount = Math.ceil($scope.tours.length / 16);
     });
 
+    $scope.regions = ["Miền Bắc", "Miền Trung", "Miền Nam"];
+    $scope.arranges = ["Giá tăng", "Giá giảm"];
+
     $scope.sortOrderFunc = function (tour) {
         switch ($scope.sortOrder) {
-            case 'priceAsc':
+            case 'Giá tăng':
                 return Number(tour.price.replace(/,/g, ''));
-            case 'priceDesc':
+            case 'Giá giảm':
                 return -Number(tour.price.replace(/,/g, ''));
             default:
                 return 0;
@@ -83,11 +116,14 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
     });
 
+    $scope.continents = ["Châu Âu", "Châu Á", "Khác"];
+    $scope.arranges = ["Giá tăng", "Giá giảm"];
+
     $scope.sortOrderFunc = function (tour) {
         switch ($scope.sortOrder) {
-            case 'priceAsc':
+            case 'Giá tăng':
                 return Number(tour.price.replace(/,/g, ''));
-            case 'priceDesc':
+            case 'Giá giảm':
                 return -Number(tour.price.replace(/,/g, ''));
             default:
                 return 0;
@@ -98,6 +134,8 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
 app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) {
     $scope.users = [];
     $scope.emailExists = false;
+    // $scope.isLoggedIn = false;
+    // $scope.userName = '';
 
     $http.get("http://localhost:3000/users").then(function (reponse) {
         $scope.users = reponse.data;
@@ -118,12 +156,13 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
             $scope.emailExists = false;
         }
 
-        if ($scope.frmCus.$valid && !$scope.emailExists) {
+        if ($scope.frmUser.$valid && !$scope.emailExists) {
             const newUser = {
                 id: $scope.users.length + 1,
                 name: $scope.name,
                 email: $scope.email,
-                password: $scope.password
+                password: $scope.password,
+                gender: $scope.gender
             };
 
             $scope.users.push(newUser);
@@ -131,6 +170,8 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
             $http.post("http://localhost:3000/users", newUser)
                 .then(function (response) {
                     alert('Đăng ký thành công');
+                    // $scope.isLoggedIn = true;
+                    // $scope.userName = $scope.name;
                 }, function (error) {
                     alert('Đăng ký thất bại');
                 });

@@ -2806,13 +2806,15 @@
       "id": "1",
       "name": "Vũ Đăng Quang",
       "email": "vudangquang7799@gmail.com",
-      "password": "Quang123@"
+      "password": "Quang123@",
+      "gender": "Nam"
     },
     {
       "id": 2,
-      "name": "fsdfs",
-      "email": "bobvu7799@gmail.com",
-      "password": "Bin123@"
+      "name": "Vũ Đăng Quang",
+      "email": "quangvdps36680@fpt.edu.vn",
+      "password": "Bin123@",
+      "gender": "NAM"
     }
   ]
 }
