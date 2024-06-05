@@ -199,7 +199,7 @@
                                 <input type="email" placeholder="Email *" class="form-control" ng-model="email"
                                     name="txtEmail" required>
                                 <div class="mt-2 text-danger"
-                                    ng-show="frmUser.txtEmail.$touched">Vui lòng nhập Email
+                                    ng-show="frmUser.txtEmail.$touched && frmUser.txtName.$invalid">Vui lòng nhập Email
                                 </div>
                                 <div class="mt-2 text-danger" ng-show="emailExists">
                                     Email đã tồn tại
@@ -207,8 +207,8 @@
                             </div>
                             <div class="form-group">
                                 <input type="password" placeholder="Mật khẩu *" class="form-control" ng-model="password"
-                                    name="txtPassword" required
-                                    ng-pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/">
+                                    name="txtPassword"
+                                    ng-pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/" required>
                                 <div class="mt-2 text-danger"
                                     ng-show="frmUser.txtPassword.$touched && frmUser.txtPassword.$invalid">
                                     Mật khẩu phải có ít nhất 6 ký tự bao gồm ký tự hoa, ký tự thường, ký tự số và ký tự
@@ -226,8 +226,8 @@
                             <div class="form-group">
                                 <label class="mb-3">Giới Tính</label>
                                 <div class="radio">
-                                    <label><input type="radio" ng-model="gender" value="Nam"> Nam </label>
-                                    <label><input type="radio" ng-model="gender" value="Nữ"> Nữ </label>
+                                    <label><input type="radio" ng-model="gender" value="Nam">Nam</label>
+                                    <label><input type="radio" ng-model="gender" value="Nữ">Nữ</label>
                                 </div>
                             </div>
                             <div class="form-group">

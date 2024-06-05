@@ -42,20 +42,11 @@ app.controller("cartCtrl", function ($scope, $rootScope) {
 
 });
 
-
 app.filter('sumByKey', function () {
     return function (data, key) {
         if (!angular.isArray(data) || !key) return 0;
         return data.reduce((sum, item) => sum + parseFloat(item[key]) || 0, 0);
     };
-});
-
-
-
-app.controller("indexCtrl", function ($scope, $rootScope, $routeParams, $http) {
-    $scope.search = function () {
-        $rootScope.searchTour = $scope.searchQuery;
-    }
 });
 
 app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -131,11 +122,29 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
     };
 });
 
+app.controller("indexCtrl", function ($scope, $rootScope, $routeParams, $http) {
+    $http.get("http://localhost:3000/users").then(function (reponse) {
+        $scope.users = reponse.data;
+    });
+
+    $scope.search = function () {
+        $rootScope.searchTour = $scope.searchQuery;
+    }
+
+    $rootScope.login = function (user) {
+        user.name = $scope.name
+        $rootScope.isLoggedIn = true;
+        $rootScope.userName = $scope.name;
+        console.log(user);
+        console.log($rootScope.isLoggedIn);
+    }
+});
+
+
 app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) {
     $scope.users = [];
     $scope.emailExists = false;
-    // $scope.isLoggedIn = false;
-    // $scope.userName = '';
+
 
     $http.get("http://localhost:3000/users").then(function (reponse) {
         $scope.users = reponse.data;
@@ -162,16 +171,21 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
                 name: $scope.name,
                 email: $scope.email,
                 password: $scope.password,
-                gender: $scope.gender
+                gender: $scope.gender,
+                login: 'on'
             };
 
             $scope.users.push(newUser);
 
             $http.post("http://localhost:3000/users", newUser)
                 .then(function (response) {
-                    alert('Đăng ký thành công');
-                    // $scope.isLoggedIn = true;
-                    // $scope.userName = $scope.name;
+                    // alert('Đăng ký thành công');
+                    // $rootScope.isLoggedIn = true;
+                    // $rootScope.userName = $scope.name;
+
+                    $location.path('/');
+
+                    $rootScope.login(newUser);
                 }, function (error) {
                     alert('Đăng ký thất bại');
                 });
