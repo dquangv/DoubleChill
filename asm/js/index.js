@@ -25,29 +25,95 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
     }
 
     $scope.addToCart = function (tour) {
-        $rootScope.cart.push(tour);
-        alert("Đã đặt chuyến thành công!");
+        const existingItem = $rootScope.cart.find(item => item.id === tour.id);
+        if (existingItem) {
+            if (existingItem.orderQuantity >= existingItem.quantity) {
+                existingItem.orderQuantity == existingItem.quantity;
+            } else {
+                existingItem.orderQuantity++;
+            }
+        } else {
+            tour.orderQuantity = 1;
+            $rootScope.cart.push(tour);
+        }
+        $rootScope.saveCart();
+
+
     };
 });
 
-app.controller("cartCtrl", function ($scope, $rootScope) {
+app.controller("cartCtrl", function ($scope, $rootScope, $routeParams, $http) {
+    if (!$rootScope.cart) {
+        $rootScope.cart = [];
+    }
+
     $scope.cart = $rootScope.cart;
+
+    $scope.loadCart = function () {
+        const cart = localStorage.getItem('cart');
+        if (cart) {
+            $rootScope.cart = JSON.parse(cart);
+        } else {
+            $rootScope.cart = [];
+        }
+        $scope.updateTotal();
+    };
+
+    $rootScope.saveCart = function () {
+        localStorage.setItem('cart', JSON.stringify($rootScope.cart));
+    };
+
+    $scope.updateTotal = function () {
+        $scope.totalPrice = $rootScope.cart.reduce((sum, item) => sum + (item.price * item.orderQuantity), 0);
+        $rootScope.saveCart();
+    };
+
+    $scope.updateTotal();
 
     $scope.removeFromCart = function (tour) {
         const index = $scope.cart.indexOf(tour);
         if (index > -1) {
             $scope.cart.splice(index, 1);
         }
+        $scope.updateTotal();
     };
 
-});
+    // $scope.updateTotal = function (detailPro) {
+    //     if (detailPro.orderQuantity > detailPro.quantity) {
+    //         detailPro.orderQuantity = detailPro.quantity;
+    //     } else if (detailPro.orderQuantity < 1) {
+    //         detailPro.orderQuantity = 1;
+    //     }
+    //     $scope.totalPrice = $scope.cart.reduce((sum, item) => sum + (item.price * item.orderQuantity), 0);
+    // };
 
-app.filter('sumByKey', function () {
-    return function (data, key) {
-        if (!angular.isArray(data) || !key) return 0;
-        return data.reduce((sum, item) => sum + parseFloat(item[key]) || 0, 0);
+    $scope.checkout = function () {
+        $rootScope.cart.forEach(item => {
+            let updatedTour = angular.copy(item);
+            updatedTour.quantity -= item.orderQuantity;
+            delete updatedTour.orderQuantity;
+
+            $http.put(`http://localhost:3000/tours/${item.id}`, updatedTour)
+                .then(function (response) {
+                    console.log('Cập nhật thành công', response.data);
+                }, function (error) {
+                    console.error('Thanh toán thất bại, lỗi: ', error);
+                });
+        });
+
+        alert('Thanh toán thành công!');
+        $rootScope.cart = [];
+        $scope.updateTotal();
     };
 });
+
+// app.filter('sumByKey', function () {
+//     return function (data, key) {
+//         if (!angular.isArray(data) || !key) return 0;
+//         return data.reduce((sum, item) => sum + parseFloat(item[key]) || 0, 0);
+//     };
+// });
+
 
 app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http) {
     $scope.tours = [];

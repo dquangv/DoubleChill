@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <title>Double Chill</title>
     <link rel="stylesheet" href="asm/css/style.css">
 </head>
@@ -198,9 +198,12 @@
                 </div>
                 <div class="col-sm-5">
                     <div class="d-flex">
-                        <input class="text-center text-black fw-medium" type="text" value="1">
+                        <input class="text-center text-black fw-medium" type="number" value="1" min="1"
+                            ng-model="detailPro.orderQuantity" ng-change="updateTotal()"
+                            max="{{detailPro.quantity}}">
                         <div class="sum">
-                            <p>Thành tiền: <span>{{detailPro.price | currency : '' : 0}}</span></p>
+                            <p>Thành tiền: <span>{{detailPro.price * detailPro.orderQuantity | currency : '' :
+                                    0}}Đ</span></p>
                             <a href="" ng-click="removeFromCart(detailPro)">XOÁ</a>
                         </div>
                     </div>
@@ -260,11 +263,11 @@
             </div> -->
             <hr>
             <div class="total-price text-end">
-                Tổng cộng: <span>{{cart | sumByKey:'price' | currency : '' : 0}}Đ</span>
+                Tổng cộng: <span>{{totalPrice | currency : '' : 0}}Đ</span>
             </div>
             <div class="pay-button text-end">
-                <a class="text-black fw-semibold" href="">TIẾP TỤC ĐẶT CHUYẾN</a>
-                <a class="text-white fw-semibold" href="">THANH TOÁN NGAY</a>
+                <a class="text-black fw-semibold" href="#">TIẾP TỤC ĐẶT CHUYẾN</a>
+                <a class="text-white fw-semibold" href="" ng-click="checkout()">THANH TOÁN NGAY</a>
             </div>
 
         </div>

@@ -8,6 +8,7 @@
       "price": "2100000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": 10,
       "details": {
         "header": "TP. HCM → Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
         "date": "Thứ 7, 01/06/2024",
@@ -43,6 +44,7 @@
       "price": "45990000",
       "area": "foreign",
       "location": "Châu Âu",
+      "quantity": 10,
       "details": {
         "header": "TP. HCM → SYDNEY - MELBOURNE",
         "date": "Thứ 7, 01/06/2024",
@@ -78,6 +80,7 @@
       "price": "4290000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
         "date": "Thứ 7, 01/06/2024",
@@ -113,6 +116,7 @@
       "price": "2500000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → NHA TRANG: BÌNH BA",
         "date": "Thứ 7, 01/06/2024",
@@ -148,6 +152,7 @@
       "price": "2086000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
         "date": "Thứ 7, 01/06/2024",
@@ -183,6 +188,7 @@
       "price": "2899000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → MIỀN TÂY: CÔN ĐẢO",
         "date": "Thứ 7, 01/06/2024",
@@ -218,6 +224,7 @@
       "price": "27990000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → NHẬT BẢN: OSAKA - KYOTO - TOKYO",
         "date": "Thứ 7, 01/06/2024",
@@ -253,6 +260,7 @@
       "price": "11950000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
         "date": "Thứ 7, 01/06/2024",
@@ -288,6 +296,7 @@
       "price": "11580000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → THÁI LAI: PHUKET - ĐẢO PHI PHI",
         "date": "Thứ 7, 01/06/2024",
@@ -323,6 +332,7 @@
       "price": "3000000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
         "date": "Thứ 7, 01/06/2024",
@@ -358,6 +368,7 @@
       "price": "1250000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → QUẢNG NGÃI: ĐẢO LÝ SƠN",
         "date": "Thứ 7, 01/06/2024",
@@ -393,6 +404,7 @@
       "price": "72990000",
       "area": "foreign",
       "location": "Châu Âu",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
         "date": "Thứ 7, 01/06/2024",
@@ -428,6 +440,7 @@
       "price": "3200000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hà Nội: Văn Miếu - Hồ Gươm",
         "date": "Thứ 5, 05/06/2024",
@@ -463,6 +476,7 @@
       "price": "2500000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
         "date": "Thứ 6, 07/06/2024",
@@ -498,6 +512,7 @@
       "price": "3800000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
         "date": "Thứ 7, 08/06/2024",
@@ -533,6 +548,7 @@
       "price": "2300000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
         "date": "Chủ Nhật, 09/06/2024",
@@ -568,6 +584,7 @@
       "price": "4500000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Phú Quốc: Vinpearl Safari - Suối Tranh",
         "date": "Thứ 2, 10/06/2024",
@@ -603,6 +620,7 @@
       "price": "2400000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Huế: Đại Nội - Chùa Thiên Mụ",
         "date": "Thứ 3, 11/06/2024",
@@ -638,6 +656,7 @@
       "price": "3600000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Quảng Bình: Động Phong Nha - Động Thiên Đường",
         "date": "Thứ 4, 12/06/2024",
@@ -673,6 +692,7 @@
       "price": "1500000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
         "date": "Thứ 7, 14/06/2024",
@@ -708,6 +728,7 @@
       "price": "2700000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "Hà Nội → Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
         "date": "Thứ 5, 15/06/2024",
@@ -743,6 +764,7 @@
       "price": "2100000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
         "date": "Thứ 7, 16/06/2024",
@@ -778,6 +800,7 @@
       "price": "7500000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Thái Lan: Bangkok - Pattaya",
         "date": "Thứ 2, 01/07/2024",
@@ -813,6 +836,7 @@
       "price": "9000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Singapore: Gardens by the Bay - Marina Bay Sands",
         "date": "Thứ 3, 02/07/2024",
@@ -848,6 +872,7 @@
       "price": "25000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Nhật Bản: Tokyo - Kyoto - Osaka",
         "date": "Thứ 4, 03/07/2024",
@@ -883,6 +908,7 @@
       "price": "20000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hàn Quốc: Seoul - Jeju",
         "date": "Thứ 5, 04/07/2024",
@@ -918,6 +944,7 @@
       "price": "8000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Malaysia: Kuala Lumpur - Genting Highlands",
         "date": "Thứ 6, 05/07/2024",
@@ -953,6 +980,7 @@
       "price": "22000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
         "date": "Thứ 7, 06/07/2024",
@@ -988,6 +1016,7 @@
       "price": "45000000",
       "area": "foreign",
       "location": "Châu Âu",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Pháp: Paris - Marseille - Nice",
         "date": "Chủ Nhật, 07/07/2024",
@@ -1023,6 +1052,7 @@
       "price": "50000000",
       "area": "foreign",
       "location": "Châu Âu",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Ý: Rome - Florence - Venice",
         "date": "Thứ 2, 08/07/2024",
@@ -1058,6 +1088,7 @@
       "price": "55000000",
       "area": "foreign",
       "location": "Châu Âu",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Anh: London - Manchester - Edinburgh",
         "date": "Thứ 3, 09/07/2024",
@@ -1093,6 +1124,7 @@
       "price": "48000000",
       "area": "foreign",
       "location": "Châu Âu",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Đức: Berlin - Munich - Frankfurt",
         "date": "Thứ 4, 10/07/2024",
@@ -1128,6 +1160,7 @@
       "price": "60000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Úc: Sydney - Melbourne - Brisbane",
         "date": "Thứ 5, 11/07/2024",
@@ -1163,6 +1196,7 @@
       "price": "5000000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hà Nội - Hạ Long",
         "date": "Thứ 2, 01/07/2024",
@@ -1198,6 +1232,7 @@
       "price": "4500000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Đà Nẵng - Hội An",
         "date": "Thứ 3, 02/07/2024",
@@ -1233,6 +1268,7 @@
       "price": "6000000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Nha Trang - Đà Lạt",
         "date": "Thứ 4, 03/07/2024",
@@ -1268,6 +1304,7 @@
       "price": "5500000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Phú Quốc",
         "date": "Thứ 5, 04/07/2024",
@@ -1303,6 +1340,7 @@
       "price": "4800000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Sapa",
         "date": "Thứ 6, 05/07/2024",
@@ -1338,6 +1376,7 @@
       "price": "4200000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Cần Thơ - Châu Đốc",
         "date": "Thứ 7, 06/07/2024",
@@ -1373,6 +1412,7 @@
       "price": "5300000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Quy Nhơn - Phú Yên",
         "date": "Chủ Nhật, 07/07/2024",
@@ -1408,6 +1448,7 @@
       "price": "5700000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Huế - Quảng Bình",
         "date": "Thứ 2, 08/07/2024",
@@ -1443,6 +1484,7 @@
       "price": "4600000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Côn Đảo",
         "date": "Thứ 3, 09/07/2024",
@@ -1478,6 +1520,7 @@
       "price": "5400000",
       "area": "domestic",
       "location": "Miền Trung",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Buôn Ma Thuột - Pleiku",
         "date": "Thứ 4, 10/07/2024",
@@ -1513,6 +1556,7 @@
       "price": "20000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Tokyo - Kyoto",
         "date": "Thứ 2, 01/08/2024",
@@ -1548,6 +1592,7 @@
       "price": "18000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Seoul - Busan",
         "date": "Thứ 3, 02/08/2024",
@@ -1583,6 +1628,7 @@
       "price": "35000000",
       "area": "foreign",
       "location": "Châu Âu",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Paris - Lyon",
         "date": "Thứ 4, 03/08/2024",
@@ -1618,6 +1664,7 @@
       "price": "40000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → New York - Washington D.C.",
         "date": "Thứ 5, 04/08/2024",
@@ -1653,6 +1700,7 @@
       "price": "30000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Sydney - Melbourne",
         "date": "Thứ 6, 05/08/2024",
@@ -1688,6 +1736,7 @@
       "price": "12000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Bangkok - Pattaya",
         "date": "Thứ 7, 06/08/2024",
@@ -1723,6 +1772,7 @@
       "price": "10000000",
       "area": "foreign",
       "location": "Châu Á",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Singapore",
         "date": "Chủ Nhật, 07/08/2024",
@@ -1758,6 +1808,7 @@
       "price": "3500000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hà Nội - Ninh Bình",
         "date": "Thứ 2, 01/08/2024",
@@ -1793,6 +1844,7 @@
       "price": "4200000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hạ Long - Quảng Ninh",
         "date": "Thứ 3, 02/08/2024",
@@ -1828,6 +1880,7 @@
       "price": "5500000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Sapa - Lào Cai",
         "date": "Thứ 4, 03/08/2024",
@@ -1863,6 +1916,7 @@
       "price": "5000000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hà Giang",
         "date": "Thứ 5, 04/08/2024",
@@ -1898,6 +1952,7 @@
       "price": "4000000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Mộc Châu - Sơn La",
         "date": "Thứ 6, 05/08/2024",
@@ -1933,6 +1988,7 @@
       "price": "4500000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Yên Bái - Mù Cang Chải",
         "date": "Thứ 7, 06/08/2024",
@@ -1968,6 +2024,7 @@
       "price": "3800000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Cao Bằng - Thác Bản Giốc",
         "date": "Chủ Nhật, 07/08/2024",
@@ -2003,6 +2060,7 @@
       "price": "5200000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Điện Biên Phủ",
         "date": "Thứ 2, 08/08/2024",
@@ -2038,6 +2096,7 @@
       "price": "4300000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Bắc Kạn - Hồ Ba Bể",
         "date": "Thứ 3, 09/08/2024",
@@ -2073,6 +2132,7 @@
       "price": "3200000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Phú Thọ - Đền Hùng",
         "date": "Thứ 4, 10/08/2024",
@@ -2108,6 +2168,7 @@
       "price": "4500000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hà Nội - Tràng An",
         "date": "Thứ 2, 01/09/2024",
@@ -2143,6 +2204,7 @@
       "price": "5800000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hạ Long - Cát Bà",
         "date": "Thứ 3, 02/09/2024",
@@ -2178,6 +2240,7 @@
       "price": "5000000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Hà Giang - Đồng Văn",
         "date": "Thứ 4, 03/09/2024",
@@ -2213,6 +2276,7 @@
       "price": "4200000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Sapa - Núi Hàm Rồng",
         "date": "Thứ 5, 04/09/2024",
@@ -2248,6 +2312,7 @@
       "price": "5500000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Cao Bằng - Thác Bản Giốc",
         "date": "Thứ 6, 05/09/2024",
@@ -2283,6 +2348,7 @@
       "price": "4000000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Mộc Châu - Sơn La",
         "date": "Thứ 7, 06/09/2024",
@@ -2318,6 +2384,7 @@
       "price": "4500000",
       "area": "domestic",
       "location": "Miền Bắc",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Yên Bái - Mù Cang Chải",
         "date": "Chủ Nhật, 07/09/2024",
@@ -2353,6 +2420,7 @@
       "price": "4200000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Phú Quốc",
         "date": "Thứ 2, 01/10/2024",
@@ -2388,6 +2456,7 @@
       "price": "3800000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Cần Thơ - Châu Đốc",
         "date": "Thứ 3, 02/10/2024",
@@ -2423,6 +2492,7 @@
       "price": "5500000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Vũng Tàu - Côn Đảo",
         "date": "Thứ 4, 03/10/2024",
@@ -2458,6 +2528,7 @@
       "price": "3200000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Đồng Tháp - Sa Đéc",
         "date": "Thứ 5, 04/10/2024",
@@ -2493,6 +2564,7 @@
       "price": "4000000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Bạc Liêu - Sóc Trăng",
         "date": "Thứ 6, 05/10/2024",
@@ -2528,6 +2600,7 @@
       "price": "5200000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Kiên Giang - Hà Tiên",
         "date": "Thứ 7, 06/10/2024",
@@ -2563,6 +2636,7 @@
       "price": "3500000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Tây Ninh - Núi Bà Đen",
         "date": "Chủ Nhật, 07/10/2024",
@@ -2598,6 +2672,7 @@
       "price": "3600000",
       "area": "domestic",
       "location": "Miền Nam",
+      "quantity": "10",
       "details": {
         "header": "TP. HCM → Bình Dương - Thủ Dầu Một",
         "date": "Thứ 2, 08/10/2024",
@@ -2633,6 +2708,7 @@
       "price": "80000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "HCMC → New York - Los Angeles",
         "date": "Monday, 12/07/2024",
@@ -2668,6 +2744,7 @@
       "price": "85000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "HCMC → San Francisco - Yosemite - Los Angeles",
         "date": "Tuesday, 13/07/2024",
@@ -2703,6 +2780,7 @@
       "price": "90000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "HCMC → Las Vegas - Grand Canyon",
         "date": "Wednesday, 14/07/2024",
@@ -2738,6 +2816,7 @@
       "price": "95000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "HCMC → Vancouver - Jasper - Banff",
         "date": "Thursday, 15/07/2024",
@@ -2773,6 +2852,7 @@
       "price": "100000000",
       "area": "foreign",
       "location": "Khác",
+      "quantity": "10",
       "details": {
         "header": "HCMC → Boston - Washington D.C. - Miami",
         "date": "Friday, 16/07/2024",
@@ -2811,7 +2891,7 @@
       "login": "off"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "gdfgd",
       "email": "quang123@gmail.com",
       "password": "Bin123@",
@@ -2819,7 +2899,7 @@
       "login": "on"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "fsdfs",
       "email": "quang234@gmail.com",
       "password": "Bin123@",
@@ -2827,7 +2907,7 @@
       "login": "on"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "gdfgd",
       "email": "quang345@gmail.com",
       "password": "Bin123@",
@@ -2835,7 +2915,7 @@
       "login": "on"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "fsdfs",
       "email": "bobvu7799@gmail.com",
       "password": "Bin123@",
