@@ -269,7 +269,7 @@ header .navbar:nth-child(2).fix {
     width: 100%;
     z-index: 55;
     background-color: white;
-    padding: 10px 0; 
+    padding: 10px 0;
 }
 
 /* header .navbar:last-child {
@@ -908,6 +908,50 @@ footer .identity>a::before {
     content: '';
     float: left;
     padding-top: 37.93%;
+}
+
+
+/* TOUR DETAIL PAGE */
+
+/* .tour_detail img {
+    height: 200px;
+    width: 350px;
+} */
+
+
+.tour_detail .col-md-4>img {
+    height: 308px;
+    width: 370px;
+}
+
+.tour_detail .col-md-8 img {
+    height: 150px;
+    width: 245px;
+}
+
+.tour_detail .info-tour {
+    justify-content: space-between;
+}
+
+.tour_detail .info-tour .card:nth-child(1) .card-header {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tour_detail .info-tour .review {
+    width: 370px;
+    height: max-content;
+}
+
+.tour_detail .info-tour .review .card-header {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.tour_detail .info-tour .review .card-body {
+    padding-top: 0;
+    color: rgb(0, 132, 255);
 }
 
 

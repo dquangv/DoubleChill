@@ -440,7 +440,7 @@
       "price": "3200000",
       "area": "domestic",
       "location": "Miền Bắc",
-      "quantity": "10",
+      "quantity": 10,
       "details": {
         "header": "TP. HCM → Hà Nội: Văn Miếu - Hồ Gươm",
         "date": "Thứ 5, 05/06/2024",

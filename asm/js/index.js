@@ -38,7 +38,7 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
         }
         $rootScope.saveCart();
 
-
+        alert('Đặt chuyến thành công');
     };
 });
 
@@ -163,6 +163,27 @@ app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http
     $scope.third = function () {
         $scope.begin = 16;
     }
+
+    if (!$rootScope.cart) {
+        $rootScope.cart = [];
+    }
+
+    $scope.addToCart = function (tour) {
+        const existingItem = $rootScope.cart.find(item => item.id === tour.id);
+        if (existingItem) {
+            if (existingItem.orderQuantity >= existingItem.quantity) {
+                existingItem.orderQuantity == existingItem.quantity;
+            } else {
+                existingItem.orderQuantity++;
+            }
+        } else {
+            tour.orderQuantity = 1;
+            $rootScope.cart.push(tour);
+        }
+        $rootScope.saveCart();
+
+        alert('Đặt chuyến thành công');
+    };
 });
 
 app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -185,6 +206,27 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
             default:
                 return 0;
         }
+    };
+
+    if (!$rootScope.cart) {
+        $rootScope.cart = [];
+    }
+
+    $scope.addToCart = function (tour) {
+        const existingItem = $rootScope.cart.find(item => item.id === tour.id);
+        if (existingItem) {
+            if (existingItem.orderQuantity >= existingItem.quantity) {
+                existingItem.orderQuantity == existingItem.quantity;
+            } else {
+                existingItem.orderQuantity++;
+            }
+        } else {
+            tour.orderQuantity = 1;
+            $rootScope.cart.push(tour);
+        }
+        $rootScope.saveCart();
+
+        alert('Đặt chuyến thành công');
     };
 });
 
