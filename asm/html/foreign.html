@@ -232,16 +232,17 @@
                         <div class="card product-item position-relative text-black text-center border-0 fs-6">
                             <div class="img bg-white position-relative w-100">
                                 <span class="position-absolute top-50 start-50"
-                                    style="background-image: url({{tour.image}});"></span>
+                                    style="background-image: url({{tour.image[0]}});"></span>
                             </div>
                             <div class="card-body p-0">
                                 <p class="card-text fw-light fst-italic">{{tour.duration}}</p>
                                 <h5 class="card-title fw-semibold text-black lh-base">{{tour.title}}</h5>
                                 <p class="card-text fw-light">{{tour.price | currency : '' : 0}}Đ</p>
                             </div>
-                            <a href="#" class="w-100 h-100 top-0 start-0 position-absolute" data-bs-toggle="offcanvas"
-                                data-bs-target="#{{tour.id}}" aria-Fcontrols="offcanvasScrolling"></a>
-                            <div class="offcanvas offcanvas-end product-detail rounded-3" data-bs-scroll="true"
+                            <a href="#!detail/{{tour.id}}" class="w-100 h-100 top-0 start-0 position-absolute"></a>
+                            <!-- <a href="#" class="w-100 h-100 top-0 start-0 position-absolute" data-bs-toggle="offcanvas"
+                                data-bs-target="#{{tour.id}}" aria-Fcontrols="offcanvasScrolling"></a> -->
+                            <!-- <div class="offcanvas offcanvas-end product-detail rounded-3" data-bs-scroll="true"
                                 data-bs-backdrop="false" tabindex="-1" id="{{tour.id}}"
                                 aria-labelledby="offcanvasScrollingLabel">
                                 <div class="offcanvas-header float-start">
@@ -392,7 +393,7 @@
                                     <button class="border-0 text-white rounded-1" ng-click="addToCart(tour)">Đặt chuyến</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

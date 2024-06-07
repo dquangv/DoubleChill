@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app="myapp">
+    <ul ng-controller="parentCtrl">
+        <li>Parent:{{parentMsg}}</li>
+        <li>Child:{{childMsg}}
+        <li>Root1:{{rootMsg}}</li>
+        <li>Root2:{{$parent.rootMsg}}</li>
+        <li>Root3:{{$parent.$parent.rootMsg}}</li>
+            <ul ng-controller="childCtrl">
+                <li>child: {{childMsg}}</li>
+                <li>Parent1: {{parentMsg}}</li>
+                <li>Parent2: {{$parent.parentMsg}}</li>
+                <li>Root1:{{rootMsg}}</li>
+                <li>Root2:{{$parent.rootMsg}}</li>
+                <li>Root3:{{$parent.$parent.rootMsg}}</li>
+            </ul>
+        </li>
+    </ul>
+    
+    
+    <script>
+        var app=angular.module("myapp",[]);
+        app.controller("parentCtrl",function($scope,$rootScope){
+            $rootScope.rootMsg="Im a root";
+            $scope.parentMsg="Im a parent ";
+        });
+        app.controller("childCtrl",function($scope){
+            $scope.childMsg="Im a child ";
+        });
+       
+    </script>
+</body>
+</html>

@@ -7,200 +7,236 @@
     <script src="angular/angular-1.8.2/angular.min.js"></script>
     <script src="angular/angular-1.8.2/angular-route.js"></script>
 
-    <!-- <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="asm/img/plane-solid.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- <script src="bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
-    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script> -->
-    <script src="../../bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
-    <script src="../../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Double Chill</title>
-    <!-- <link rel="stylesheet" href="asm/css/style.css"> -->
-    <link rel="stylesheet" href="../css/style.css">
-
+    <link rel="stylesheet" href="asm/css/style.css">
 </head>
 
 <body>
-    <header class="w-100 position-relative">
-        <nav class="navbar navbar-expand-lg p-0" data-bs-theme="dark">
-            <div class="first-header container">
-                <div class="top-left text-white fw-semibold">
-                    <a class="text-white text-decoration-none" href="#!">Double Chill
-                    </a><span>|</span>
-                    <a class="text-white text-decoration-none" href="#!">Website đặt dịch vụ du lịch trực tuyến tại Việt
-                        Nam</a>
-                </div>
-                <div class="d-flex">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="white" class="bi bi-phone"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
-                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
-                    </svg>
-                    <a href="" class="text-decoration-none text-white" style="font-size: x-small;">HOTLINE:
-                        +8401666331161</a>
-                </div>
-            </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg second-header p-0 position-relative w-100" data-bs-theme="dark">
-            <div class="container bottom-header">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512">
-                        <path
-                            d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z" />
-                    </svg>
-                </button>
-                <a class="navbar-brand fw-medium text-black w-25" href="#!"> <img class="brand-name pe-3"
-                        src="asm/img/plane-solid.svg" alt="">Double Chill</a>
-                <div class="offcanvas offcanvas-start navbar-collapse bg-white" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item position-relative">
-                            <a class="nav-link position-relative text-decoration-none fw-semibold" href="#!aboutus">GIỚI
-                                THIỆU</a>
-                        </li>
-                        <li class="nav-item position-relative">
-                            <a class="nav-link position-relative text-decoration-none fw-semibold" href="#!domestic">
-                                TOUR TRONG NƯỚC
-                            </a>
-                            <ul class="menu-item-list position-absolute bg-white p-0 rounded-0">
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">MIỀN BẮC</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">MIỀN
-                                        TRUNG</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">MIỀN NAM</a>
-                                </li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item position-relative">
-                            <a class="nav-link position-relative text-decoration-none fw-semibold" href="#!foreign">
-                                TOUR NƯỚC NGOÀI
-                            </a>
-                            <ul class="menu-item-list position-absolute bg-white p-0 rounded-0">
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">CHÂU ÂU</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">CHÂU Á</a>
-                                </li>
-                                <li><a class="menu-item d-block fw-semibold text-decoration-none" href="#">KHÁC</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item position-relative">
-                            <a class="nav-link position-relative text-decoration-none fw-semibold" href="#!contact">
-                                LIÊN HỆ
-                            </a>
-                        </li>
-                        <li class="nav-item position-relative" style="display: inline-block;" ng-if="!isLoggedIn">
-                            <a class="align-middle nav-link position-relative fw-semibold"
-                                style="display: inline-block;" href="#!login">ĐĂNG NHẬP
-                                <span class="align-middle text-black fw-normal">&#47;</span>
-                            </a>
-                        </li>
-                        <li class="nav-item position-relative" style="display: inline-block;" ng-if="!isLoggedIn">
-                            <a class="align-middle nav-link position-relative fw-semibold" href="#!signup"
-                                style="display: inline-block; align-items: center;">ĐĂNG
-                                KÝ
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-                                </svg></a>
-                            <span class="align-middle text-black fw-normal">&#47;</span>
-                        </li>
-                        <li class="nav-item position-relative" style="display: inline-block;" ng-if="isLoggedIn">
-                            <a class="align-middle nav-link position-relative fw-semibold"
-                                style="display: inline-block;" href="#">
-                                {{user.name}}
-                            </a>
-                        </li>
-                        <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold align-middle" href="#!cart"
-                                style="display: inline-block;">GIỎ HÀNG
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-handbag-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 1 1 6 0v2h-1V3a2 2 0 0 0-2-2M5 5H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11v1.5a.5.5 0 0 1-1 0V5H6v1.5a.5.5 0 0 1-1 0z" />
-                                </svg>
-                                <span
-                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                    {{cart.length}}
-                                    <span class="visually-hidden">unread messages</span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="nav-item position-relative" style="display: inline-block;">
-                            <a class="align-middle nav-link position-relative fw-semibold" href="" id="search-tour"
-                                onclick="searchPro(event)" data-bs-target="#exampleModal">
-                                <p class="m-0">TÌM KIẾM</p>
-                                <svg style="color: #000; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-search align-middle"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div id="search-box" class="bg-white py-2">
-            <div class="row w-75 m-auto">
-                <div class="col-10">
-                    <input class="form-control" type="text" placeholder="Bạn đang tìm..." ng-model="$root.searchQuery">
-                </div>
-                <div class="col-2">
-                    <button class="btn w-100 text-white" type="button" style="background-color: #001985;"
-                        ng-click="search()">Tìm
-                        kiếm</button>
-                </div>
-            </div>
-        </div>
-    </header>
-
     <main class="tour_detail">
         <div class="container m-0 m-auto">
             <div class="wrap-main">
                 <div class="row imgs-tour">
                     <div class="col-md-4 g-2">
-                        <img src="../img/baoloc1.webp" alt="">
+                        <img src="{{detailPro.image[0]}}" alt="">
                     </div>
                     <div class="col-md-8">
                         <div class="row">
-                            <div class="col-md-4 g-2"><img src="../img/danang1.jpg" alt=""></div>
-                            <div class="col-md-4 g-2"><img src="../img/danang4.jpg" alt=""></div>
-                            <div class="col-md-4 g-2"><img src="../img/danang5.jpg" alt=""></div>
+                            <div class="col-md-4 g-2"><img src="{{detailPro.image[1]}}" alt=""></div>
+                            <div class="col-md-4 g-2"><img src="{{detailPro.image[2]}}" alt=""></div>
+                            <div class="col-md-4 g-2"><img src="{{detailPro.image[3]}}" alt=""></div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4 g-2"><img src="../img/danang1.jpg" alt=""></div>
-                            <div class="col-md-4 g-2"><img src="../img/danang4.jpg" alt=""></div>
-                            <div class="col-md-4 g-2"><img src="../img/danang5.jpg" alt=""></div>
+                            <div class="col-md-4 g-2"><img src="{{detailPro.image[4]}}" alt=""></div>
+                            <div class="col-md-4 g-2"><img src="{{detailPro.image[5]}}" alt=""></div>
+                            <div class="col-md-4 g-2"><img src="{{detailPro.image[6]}}" alt=""></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row mt-2 info-tour">
                     <div class="card col-md-8 g-2">
-                        <div class="card-header bg-white fw-semibold">
-                            Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng
+                        <div
+                            class="card-header bg-white fw-semibold d-flex row mx-0 align-items-center title-info-tour">
+                            <p class="m-0 col-md-9 ">{{detailPro.title}}</p>
+                            <button class="border-0 text-white rounded-1 col-md-3" ng-click="addToCart(tour)"
+                                data-bs-toggle="offcanvas" data-bs-target="#{{detailPro.id}}"
+                                aria-Fcontrols="offcanvasScrolling"><a class="text-white text-decoration-none"
+                                    href="">Đặt
+                                    chuyến</a></button>
+                            <!-- <a href="#!detail/{{tour.id}}" class="w-100 h-100 top-0 start-0 position-absolute" data-bs-toggle="offcanvas"
+                            data-bs-target="#{{tour.id}}" aria-Fcontrols="offcanvasScrolling"></a> -->
+                            <div class="offcanvas offcanvas-end product-detail rounded-3 p-0" data-bs-scroll="true"
+                                data-bs-backdrop="false" tabindex="-1" id="{{detailPro.id}}"
+                                aria-labelledby="offcanvasScrollingLabel">
+                                <div class="offcanvas-header float-start">
+                                    <h5 class="offcanvas-title fw-semibold" id="offcanvasScrollingLabel">CHUYẾN ĐI CỦA
+                                        BẠN</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="card">
+                                        <div class="card-header text-start border-0 bg-white fw-normal">
+                                            <span class="fw-semibold">{{detailPro.details.header}}</span> |
+                                            {{detailPro.details.date}}
+                                        </div>
+                                        <div class="card-body row p-0 m-0 border-0 bg-white">
+                                            <div class="air-logo col-md-4 m-0 d-flex align-items-center py-0 ps-4">
+                                                <img src="{{detailPro.details.flight.logo}}" alt="">
+                                                <div class="air-brand ms-2 text-start">
+                                                    <h6 class="air-brand-name">{{detailPro.details.flight.airline}}</h6>
+                                                    <p class="air-standard fw-normal">
+                                                        {{detailPro.details.tickets[0].type}}</p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="schedule col-md-6 p-0 m-0 d-flex align-items-center text-center">
+                                                <div class="start-place">
+                                                    <p>{{detailPro.details.flight.start_time}}</p>
+                                                    <p class="fw-semibold my-auto">
+                                                        {{detailPro.details.flight.start_place}}
+                                                    </p>
+                                                    <p>{{detailPro.details.flight.start_date}}</p>
+                                                </div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                                                    viewBox="0 0 512 512">
+                                                    <path
+                                                        d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z" />
+                                                </svg>
+                                                <div class="end-place">
+                                                    <p>{{detailPro.details.flight.end_time}}</p>
+                                                    <p class="fw-semibold my-auto">
+                                                        {{detailPro.details.flight.end_place}}</p>
+                                                    <p>{{detailPro.details.flight.end_date}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-footer border-0 bg-white text-start fw-semibold">
+                                            Chi tiết
+                                        </div>
+                                    </div>
+
+                                    <p class="text-start fw-semibold fs-5 pt-4 pb-2 my-0">Chọn loại vé của bạn</p>
+                                    <div class="row ticket">
+                                        <input type="radio" class="btn-check" name="options-outlined"
+                                            id="{{detailPro.details.tickets[0].id}}" autocomplete="off" checked>
+                                        <label class="btn col p-0 mx-2" for="{{detailPro.details.tickets[0].id}}">
+                                            <div class="card">
+                                                <div class="card-header d-flex text-start pt-3 bg-white">
+                                                    <img src="asm/img/seat1.webp" alt="" class="label-img">
+                                                    <div class="label-title">
+                                                        <p class="fw-semibold">{{detailPro.details.tickets[0].type}}</p>
+                                                        <p style="color: orange;" class="d-flex fw-semibold">
+                                                            {{detailPro.details.tickets[0].price | currency : '' : 0}}
+                                                            VND
+                                                            <span
+                                                                class="text-black fw-normal align-self-end">/khách</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body bg-white">
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase1.webp" alt="">
+                                                        <p class="mt-0">Hành lý xách tay 1 x 10 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase2.webp" alt="">
+                                                        <p class="mt-0">Hành lý 2 x 23 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/calendar1.webp" alt="">
+                                                        <p class="mt-0 text-secondary">Lên lịch lại không khả dụng</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex">
+                                                        <img src="asm/img/cash1.webp" alt="">
+                                                        <p class="mt-0 text-secondary">Hoàn tiền không có sẵn</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer text-body-secondary bg-white w-100 d-flex">
+                                                    <div class="icon d-flex">
+                                                        <img src="asm/img/food1.webp" alt="">
+                                                        <img src="asm/img/food2.webp" alt="">
+                                                        <img src="asm/img/food3.webp" alt="">
+                                                        <img src="asm/img/food4.webp" alt="">
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="fw-semibold">Xem chi tiết</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <input type="radio" class="btn-check" name="options-outlined"
+                                            id="{{detailPro.details.tickets[1].id}}" autocomplete="off">
+                                        <label class="btn col p-0 mx-2" for="{{detailPro.details.tickets[1].id}}">
+                                            <div class="card">
+                                                <div class="card-header d-flex text-start pt-3 bg-white">
+                                                    <img src="asm/img/seat2.webp" alt="" class="label-img">
+                                                    <div class="label-title">
+                                                        <p class="fw-semibold">{{detailPro.details.tickets[1].type}}</p>
+                                                        <p style="color: orange;" class="d-flex fw-semibold">
+                                                            {{detailPro.details.tickets[1].price | currency : '' : 0}}
+                                                            VND
+                                                            <span
+                                                                class="text-black fw-normal align-self-end">/khách</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body bg-white">
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase1.webp" alt="">
+                                                        <p class="mt-0">Hành lý xách tay 1 x 10 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/suitcase2.webp" alt="">
+                                                        <p class="mt-0">Hành lý 2 x 23 kg</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex mb-2">
+                                                        <img src="asm/img/calendar2.webp" alt="">
+                                                        <p class="mt-0">Phí đổi lịch bay miễn phí</p>
+                                                    </div>
+                                                    <div class="ticket-info align-items-center d-flex">
+                                                        <img src="asm/img/cash2.webp" alt="">
+                                                        <p class="mt-0">Hoàn vé 50% phí</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer text-body-secondary bg-white w-100 d-flex">
+                                                    <div class="icon d-flex">
+                                                        <img src="asm/img/food1.webp" alt="">
+                                                        <img src="asm/img/food2.webp" alt="">
+                                                        <img src="asm/img/food3.webp" alt="">
+                                                        <img src="asm/img/food4.webp" alt="">
+                                                    </div>
+                                                    <div class="detail">
+                                                        <p class="fw-semibold">Xem chi tiết</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-footer d-flex">
+                                    <div class="price text-start">Tổng cộng: <span>{{detailPro.details.tickets[0].price
+                                            |
+                                            currency : '' : 0}} VND</span></div>
+                                    <button class="border-0 text-white rounded-1" ng-click="addToCart(detailPro)"><a
+                                            class="text-white text-decoration-none" href="">Đặt chuyến</a></button>
+                                </div>
+                            </div>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">Get your trip off to a great start with a stay at this property, which
-                                offers free Wi-Fi in all rooms. Strategically situated in Old Quarter, allowing you
-                                access and proximity to local attractions and sights. Don't leave before paying a visit
-                                to the famous Old Quarter. Rated with 4 stars, this high-quality property provides
-                                guests with access to massage, restaurant and spa on-site.
+                            <p class="card-text" ng-repeat="info in detailPro.details.info">
+                                <!-- Thác Damb'ri là một trong những thác nước lớn và nổi tiếng nhất tại
+                                tỉnh Lâm Đồng, Việt Nam. Nằm cách trung tâm thành phố Bảo Lộc khoảng 18km về phía tây
+                                bắc, thác Damb'ri thu hút du khách bởi vẻ đẹp hùng vĩ và hoang sơ của thiên nhiên. Với
+                                chiều cao khoảng 60m, thác nước đổ xuống tạo nên một màn nước trắng xóa, âm vang cả khu
+                                rừng. Khu vực xung quanh thác được bao phủ bởi rừng nguyên sinh, với hệ động thực vật
+                                phong phú, làm cho nơi đây trở thành điểm đến lý tưởng cho những ai yêu thích thiên
+                                nhiên và muốn tìm kiếm sự bình yên. Ngoài ra, du khách còn có thể tham gia các hoạt động
+                                giải trí như đi cáp treo, trượt máng nước và thăm các bản làng dân tộc gần đó. -->
+                                {{info}}
                             </p>
+                            <!-- <p class="card-text">
+                                Hồ Tà Đùng, còn được ví như "Vịnh Hạ Long của Tây Nguyên", là một điểm
+                                đến hấp dẫn tại
+                                tỉnh Đắk Nông, Việt Nam. Nằm trong khu bảo tồn thiên nhiên Tà Đùng, hồ có diện tích hơn
+                                5.000ha với hơn 40 hòn đảo lớn nhỏ nhấp nhô trên mặt nước, tạo nên một cảnh quan vô cùng
+                                kỳ vĩ và thơ mộng. Hồ Tà Đùng không chỉ nổi bật với cảnh sắc tuyệt đẹp mà còn là nơi
+                                sinh sống của nhiều loài động thực vật quý hiếm. Du khách đến đây có thể tham gia các
+                                hoạt động như chèo thuyền kayak, ngắm cảnh, chụp ảnh, và trải nghiệm cuộc sống của người
+                                dân địa phương. Với không khí trong lành, mát mẻ quanh năm, Hồ Tà Đùng là điểm đến lý
+                                tưởng cho những ai muốn tận hưởng vẻ đẹp tự nhiên và tìm kiếm sự thư giãn giữa lòng Tây
+                                Nguyên.
+                            </p> -->
                         </div>
                     </div>
                     <div class="card col-md-3 g-2 review p-0">
@@ -221,39 +257,142 @@
                                         <div class="card-body">
                                             <p class="card-text">187 đánh giá
                                             </p>
+                                            <div class="feedback">"Người dân thân thiện, quang cảnh hùng vĩ, đồ ăn tuyệt
+                                                hảo"</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
+                            <div class="accordion-item locate">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <button class="accordion-button collapsed fw-semibold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
                                         Định vị
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.130203907791!2d106.61538357468362!3d10.801338389348947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b9535b60699%3A0x4737f3be8bd41d5b!2zw4ZPTiBNQUxMIFTDom4gUGjDug!5e0!3m2!1svi!2s!4v1717726090702!5m2!1svi!2s"
+                                            width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                        <ul class="pb-0 mb-0">
+                                            <li><svg xmlns="http://www.w3.org/2000/svg" height="20" width="15"
+                                                    viewBox="0 0 384 512">
+                                                    <path
+                                                        d="M173.8 5.5c11-7.3 25.4-7.3 36.4 0L228 17.2c6 3.9 13 5.8 20.1 5.4l21.3-1.3c13.2-.8 25.6 6.4 31.5 18.2l9.6 19.1c3.2 6.4 8.4 11.5 14.7 14.7L344.5 83c11.8 5.9 19 18.3 18.2 31.5l-1.3 21.3c-.4 7.1 1.5 14.2 5.4 20.1l11.8 17.8c7.3 11 7.3 25.4 0 36.4L366.8 228c-3.9 6-5.8 13-5.4 20.1l1.3 21.3c.8 13.2-6.4 25.6-18.2 31.5l-19.1 9.6c-6.4 3.2-11.5 8.4-14.7 14.7L301 344.5c-5.9 11.8-18.3 19-31.5 18.2l-21.3-1.3c-7.1-.4-14.2 1.5-20.1 5.4l-17.8 11.8c-11 7.3-25.4 7.3-36.4 0L156 366.8c-6-3.9-13-5.8-20.1-5.4l-21.3 1.3c-13.2 .8-25.6-6.4-31.5-18.2l-9.6-19.1c-3.2-6.4-8.4-11.5-14.7-14.7L39.5 301c-11.8-5.9-19-18.3-18.2-31.5l1.3-21.3c.4-7.1-1.5-14.2-5.4-20.1L5.5 210.2c-7.3-11-7.3-25.4 0-36.4L17.2 156c3.9-6 5.8-13 5.4-20.1l-1.3-21.3c-.8-13.2 6.4-25.6 18.2-31.5l19.1-9.6C65 70.2 70.2 65 73.4 58.6L83 39.5c5.9-11.8 18.3-19 31.5-18.2l21.3 1.3c7.1 .4 14.2-1.5 20.1-5.4L173.8 5.5zM272 192a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM1.3 441.8L44.4 339.3c.2 .1 .3 .2 .4 .4l9.6 19.1c11.7 23.2 36 37.3 62 35.8l21.3-1.3c.2 0 .5 0 .7 .2l17.8 11.8c5.1 3.3 10.5 5.9 16.1 7.7l-37.6 89.3c-2.3 5.5-7.4 9.2-13.3 9.7s-11.6-2.2-14.8-7.2L74.4 455.5l-56.1 8.3c-5.7 .8-11.4-1.5-15-6s-4.3-10.7-2.1-16zm248 60.4L211.7 413c5.6-1.8 11-4.3 16.1-7.7l17.8-11.8c.2-.1 .4-.2 .7-.2l21.3 1.3c26 1.5 50.3-12.6 62-35.8l9.6-19.1c.1-.2 .2-.3 .4-.4l43.2 102.5c2.2 5.3 1.4 11.4-2.1 16s-9.3 6.9-15 6l-56.1-8.3-32.2 49.2c-3.2 5-8.9 7.7-14.8 7.2s-11-4.3-13.3-9.7z" />
+                                                </svg>
+                                                <span>Vị trí hiếm có - trong nội thành</span>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="20" width="15"
+                                                    viewBox="0 0 384 512">
+                                                    <path fill="#d12335"
+                                                        d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z" />
+                                                </svg>
+                                                <span>Địa bàn phổ biến</span>
+                                            </li>
+                                            <li><svg xmlns="http://www.w3.org/2000/svg" height="20" width="12.5"
+                                                    viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                                    <path fill="#0543ad"
+                                                        d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm40 304V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V256.9L59.4 304.5c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6h29.7c33.7 0 64.9 17.7 82.3 46.6l58.3 97c9.1 15.1 4.2 34.8-10.9 43.9s-34.8 4.2-43.9-10.9L232 256.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V352H152z" />
+                                                </svg>
+                                                <span>Trên cả tuyệt vời để đi bộ</span>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row bg-white mt-3 pt-3">
+                    <div class="col-md-3">Thông tin hữu ích</div>
+                    <div class="col-md-9">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>Đơn vị tiền tệ sử dụng</td>
+                                <td>VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td>Khoảng cách đến trung tâm thành phố</td>
+                                <td>1,0 Km</td>
+                            </tr>
+                            <tr>
+                                <td>Đánh giá vị trí</td>
+                                <td>9,0</td>
+                            </tr>
+                            <tr>
+                                <td>Sân bay gần nhất</td>
+                                <td>Sân Bay Quốc Tế Tân Sơn Nhất (SGN)</td>
+                            </tr>
+                            <tr>
+                                <td>Khoảng cách đến sân bay</td>
+                                <td>6,9 Km</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
 
+                <div class="row mt-2 favor-place">
+                    <h4 class="fw-semibold lh-base">CÓ THỂ BẠN SẼ THÍCH</h4>
+                    <div class="row d-flex flex-wrap">
+                        <div class="col-md-3 col-sm-12" ng-repeat="tour in tours | filter : searchTour | limitTo : 4">
+                            <div class="card product-item position-relative text-black text-center border-0 fs-6">
+                                <div class="img bg-white position-relative w-100">
+                                    <span class="position-absolute top-50 start-50"
+                                        style="background-image: url({{tour.image[0]}});"></span>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="card-text fw-light fst-italic">{{tour.duration}}</p>
+                                    <h5 class="card-title fw-semibold text-black lh-base">{{tour.title}}</h5>
+                                    <p class="card-text fw-light">{{tour.price | currency : '' : 0}}Đ</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
+        <section class="container-fluid ship mt-2">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 p-0">
+                    <div class="card rounded-0 d-flex align-items-center justify-content-center fw-semibold text-black">
+                        <img src="asm/img/ic_ship_1.svg" class="card-img-top" alt="..." style="width: 32px;">
+                        <p class="card-text text-center">THANH TOÁN DỄ DÀNG
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-0">
+                    <div class="card rounded-0 d-flex align-items-center justify-content-center fw-semibold text-black">
+                        <img src="asm/img/ic_ship_2.svg" class="card-img-top" alt="..." style="width: 32px;">
+                        <p class="card-text text-center">DI CHUYỂN ÊM ÁI
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-0">
+                    <div class="card rounded-0 d-flex align-items-center justify-content-center fw-semibold text-black">
+                        <img src="asm/img/ic_ship_3.svg" class="card-img-top" alt="..." style="width: 32px;">
+                        <p class="card-text text-center">HOTLINE 01666331161
+                            <br>
+                            (10:00 - 19:00)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-0">
+                    <div class="card rounded-0 d-flex align-items-center justify-content-center fw-semibold text-black">
+                        <img src="asm/img/ic_ship_4.svg" class="card-img-top" alt="..." style="width: 32px;">
+                        <p class="card-text text-center">CHƠI VUI, GIÁ TỐT
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
 </body>
 
 </html>

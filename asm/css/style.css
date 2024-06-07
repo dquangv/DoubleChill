@@ -388,7 +388,8 @@ main .product .wrap-main .row .col-md-3 {
     border: 0;
 } */
 
-main .product .row .col-md-3 .product-item .img {
+main .product .row .col-md-3 .product-item .img,
+.favor-place .row .col-md-3 .product-item .img {
     display: inline-block;
     /* background-color: #fff; */
     /* position: relative; */
@@ -400,13 +401,15 @@ main .product .row .col-md-3 .product-item .img {
     /* height: 100%; */
 }
 
-main .product .row .col-md-3 .product-item .img::before {
+main .product .row .col-md-3 .product-item .img::before,
+.favor-place .row .col-md-3 .product-item .img::before {
     content: '';
     float: left;
     padding-top: 100%;
 }
 
-main .product .row .col-md-3 .product-item .img span {
+main .product .row .col-md-3 .product-item .img span,
+.favor-place .row .col-md-3 .product-item .img span {
     /* position: absolute;
     top: 50%;
     left: 50%; */
@@ -419,12 +422,14 @@ main .product .row .col-md-3 .product-item .img span {
     background-size: contain;
 }
 
-main .product .wrap-main .row .col-md-3 .product-item .card-body {
+main .product .wrap-main .row .col-md-3 .product-item .card-body,
+.favor-place .row .col-md-3 .product-item .card-body {
     background-color: #F0F0F0;
     /* padding: 0; */
 }
 
-main .product .wrap-main .row .col-md-3 .product-item .card-body h5 {
+main .product .wrap-main .row .col-md-3 .product-item .card-body h5,
+.favor-place .row .col-md-3 .product-item .card-body h5 {
     margin: 7px 0 0 0;
     /* font-weight: 600; */
     font-size: 15px;
@@ -432,7 +437,8 @@ main .product .wrap-main .row .col-md-3 .product-item .card-body h5 {
     line-height: 1.6; */
 }
 
-main .product .wrap-main .row .col-md-3 .product-item .card-body p:first-child {
+main .product .wrap-main .row .col-md-3 .product-item .card-body p:first-child,
+.favor-place .row .col-md-3 .product-item .card-body p:first-child {
     font-size: 12px;
     /* font-style: italic; */
     margin: 0 0 10px 0;
@@ -440,19 +446,22 @@ main .product .wrap-main .row .col-md-3 .product-item .card-body p:first-child {
     /* margin-bottom: 10px; */
 }
 
-main .product .wrap-main .row .col-md-3 .product-item .card-body p:nth-child(2) {
+main .product .wrap-main .row .col-md-3 .product-item .card-body p:nth-child(2),
+.favor-place .row .col-md-3 .product-item .card-body p:nth-child(2) {
     font-size: 15px;
     font-weight: semibold;
 }
 
-main .product .wrap-main .row .col-md-3 .product-item .card-body p:last-child {
+main .product .wrap-main .row .col-md-3 .product-item .card-body p:last-child,
+.favor-place .row .col-md-3 .product-item .card-body p:last-child {
     margin: 3px 0 0 0;
     font-size: 12px;
     margin-top: 10px;
     /* font-weight: 300; */
 }
 
-main .product .wrap-main .row .col-md-3 .product-item a {
+main .product .wrap-main .row .col-md-3 .product-item a,
+.favor-place .row .col-md-3 .product-item a {
     display: inline-block;
     /* width: 100%;
     height: 100%;
@@ -462,7 +471,7 @@ main .product .wrap-main .row .col-md-3 .product-item a {
     left: 0; */
 }
 
-main .product .product-detail {
+/* main .product .product-detail {
     width: 50%;
 }
 
@@ -519,11 +528,6 @@ main .product .product-detail .offcanvas-body .ticket label .card .card-footer .
     margin-bottom: 0;
 }
 
-
-/* main .product .product-detail .offcanvas-title {
-    color: #001982;
-} */
-
 main .product .product-detail .air-logo img {
     height: 50%;
 }
@@ -564,6 +568,142 @@ main .product .product-detail .offcanvas-footer .price span {
 }
 
 main .product .product-detail .offcanvas-footer button {
+    background-color: #001982;
+    padding: 2px 15px;
+} */
+
+.info-tour .product-detail {
+    width: 50%;
+}
+
+.info-tour .product-detail .offcanvas-body {
+    background-color: #cde0f2;
+}
+
+.info-tour .product-detail .offcanvas-body .card-body {
+    justify-content: space-between;
+}
+
+.info-tour .product-detail .offcanvas-body .card-footer {
+    color: #001982;
+    font-size: 15px;
+    width: max-content;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-header .label-img {
+    width: 48px;
+    height: 48px;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-header .label-title {
+    padding-left: 20px;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-header .label-title p {
+    margin: 0;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-header .label-title p span {
+    font-size: 12px;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-body .ticket-info img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+/* main .product .wrap-main .row .col-md-3 .product-item .card-body{
+    background-color: #F0F0F0;
+    padding: 0;
+} */
+
+/* main .product .wrap-main .row .col-md-3 .product-item .card-body h5 {
+    margin: 7px 0 0 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.6;
+} */
+
+.info-tour .product-detail .offcanvas-body .card-body p:first-child {
+    font-size: 12px;
+    /* font-style: italic; */
+    margin: 0 0 10px 0;
+    font-weight: 500;
+    /* margin-bottom: 10px; */
+}
+
+.info-tour .product-detail .offcanvas-body .card-body p:nth-child(2) {
+    font-size: 15px;
+    font-weight: semibold;
+}
+
+.info-tour .product-detail .offcanvas-body .card-body p:last-child {
+    margin: 3px 0 0 0;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-footer {
+    justify-content: space-between;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-footer .icon img {
+    width: 18px;
+    height: 18px;
+}
+
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-footer .detail,
+.info-tour .product-detail .offcanvas-body .ticket label .card .card-footer .detail p {
+    width: max-content;
+    color: #001982;
+    margin-bottom: 0;
+}
+
+.info-tour .product-detail .air-logo img {
+    height: 50%;
+}
+
+.info-tour .product-detail .air-logo .air-brand .air-brand-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.info-tour .product-detail .air-logo .air-brand .air-standard {
+    margin: 3px 0 0 0;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.info-tour .product-detail .offcanvas-body .card-body .schedule {
+    margin-top: 8px;
+    width: max-content;
+}
+
+.info-tour .product-detail .offcanvas-body .card-body .schedule>* {
+    margin: 0 10px;
+}
+
+.info-tour .product-detail .offcanvas-body .card-body .schedule .end-place {
+    margin-right: 30px;
+}
+
+.info-tour .product-detail .offcanvas-footer {
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.info-tour .product-detail .offcanvas-footer .price span {
+    display: block;
+    font-weight: 600;
+    color: orange;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.info-tour .product-detail .offcanvas-footer button {
     background-color: #001982;
     padding: 2px 15px;
 }
@@ -919,12 +1059,12 @@ footer .identity>a::before {
 } */
 
 
-.tour_detail .col-md-4>img {
+.tour_detail .imgs-tour .col-md-4>img {
     height: 308px;
     width: 370px;
 }
 
-.tour_detail .col-md-8 img {
+.tour_detail .imgs-tour .col-md-8 img {
     height: 150px;
     width: 245px;
 }
@@ -933,10 +1073,41 @@ footer .identity>a::before {
     justify-content: space-between;
 }
 
-.tour_detail .info-tour .card:nth-child(1) .card-header {
+.tour_detail .info-tour .card:nth-child(1)>.card-header {
+    justify-content: space-between;
+}
+
+.tour_detail .info-tour .card:nth-child(1)>.card-header>p:first-child {
     font-size: 20px;
+}
+
+.tour_detail .info-tour .title-info-tour>button {
+    font-size: 15px;
+}
+
+.tour_detail .info-tour .card:nth-child(1)>.card-header>button:nth-child(2) {
+    background-color: #001982;
+    padding: 10px 15px;
+}
+
+/* .tour_detail .info-tour .card:nth-child(1) .card-body {
+    height: max-content;
+} */
+
+
+.tour_detail .info-tour .card:nth-child(1) .card-body .card-text {
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+.tour_detail .info-tour .card:nth-child(1)>.title-info-tour {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.tour_detail .info-tour .card:nth-child(1)>.title-info-tour>p {
+    font-size: 20px;
 }
 
 .tour_detail .info-tour .review {
@@ -949,9 +1120,26 @@ footer .identity>a::before {
     padding-top: 20px;
 }
 
-.tour_detail .info-tour .review .card-body {
+.tour_detail .info-tour .review .card-body .card-text {
     padding-top: 0;
     color: rgb(0, 132, 255);
+}
+
+.tour_detail .info-tour .review .card-body .feedback {
+    border: #555 1px solid;
+    border-radius: 4px;
+    height: max-content;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.tour_detail .info-tour .locate #collapseTwo ul {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.tour_detail .info-tour .locate #collapseTwo ul li {
+    margin: 10px 0;
 }
 
 

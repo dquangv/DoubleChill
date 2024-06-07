@@ -9,6 +9,7 @@ app.config(function ($routeProvider) {
         .when("/login", { templateUrl: "asm/html/login.html", controller: "logInCtrl" })
         .when("/signup", { templateUrl: "asm/html/signUp.html", controller: "signUpCtrl" })
         .when("/cart", { templateUrl: "asm/html/cart.html", controller: "cartCtrl" })
+        .when("/detail/:id", { templateUrl: "asm/html/tour.html", controller: "homeCtrl" })
         .otherwise({ templateUrl: "asm/html/home.html", controller: "myCtrl" })
 });
 
