@@ -10,7 +10,45 @@ app.config(function ($routeProvider) {
         .when("/signup", { templateUrl: "asm/html/signUp.html", controller: "signUpCtrl" })
         .when("/cart", { templateUrl: "asm/html/cart.html", controller: "cartCtrl" })
         .when("/detail/:id", { templateUrl: "asm/html/tour.html", controller: "homeCtrl" })
+        .when("/account/:id", { templateUrl: "asm/html/account.html", controller: "accountCtrl" })
         .otherwise({ templateUrl: "asm/html/home.html", controller: "myCtrl" })
+});
+
+app.run(function ($rootScope) {
+    $rootScope.isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
+    $rootScope.user = JSON.parse(localStorage.getItem('user')) || null;
+});
+
+app.controller('accountCtrl', function ($scope, $rootScope, $window) {
+    if (!$rootScope.cart) {
+        $rootScope.cart = [];
+    }
+
+    $scope.logOut = function () {
+        localStorage.removeItem('user');
+        localStorage.removeItem('isLoggedIn');
+
+        $rootScope.isLoggedIn = false;
+        $rootScope.user = null;
+
+        $window.location.href = '#!/login';
+    };
+
+    $scope.changePassword = function () {
+        $scope.oldPasswordIncorrect = false;
+        console.log($scope.user.password)
+        console.log($scope.password)
+
+
+        if ($scope.user.password !== $scope.password) {
+            $scope.oldPasswordIncorrect = true;
+            return;
+        }
+
+        $scope.user.password = $scope.newPassword;
+        localStorage.setItem('user', JSON.stringify($scope.user));
+        alert('Đổi mật khẩu thành công');
+    }
 });
 
 app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -254,6 +292,9 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
     $scope.users = [];
     $scope.emailExists = false;
 
+    if (!$rootScope.cart) {
+        $rootScope.cart = [];
+    }
 
     $http.get("http://localhost:3000/users").then(function (reponse) {
         $scope.users = reponse.data;
@@ -281,20 +322,19 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
                 email: $scope.email,
                 password: $scope.password,
                 gender: $scope.gender,
-                login: 'on'
             };
 
             $scope.users.push(newUser);
 
             $http.post("http://localhost:3000/users", newUser)
                 .then(function (response) {
-                    // alert('Đăng ký thành công');
-                    // $rootScope.isLoggedIn = true;
-                    // $rootScope.userName = $scope.name;
+                    $rootScope.isLoggedIn = true;
+                    $rootScope.user = newUser;
+                    localStorage.setItem('user', JSON.stringify(newUser));
+                    localStorage.setItem('isLoggedIn', true);
 
-                    $location.path('/');
-
-                    $rootScope.login(newUser);
+                    alert('Đăng ký thành công');
+                    $window.location.href = '#!/account/:id';
                 }, function (error) {
                     alert('Đăng ký thất bại');
                 });
@@ -302,12 +342,15 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
     };
 });
 
-
 app.controller('logInCtrl', function ($scope, $rootScope, $routeParams, $http, $window) {
     $scope.users = [];
     $scope.emailNotRegistered = false;
     $scope.incorrectPassword = false;
     $scope.emailEmpty = false;
+
+    if (!$rootScope.cart) {
+        $rootScope.cart = [];
+    }
 
     $http.get("http://localhost:3000/users").then(function (reponse) {
         $scope.users = reponse.data;
@@ -338,8 +381,13 @@ app.controller('logInCtrl', function ($scope, $rootScope, $routeParams, $http, $
 
             if (user) {
                 if (user.password === $scope.password) {
+                    $rootScope.isLoggedIn = true;
+                    $rootScope.user = user;
+                    localStorage.setItem('user', JSON.stringify(user));
+                    localStorage.setItem('isLoggedIn', true);
+
                     alert('Đăng nhập thành công');
-                    $window.location.reload();
+                    $window.location.href = '#!/account/:id';
                 } else {
                     $scope.incorrectPassword = true;
                     $scope.emailNotRegistered = false;

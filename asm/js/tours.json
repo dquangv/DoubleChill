@@ -2,7 +2,9 @@
   "tours": [
     {
       "id": "baoloc2",
-      "image": ["asm/img/baoloc2.jpg"],
+      "image": [
+        "asm/img/baoloc2.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
       "price": "2100000",
@@ -42,7 +44,9 @@
     },
     {
       "id": "sydney4",
-      "image": ["asm/img/sydney4.jpg"],
+      "image": [
+        "asm/img/sydney4.jpg"
+      ],
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "TOUR SYDNEY - MELBOURNE",
       "price": "45990000",
@@ -82,7 +86,9 @@
     },
     {
       "id": "danang3",
-      "image": ["asm/img/danang3.jpg"],
+      "image": [
+        "asm/img/danang3.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "TOUR ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
       "price": "4290000",
@@ -123,7 +129,9 @@
     },
     {
       "id": "binhba1",
-      "image": ["asm/img/binhba1.jpg"],
+      "image": [
+        "asm/img/binhba1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR NHA TRANG: BÌNH BA",
       "price": "2500000",
@@ -163,7 +171,9 @@
     },
     {
       "id": "diepson1",
-      "image": ["asm/img/diepson1.jpg"],
+      "image": [
+        "asm/img/diepson1.jpg"
+      ],
       "duration": "3 NGÀY 3 ĐÊM",
       "title": "TOUR PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
       "price": "2086000",
@@ -203,7 +213,9 @@
     },
     {
       "id": "condao1",
-      "image": ["asm/img/condao1.jpg"],
+      "image": [
+        "asm/img/condao1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR MIỀN TÂY: CÔN ĐẢO",
       "price": "2899000",
@@ -243,7 +255,9 @@
     },
     {
       "id": "kyoto1",
-      "image": ["asm/img/kyoto1.jpg"],
+      "image": [
+        "asm/img/kyoto1.jpg"
+      ],
       "duration": "5 NGÀY 5 ĐÊM",
       "title": "TOUR NHẬT BẢN: OSAKA - KYOTO - TOKYO",
       "price": "27990000",
@@ -275,12 +289,18 @@
             "price": "35900000"
           }
         ],
-        "info":["Osaka là thành phố lớn thứ ba của Nhật Bản, nằm ở vùng Kansai trên đảo Honshu. Được biết đến như là 'nhà bếp của quốc gia', Osaka nổi tiếng với ẩm thực phong phú và đa dạng. Các món ăn đặc trưng như takoyaki (bánh bạch tuộc), okonomiyaki (bánh xèo Nhật) và kushikatsu (xiên que chiên) là những món ăn không thể bỏ qua khi đến đây.","Kyoto, cố đô của Nhật Bản, là một trong những thành phố đẹp và giàu văn hóa nhất đất nước. Nằm ở vùng Kansai, Kyoto nổi tiếng với các ngôi đền, chùa và khu vườn truyền thống. Thành phố này là nơi lưu giữ hơn 1.600 ngôi chùa Phật giáo và hơn 400 đền thờ Thần đạo.","Tokyo, thủ đô của Nhật Bản, là một trong những thành phố hiện đại và sôi động nhất thế giới. Với dân số hơn 37 triệu người, Tokyo là trung tâm kinh tế, văn hóa và chính trị của Nhật Bản. Thành phố này nổi tiếng với sự pha trộn hoàn hảo giữa truyền thống và hiện đại, từ những ngôi đền cổ kính đến các tòa nhà chọc trời và công nghệ tiên tiến."]
+        "info": [
+          "Osaka là thành phố lớn thứ ba của Nhật Bản, nằm ở vùng Kansai trên đảo Honshu. Được biết đến như là 'nhà bếp của quốc gia', Osaka nổi tiếng với ẩm thực phong phú và đa dạng. Các món ăn đặc trưng như takoyaki (bánh bạch tuộc), okonomiyaki (bánh xèo Nhật) và kushikatsu (xiên que chiên) là những món ăn không thể bỏ qua khi đến đây.",
+          "Kyoto, cố đô của Nhật Bản, là một trong những thành phố đẹp và giàu văn hóa nhất đất nước. Nằm ở vùng Kansai, Kyoto nổi tiếng với các ngôi đền, chùa và khu vườn truyền thống. Thành phố này là nơi lưu giữ hơn 1.600 ngôi chùa Phật giáo và hơn 400 đền thờ Thần đạo.",
+          "Tokyo, thủ đô của Nhật Bản, là một trong những thành phố hiện đại và sôi động nhất thế giới. Với dân số hơn 37 triệu người, Tokyo là trung tâm kinh tế, văn hóa và chính trị của Nhật Bản. Thành phố này nổi tiếng với sự pha trộn hoàn hảo giữa truyền thống và hiện đại, từ những ngôi đền cổ kính đến các tòa nhà chọc trời và công nghệ tiên tiến."
+        ]
       }
     },
     {
       "id": "thuonghai1",
-      "image": ["asm/img/thuonghai1.jpg"],
+      "image": [
+        "asm/img/thuonghai1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
       "price": "11950000",
@@ -312,12 +332,19 @@
             "price": "19900000"
           }
         ],
-        "info":["Thượng Hải, nằm ở bờ đông của Trung Quốc, là thành phố lớn nhất và phát triển nhất của đất nước. Thượng Hải nổi tiếng với sự kết hợp hài hòa giữa văn hóa phương Đông và phương Tây, hiện đại và cổ kính. Thành phố này là trung tâm tài chính và thương mại của Trung Quốc, với những tòa nhà chọc trời và khu mua sắm sầm uất.","Hàng Châu, thủ phủ của tỉnh Chiết Giang, là một trong những thành phố đẹp nhất và nổi tiếng nhất Trung Quốc. Hàng Châu được biết đến với vẻ đẹp thiên nhiên hữu tình và văn hóa phong phú. Hồ Tây (West Lake) là biểu tượng của thành phố, được UNESCO công nhận là Di sản Thế giới. Hồ Tây với những cầu đá, đền chùa và vườn hoa xung quanh, tạo nên một cảnh quan tuyệt đẹp và thơ mộng.","Tô Châu, thuộc tỉnh Giang Tô, là một thành phố nổi tiếng với hệ thống kênh rạch và những khu vườn cổ điển tuyệt đẹp. Tô Châu được mệnh danh là 'Venice của phương Đông' nhờ vào mạng lưới kênh rạch chằng chịt và kiến trúc cổ kính. Các khu vườn cổ ở Tô Châu, như Vườn Thương Lang (Humble Administrator's Garden), Vườn Lưu Viên (Lingering Garden) và Vườn Sư Tử Lâm (Lion Grove Garden) đều được UNESCO công nhận là Di sản Thế giới, nổi bật với kiến trúc tinh tế và cảnh quan tuyệt đẹp.","Ô Trấn, một trong những thị trấn cổ nhất và đẹp nhất Trung Quốc, nằm ở tỉnh Chiết Giang, gần Hàng Châu và Tô Châu. Ô Trấn nổi tiếng với vẻ đẹp cổ kính, những con kênh xanh biếc và những ngôi nhà gỗ truyền thống. Thị trấn này được chia thành hai phần chính là Đông Sách và Tây Sách, mỗi phần đều có những điểm tham quan độc đáo và phong cách kiến trúc riêng biệt."]
+        "info": [
+          "Thượng Hải, nằm ở bờ đông của Trung Quốc, là thành phố lớn nhất và phát triển nhất của đất nước. Thượng Hải nổi tiếng với sự kết hợp hài hòa giữa văn hóa phương Đông và phương Tây, hiện đại và cổ kính. Thành phố này là trung tâm tài chính và thương mại của Trung Quốc, với những tòa nhà chọc trời và khu mua sắm sầm uất.",
+          "Hàng Châu, thủ phủ của tỉnh Chiết Giang, là một trong những thành phố đẹp nhất và nổi tiếng nhất Trung Quốc. Hàng Châu được biết đến với vẻ đẹp thiên nhiên hữu tình và văn hóa phong phú. Hồ Tây (West Lake) là biểu tượng của thành phố, được UNESCO công nhận là Di sản Thế giới. Hồ Tây với những cầu đá, đền chùa và vườn hoa xung quanh, tạo nên một cảnh quan tuyệt đẹp và thơ mộng.",
+          "Tô Châu, thuộc tỉnh Giang Tô, là một thành phố nổi tiếng với hệ thống kênh rạch và những khu vườn cổ điển tuyệt đẹp. Tô Châu được mệnh danh là 'Venice của phương Đông' nhờ vào mạng lưới kênh rạch chằng chịt và kiến trúc cổ kính. Các khu vườn cổ ở Tô Châu, như Vườn Thương Lang (Humble Administrator's Garden), Vườn Lưu Viên (Lingering Garden) và Vườn Sư Tử Lâm (Lion Grove Garden) đều được UNESCO công nhận là Di sản Thế giới, nổi bật với kiến trúc tinh tế và cảnh quan tuyệt đẹp.",
+          "Ô Trấn, một trong những thị trấn cổ nhất và đẹp nhất Trung Quốc, nằm ở tỉnh Chiết Giang, gần Hàng Châu và Tô Châu. Ô Trấn nổi tiếng với vẻ đẹp cổ kính, những con kênh xanh biếc và những ngôi nhà gỗ truyền thống. Thị trấn này được chia thành hai phần chính là Đông Sách và Tây Sách, mỗi phần đều có những điểm tham quan độc đáo và phong cách kiến trúc riêng biệt."
+        ]
       }
     },
     {
       "id": "phuket1",
-      "image": ["asm/img/phuket1.jpg"],
+      "image": [
+        "asm/img/phuket1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR THÁI LAI: PHUKET - ĐẢO PHI PHI",
       "price": "11580000",
@@ -349,12 +376,17 @@
             "price": "19900000"
           }
         ],
-        "info":["Phuket, hòn đảo lớn nhất và là một trong những điểm du lịch nổi tiếng nhất của Thái Lan, nằm ở bờ biển phía tây của đất nước này, bên bờ biển Andaman. Được biết đến với những bãi biển đẹp, nước biển trong xanh và không gian nghỉ dưỡng sang trọng, Phuket là điểm đến lý tưởng cho cả những người yêu thích sự sôi động và những ai tìm kiếm sự thư giãn.","Đảo Phi Phi, nằm cách Phuket khoảng 45km về phía đông nam, là một trong những quần đảo đẹp nhất Thái Lan và nổi tiếng trên toàn thế giới nhờ vào vẻ đẹp thiên nhiên tuyệt vời. Được bao quanh bởi những bãi biển trắng mịn, nước biển xanh ngọc bích và các vách đá vôi dựng đứng, Đảo Phi Phi là thiên đường cho những người yêu thích biển cả và khám phá."]
+        "info": [
+          "Phuket, hòn đảo lớn nhất và là một trong những điểm du lịch nổi tiếng nhất của Thái Lan, nằm ở bờ biển phía tây của đất nước này, bên bờ biển Andaman. Được biết đến với những bãi biển đẹp, nước biển trong xanh và không gian nghỉ dưỡng sang trọng, Phuket là điểm đến lý tưởng cho cả những người yêu thích sự sôi động và những ai tìm kiếm sự thư giãn.",
+          "Đảo Phi Phi, nằm cách Phuket khoảng 45km về phía đông nam, là một trong những quần đảo đẹp nhất Thái Lan và nổi tiếng trên toàn thế giới nhờ vào vẻ đẹp thiên nhiên tuyệt vời. Được bao quanh bởi những bãi biển trắng mịn, nước biển xanh ngọc bích và các vách đá vôi dựng đứng, Đảo Phi Phi là thiên đường cho những người yêu thích biển cả và khám phá."
+        ]
       }
     },
     {
       "id": "hoian1",
-      "image": ["asm/img/hoian1.jpg"],
+      "image": [
+        "asm/img/hoian1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "TOUR HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
       "price": "3000000",
@@ -386,12 +418,20 @@
             "price": "5900000"
           }
         ],
-        "info":["Huế, cố đô của Việt Nam, nằm bên bờ sông Hương thơ mộng, nổi tiếng với lịch sử phong phú và di sản văn hóa đặc sắc. Là kinh đô của triều đại nhà Nguyễn từ thế kỷ 19 đến đầu thế kỷ 20, Huế mang trong mình nhiều di tích lịch sử quan trọng và cảnh quan thiên nhiên tuyệt đẹp.","Đà Nẵng, thành phố lớn thứ tư của Việt Nam, là một trung tâm kinh tế, văn hóa và du lịch quan trọng ở miền Trung. Với bờ biển dài và đẹp, cùng cơ sở hạ tầng hiện đại, Đà Nẵng là điểm đến lý tưởng cho cả du khách trong và ngoài nước.","Bán đảo Sơn Trà, còn được gọi là 'lá phổi xanh' của Đà Nẵng, là một khu bảo tồn thiên nhiên quan trọng với hệ sinh thái phong phú và đa dạng. Sơn Trà có độ cao 693m so với mực nước biển, tạo điều kiện lý tưởng cho việc ngắm cảnh và khám phá thiên nhiên.","Ngũ Hành Sơn, còn được biết đến với tên gọi Núi Non Nước, là một quần thể năm ngọn núi đá vôi nằm cách trung tâm Đà Nẵng khoảng 8km về phía đông nam. Đây là một điểm tham quan nổi tiếng với các hang động, chùa chiền và làng nghề đá mỹ nghệ.","Hội An, một thành phố cổ nằm bên bờ sông Thu Bồn, là một trong những điểm đến du lịch nổi tiếng nhất của Việt Nam. Được UNESCO công nhận là Di sản Văn hóa Thế giới, Hội An nổi bật với kiến trúc cổ kính, các con phố nhỏ lát gạch và nền văn hóa phong phú."]
+        "info": [
+          "Huế, cố đô của Việt Nam, nằm bên bờ sông Hương thơ mộng, nổi tiếng với lịch sử phong phú và di sản văn hóa đặc sắc. Là kinh đô của triều đại nhà Nguyễn từ thế kỷ 19 đến đầu thế kỷ 20, Huế mang trong mình nhiều di tích lịch sử quan trọng và cảnh quan thiên nhiên tuyệt đẹp.",
+          "Đà Nẵng, thành phố lớn thứ tư của Việt Nam, là một trung tâm kinh tế, văn hóa và du lịch quan trọng ở miền Trung. Với bờ biển dài và đẹp, cùng cơ sở hạ tầng hiện đại, Đà Nẵng là điểm đến lý tưởng cho cả du khách trong và ngoài nước.",
+          "Bán đảo Sơn Trà, còn được gọi là 'lá phổi xanh' của Đà Nẵng, là một khu bảo tồn thiên nhiên quan trọng với hệ sinh thái phong phú và đa dạng. Sơn Trà có độ cao 693m so với mực nước biển, tạo điều kiện lý tưởng cho việc ngắm cảnh và khám phá thiên nhiên.",
+          "Ngũ Hành Sơn, còn được biết đến với tên gọi Núi Non Nước, là một quần thể năm ngọn núi đá vôi nằm cách trung tâm Đà Nẵng khoảng 8km về phía đông nam. Đây là một điểm tham quan nổi tiếng với các hang động, chùa chiền và làng nghề đá mỹ nghệ.",
+          "Hội An, một thành phố cổ nằm bên bờ sông Thu Bồn, là một trong những điểm đến du lịch nổi tiếng nhất của Việt Nam. Được UNESCO công nhận là Di sản Văn hóa Thế giới, Hội An nổi bật với kiến trúc cổ kính, các con phố nhỏ lát gạch và nền văn hóa phong phú."
+        ]
       }
     },
     {
       "id": "daolyson1",
-      "image": ["asm/img/daolyson1.jpg"],
+      "image": [
+        "asm/img/daolyson1.jpg"
+      ],
       "duration": "2 NGÀY 1 ĐÊM",
       "title": "TOUR QUẢNG NGÃI: ĐẢO LÝ SƠN",
       "price": "1250000",
@@ -423,12 +463,17 @@
             "price": "2900000"
           }
         ],
-        "info":["Đảo Lý Sơn, còn được gọi là Cù Lao Ré, là một hòn đảo thuộc tỉnh Quảng Ngãi, nằm cách đất liền khoảng 15 hải lý. Đảo Lý Sơn nổi tiếng với vẻ đẹp hoang sơ, những bãi biển trong xanh, các di tích lịch sử và nền văn hóa đặc sắc.","Lý Sơn có nhiều lễ hội truyền thống, nổi bật nhất là Lễ hội đua thuyền Tứ Linh, được tổ chức vào dịp Tết Nguyên Đán. Đây là dịp để người dân Lý Sơn cầu mong một năm mới bình an, mưa thuận gió hòa và tạ ơn các vị thần linh. Lễ hội đua thuyền thu hút rất nhiều du khách đến tham gia và chiêm ngưỡng."]
+        "info": [
+          "Đảo Lý Sơn, còn được gọi là Cù Lao Ré, là một hòn đảo thuộc tỉnh Quảng Ngãi, nằm cách đất liền khoảng 15 hải lý. Đảo Lý Sơn nổi tiếng với vẻ đẹp hoang sơ, những bãi biển trong xanh, các di tích lịch sử và nền văn hóa đặc sắc.",
+          "Lý Sơn có nhiều lễ hội truyền thống, nổi bật nhất là Lễ hội đua thuyền Tứ Linh, được tổ chức vào dịp Tết Nguyên Đán. Đây là dịp để người dân Lý Sơn cầu mong một năm mới bình an, mưa thuận gió hòa và tạ ơn các vị thần linh. Lễ hội đua thuyền thu hút rất nhiều du khách đến tham gia và chiêm ngưỡng."
+        ]
       }
     },
     {
       "id": "chauau1",
-      "image": ["asm/img/chauau1.jpg"],
+      "image": [
+        "asm/img/chauau1.jpg"
+      ],
       "duration": "11 NGÀY 10 ĐÊM",
       "title": "TOUR CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
       "price": "72990000",
@@ -460,12 +505,20 @@
             "price": "100900000"
           }
         ],
-        "info":["Paris: Thủ đô của Pháp và một trong những thành phố lãng mạn và lịch sử nhất thế giới, với tháp Eiffel, Lâu Đài Versailles, và Nhà hát Opera Garnier.","Zurich: Thành phố tài chính lớn nhất của Thuỵ Sĩ, nổi tiếng với kiến trúc đa dạng và các bảo tàng nghệ thuật.","Venice: Thành phố nổi tiếng với các kênh và cầu nổi, như cầu Rialto và cầu của Suytôn, cùng với quảng trường St. Mark.","Vienna: Thủ đô của Áo, nổi tiếng với di tích lịch sử như Cung điện Schönbrunn, Nhà hát Quốc gia và Cây Hòa Bình.","Berlin: Thủ đô với bảo tàng Lịch sử Đức, Tòa nhà Quốc hội Đức và tường Berlin còn sót lại."]
+        "info": [
+          "Paris: Thủ đô của Pháp và một trong những thành phố lãng mạn và lịch sử nhất thế giới, với tháp Eiffel, Lâu Đài Versailles, và Nhà hát Opera Garnier.",
+          "Zurich: Thành phố tài chính lớn nhất của Thuỵ Sĩ, nổi tiếng với kiến trúc đa dạng và các bảo tàng nghệ thuật.",
+          "Venice: Thành phố nổi tiếng với các kênh và cầu nổi, như cầu Rialto và cầu của Suytôn, cùng với quảng trường St. Mark.",
+          "Vienna: Thủ đô của Áo, nổi tiếng với di tích lịch sử như Cung điện Schönbrunn, Nhà hát Quốc gia và Cây Hòa Bình.",
+          "Berlin: Thủ đô với bảo tàng Lịch sử Đức, Tòa nhà Quốc hội Đức và tường Berlin còn sót lại."
+        ]
       }
     },
     {
       "id": "hanoi1",
-      "image": ["asm/img/hanoi1.jpg"],
+      "image": [
+        "asm/img/hanoi1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Hà Nội: Văn Miếu - Hồ Gươm",
       "price": "3200000",
@@ -497,12 +550,17 @@
             "price": "6800000"
           }
         ],
-        "info":["Văn Miếu là một trong những di tích lịch sử văn hóa quan trọng nhất của Việt Nam, nằm ở trung tâm thủ đô Hà Nội. Được xây dựng vào năm 1070, Văn Miếu ban đầu là một đền thờ Tổng tài Confucius và là nơi để tôn vinh các học giả và nhà giáo. Đến thế kỷ 15, Quốc Tử Giám (Viện Quốc Học) đã được xây dựng trong khuôn viên Văn Miếu, là nơi tổ chức các kỳ thi cử quan trọng của triều đình.","Hồ Gươm là một trong những điểm đến nổi tiếng nhất ở trung tâm Hà Nội, nằm giữa các phố cổ náo nhiệt và các công trình lịch sử quan trọng. Hồ Gươm có ý nghĩa lịch sử và văn hóa sâu sắc trong lòng người dân Việt Nam."]
+        "info": [
+          "Văn Miếu là một trong những di tích lịch sử văn hóa quan trọng nhất của Việt Nam, nằm ở trung tâm thủ đô Hà Nội. Được xây dựng vào năm 1070, Văn Miếu ban đầu là một đền thờ Tổng tài Confucius và là nơi để tôn vinh các học giả và nhà giáo. Đến thế kỷ 15, Quốc Tử Giám (Viện Quốc Học) đã được xây dựng trong khuôn viên Văn Miếu, là nơi tổ chức các kỳ thi cử quan trọng của triều đình.",
+          "Hồ Gươm là một trong những điểm đến nổi tiếng nhất ở trung tâm Hà Nội, nằm giữa các phố cổ náo nhiệt và các công trình lịch sử quan trọng. Hồ Gươm có ý nghĩa lịch sử và văn hóa sâu sắc trong lòng người dân Việt Nam."
+        ]
       }
     },
     {
       "id": "danang1",
-      "image": ["asm/img/danang1.jpg"],
+      "image": [
+        "asm/img/danang1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
       "price": "2500000",
@@ -534,12 +592,17 @@
             "price": "5200000"
           }
         ],
-        "info":["Bà Nà Hills là một khu du lịch núi cao và cực kỳ phổ biến ở Đà Nẵng, Việt Nam. Với vị trí cao và khí hậu mát mẻ, Bà Nà Hills là điểm đến lý tưởng cho những ai muốn trốn khỏi cái nóng oi bức của thành phố.","Ngũ Hành Sơn, hay còn gọi là 'Núi Non Nước', là một quần thể năm ngọn núi đá vôi nằm cách trung tâm Đà Nẵng khoảng 8km về phía nam. Nó là một điểm tham quan phổ biến với cảnh quan thiên nhiên đẹp mắt và các di tích tâm linh quan trọng."]
+        "info": [
+          "Bà Nà Hills là một khu du lịch núi cao và cực kỳ phổ biến ở Đà Nẵng, Việt Nam. Với vị trí cao và khí hậu mát mẻ, Bà Nà Hills là điểm đến lý tưởng cho những ai muốn trốn khỏi cái nóng oi bức của thành phố.",
+          "Ngũ Hành Sơn, hay còn gọi là 'Núi Non Nước', là một quần thể năm ngọn núi đá vôi nằm cách trung tâm Đà Nẵng khoảng 8km về phía nam. Nó là một điểm tham quan phổ biến với cảnh quan thiên nhiên đẹp mắt và các di tích tâm linh quan trọng."
+        ]
       }
     },
     {
       "id": "nhatrang1",
-      "image": ["asm/img/nhatrang1.jpg"],
+      "image": [
+        "asm/img/nhatrang1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
       "price": "3800000",
@@ -571,12 +634,17 @@
             "price": "8200000"
           }
         ],
-        "info":["Vinpearl Land nằm trên đảo Hòn Tre, Nha Trang, là khu du lịch giải trí kết hợp nghỉ dưỡng với nhiều trò chơi mạo hiểm, công viên nước, và khu vui chơi trong nhà. Đây là điểm đến lý tưởng cho các gia đình và những ai muốn trải nghiệm những hoạt động giải trí đa dạng.","Tháp Bà Ponagar là một quần thể đền tháp Chăm nằm trên đồi Cù Lao, Nha Trang. Đây là nơi thờ nữ thần Ponagar, biểu tượng của văn hóa Chăm cổ. Du khách có thể khám phá kiến trúc độc đáo và tìm hiểu về lịch sử, văn hóa của người Chăm"]
+        "info": [
+          "Vinpearl Land nằm trên đảo Hòn Tre, Nha Trang, là khu du lịch giải trí kết hợp nghỉ dưỡng với nhiều trò chơi mạo hiểm, công viên nước, và khu vui chơi trong nhà. Đây là điểm đến lý tưởng cho các gia đình và những ai muốn trải nghiệm những hoạt động giải trí đa dạng.",
+          "Tháp Bà Ponagar là một quần thể đền tháp Chăm nằm trên đồi Cù Lao, Nha Trang. Đây là nơi thờ nữ thần Ponagar, biểu tượng của văn hóa Chăm cổ. Du khách có thể khám phá kiến trúc độc đáo và tìm hiểu về lịch sử, văn hóa của người Chăm"
+        ]
       }
     },
     {
       "id": "dalat1",
-      "image": ["asm/img/dalat1.jpg"],
+      "image": [
+        "asm/img/dalat1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
       "price": "2300000",
@@ -608,12 +676,17 @@
             "price": "5000000"
           }
         ],
-        "info":["Thung Lũng Tình Yêu là một trong những địa điểm du lịch nổi tiếng và lãng mạn nhất ở Đà Lạt, Việt Nam. Nằm cách trung tâm thành phố khoảng 5km về phía bắc, Thung Lũng Tình Yêu thu hút du khách bởi cảnh quan thiên nhiên tuyệt đẹp với những đồi thông xanh ngát, hồ nước trong xanh và những khu vườn hoa đầy màu sắc.","Đồi Chè Cầu Đất là một điểm đến không thể bỏ qua khi đến Đà Lạt. Nằm cách trung tâm thành phố khoảng 25km về phía đông nam, đồi chè này có diện tích rộng lớn với những dãy đồi chè xanh mướt trải dài vô tận."]
+        "info": [
+          "Thung Lũng Tình Yêu là một trong những địa điểm du lịch nổi tiếng và lãng mạn nhất ở Đà Lạt, Việt Nam. Nằm cách trung tâm thành phố khoảng 5km về phía bắc, Thung Lũng Tình Yêu thu hút du khách bởi cảnh quan thiên nhiên tuyệt đẹp với những đồi thông xanh ngát, hồ nước trong xanh và những khu vườn hoa đầy màu sắc.",
+          "Đồi Chè Cầu Đất là một điểm đến không thể bỏ qua khi đến Đà Lạt. Nằm cách trung tâm thành phố khoảng 25km về phía đông nam, đồi chè này có diện tích rộng lớn với những dãy đồi chè xanh mướt trải dài vô tận."
+        ]
       }
     },
     {
       "id": "phuquoc1",
-      "image": ["asm/img/phuquoc1.jpg"],
+      "image": [
+        "asm/img/phuquoc1.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Phú Quốc: Vinpearl Safari - Suối Tranh",
       "price": "4500000",
@@ -645,12 +718,17 @@
             "price": "9500000"
           }
         ],
-        "info":["Vinpearl Safari nằm trên đảo Phú Quốc, là công viên bảo tồn động vật hoang dã đầu tiên tại Việt Nam. Công viên có diện tích rộng lớn, khoảng 380 ha, là nơi sinh sống của hơn 3.000 cá thể động vật thuộc 150 loài khác nhau. Khách du lịch sẽ có cơ hội trải nghiệm cuộc sống hoang dã, khám phá các khu vực sinh thái đặc trưng và tham gia các hoạt động giải trí, giáo dục về động vật.","Suối Tranh là một điểm du lịch nổi tiếng khác trên đảo Phú Quốc. Dòng suối dài khoảng 15 km, bắt nguồn từ dãy núi Hàm Ninh và chảy qua nhiều tầng thác nước, tạo nên khung cảnh thiên nhiên tươi đẹp và thơ mộng. Đến với Suối Tranh, du khách có thể tham gia các hoạt động dã ngoại, tắm suối và thưởng thức không khí trong lành của núi rừng."]
+        "info": [
+          "Vinpearl Safari nằm trên đảo Phú Quốc, là công viên bảo tồn động vật hoang dã đầu tiên tại Việt Nam. Công viên có diện tích rộng lớn, khoảng 380 ha, là nơi sinh sống của hơn 3.000 cá thể động vật thuộc 150 loài khác nhau. Khách du lịch sẽ có cơ hội trải nghiệm cuộc sống hoang dã, khám phá các khu vực sinh thái đặc trưng và tham gia các hoạt động giải trí, giáo dục về động vật.",
+          "Suối Tranh là một điểm du lịch nổi tiếng khác trên đảo Phú Quốc. Dòng suối dài khoảng 15 km, bắt nguồn từ dãy núi Hàm Ninh và chảy qua nhiều tầng thác nước, tạo nên khung cảnh thiên nhiên tươi đẹp và thơ mộng. Đến với Suối Tranh, du khách có thể tham gia các hoạt động dã ngoại, tắm suối và thưởng thức không khí trong lành của núi rừng."
+        ]
       }
     },
     {
       "id": "hue1",
-      "image": ["asm/img/hue1.jpg"],
+      "image": [
+        "asm/img/hue1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Huế: Đại Nội - Chùa Thiên Mụ",
       "price": "2400000",
@@ -682,12 +760,17 @@
             "price": "5300000"
           }
         ],
-        "info":["Đại Nội là quần thể di tích cung đình của cố đô Huế, từng là trung tâm chính trị và quyền lực của triều Nguyễn. Khu vực này bao gồm Hoàng Thành và Tử Cấm Thành, với nhiều cung điện, đền đài và miếu mạo được xây dựng công phu và đẹp mắt. Đại Nội được UNESCO công nhận là Di sản Thế giới, thu hút đông đảo du khách đến tham quan và tìm hiểu về lịch sử phong phú của Việt Nam.","Chùa Thiên Mụ, hay còn gọi là Linh Mụ, là ngôi chùa cổ nằm trên đồi Hà Khê, bên dòng sông Hương thơ mộng. Được xây dựng vào năm 1601, chùa nổi tiếng với tháp Phước Duyên bảy tầng cao 21 mét, là biểu tượng của Phật giáo Huế. Chùa Thiên Mụ không chỉ là nơi linh thiêng mà còn là điểm tham quan hấp dẫn với khung cảnh yên bình và cảnh quan tuyệt đẹp."]
+        "info": [
+          "Đại Nội là quần thể di tích cung đình của cố đô Huế, từng là trung tâm chính trị và quyền lực của triều Nguyễn. Khu vực này bao gồm Hoàng Thành và Tử Cấm Thành, với nhiều cung điện, đền đài và miếu mạo được xây dựng công phu và đẹp mắt. Đại Nội được UNESCO công nhận là Di sản Thế giới, thu hút đông đảo du khách đến tham quan và tìm hiểu về lịch sử phong phú của Việt Nam.",
+          "Chùa Thiên Mụ, hay còn gọi là Linh Mụ, là ngôi chùa cổ nằm trên đồi Hà Khê, bên dòng sông Hương thơ mộng. Được xây dựng vào năm 1601, chùa nổi tiếng với tháp Phước Duyên bảy tầng cao 21 mét, là biểu tượng của Phật giáo Huế. Chùa Thiên Mụ không chỉ là nơi linh thiêng mà còn là điểm tham quan hấp dẫn với khung cảnh yên bình và cảnh quan tuyệt đẹp."
+        ]
       }
     },
     {
       "id": "quangbinh1",
-      "image": ["asm/img/quangbinh1.jpg"],
+      "image": [
+        "asm/img/quangbinh1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Quảng Bình: Động Phong Nha - Động Thiên Đường",
       "price": "3600000",
@@ -719,12 +802,17 @@
             "price": "7800000"
           }
         ],
-        "info":["Động Phong Nha là một kỳ quan thiên nhiên nổi tiếng, nằm trong Vườn quốc gia Phong Nha - Kẻ Bàng tại tỉnh Quảng Bình. Động Phong Nha được biết đến với hệ thống hang động phức tạp và các dòng sông ngầm trải dài. Động có tổng chiều dài hơn 7.700m, nhưng du khách thường chỉ được khám phá khoảng 1.500m. Với những thạch nhũ lung linh và kỳ ảo, cùng những dòng sông ngầm chảy qua, Động Phong Nha là điểm đến lý tưởng cho những ai yêu thích khám phá thiên nhiên.","Động Thiên Đường, cũng nằm trong khu vực Vườn quốc gia Phong Nha - Kẻ Bàng, được mệnh danh là 'Hoàng cung trong lòng đất'. Với chiều dài hơn 31km, đây là một trong những hang động khô dài nhất châu Á. Động Thiên Đường nổi bật với hệ thống thạch nhũ đa dạng và đẹp mắt, với những hình dạng kỳ lạ và màu sắc phong phú. Lối đi trong động được thiết kế thuận tiện cho du khách tham quan, giúp họ dễ dàng chiêm ngưỡng vẻ đẹp kỳ ảo của thiên nhiên."]
+        "info": [
+          "Động Phong Nha là một kỳ quan thiên nhiên nổi tiếng, nằm trong Vườn quốc gia Phong Nha - Kẻ Bàng tại tỉnh Quảng Bình. Động Phong Nha được biết đến với hệ thống hang động phức tạp và các dòng sông ngầm trải dài. Động có tổng chiều dài hơn 7.700m, nhưng du khách thường chỉ được khám phá khoảng 1.500m. Với những thạch nhũ lung linh và kỳ ảo, cùng những dòng sông ngầm chảy qua, Động Phong Nha là điểm đến lý tưởng cho những ai yêu thích khám phá thiên nhiên.",
+          "Động Thiên Đường, cũng nằm trong khu vực Vườn quốc gia Phong Nha - Kẻ Bàng, được mệnh danh là 'Hoàng cung trong lòng đất'. Với chiều dài hơn 31km, đây là một trong những hang động khô dài nhất châu Á. Động Thiên Đường nổi bật với hệ thống thạch nhũ đa dạng và đẹp mắt, với những hình dạng kỳ lạ và màu sắc phong phú. Lối đi trong động được thiết kế thuận tiện cho du khách tham quan, giúp họ dễ dàng chiêm ngưỡng vẻ đẹp kỳ ảo của thiên nhiên."
+        ]
       }
     },
     {
       "id": "vungtau1",
-      "image": ["asm/img/vungtau1.jpg"],
+      "image": [
+        "asm/img/vungtau1.jpg"
+      ],
       "duration": "2 NGÀY 1 ĐÊM",
       "title": "Tour Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
       "price": "1500000",
@@ -756,12 +844,17 @@
             "price": "3200000"
           }
         ],
-        "info":["Bãi Sau nằm tại thành phố Vũng Tàu, là một trong những bãi biển đẹp và nổi tiếng nhất ở miền Nam Việt Nam. Với bãi cát trắng mịn, nước biển trong xanh và sóng biển êm dịu, Bãi Sau thu hút hàng ngàn du khách đến tham quan và nghỉ dưỡng mỗi năm. Khu vực này còn có nhiều dịch vụ vui chơi giải trí và ẩm thực phong phú, tạo điều kiện thuận lợi cho du khách tận hưởng những giây phút thư giãn bên bờ biển.","Ngọn Hải Đăng Vũng Tàu là một trong những biểu tượng nổi tiếng của thành phố biển Vũng Tàu. Được xây dựng vào năm 1862, ngọn hải đăng này không chỉ có vai trò dẫn đường cho tàu thuyền mà còn là điểm tham quan hấp dẫn. Từ đỉnh hải đăng, du khách có thể ngắm nhìn toàn cảnh thành phố Vũng Tàu, với biển xanh, núi non và các công trình kiến trúc hiện đại. Đường lên ngọn hải đăng cũng rất thú vị, với con đường uốn lượn qua những rừng cây xanh mát, tạo nên khung cảnh nên thơ và thanh bình."]
+        "info": [
+          "Bãi Sau nằm tại thành phố Vũng Tàu, là một trong những bãi biển đẹp và nổi tiếng nhất ở miền Nam Việt Nam. Với bãi cát trắng mịn, nước biển trong xanh và sóng biển êm dịu, Bãi Sau thu hút hàng ngàn du khách đến tham quan và nghỉ dưỡng mỗi năm. Khu vực này còn có nhiều dịch vụ vui chơi giải trí và ẩm thực phong phú, tạo điều kiện thuận lợi cho du khách tận hưởng những giây phút thư giãn bên bờ biển.",
+          "Ngọn Hải Đăng Vũng Tàu là một trong những biểu tượng nổi tiếng của thành phố biển Vũng Tàu. Được xây dựng vào năm 1862, ngọn hải đăng này không chỉ có vai trò dẫn đường cho tàu thuyền mà còn là điểm tham quan hấp dẫn. Từ đỉnh hải đăng, du khách có thể ngắm nhìn toàn cảnh thành phố Vũng Tàu, với biển xanh, núi non và các công trình kiến trúc hiện đại. Đường lên ngọn hải đăng cũng rất thú vị, với con đường uốn lượn qua những rừng cây xanh mát, tạo nên khung cảnh nên thơ và thanh bình."
+        ]
       }
     },
     {
       "id": "saigon1",
-      "image": ["asm/img/saigon1.jpg"],
+      "image": [
+        "asm/img/saigon1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
       "price": "2700000",
@@ -793,12 +886,17 @@
             "price": "5900000"
           }
         ],
-        "info":["Nhà Thờ Đức Bà, tọa lạc tại trung tâm Quận 1, TP. Hồ Chí Minh, là một công trình kiến trúc tiêu biểu mang phong cách Roman và Gothic. Được xây dựng từ năm 1877 đến 1880, Nhà Thờ Đức Bà không chỉ là nơi thờ tự mà còn là một biểu tượng văn hóa và lịch sử quan trọng của thành phố. Với hai tháp chuông cao 58 mét, ngôi nhà thờ này là một trong những địa điểm du lịch nổi tiếng, thu hút hàng ngàn du khách mỗi năm đến chiêm ngưỡng kiến trúc độc đáo và không gian tĩnh lặng giữa lòng thành phố sôi động.","Dinh Độc Lập, hay còn gọi là Dinh Thống Nhất, là một di tích lịch sử nổi bật tại TP. Hồ Chí Minh. Được xây dựng vào năm 1868, tòa dinh thự này từng là nơi ở và làm việc của các tổng thống Việt Nam Cộng Hòa. Sau sự kiện ngày 30 tháng 4 năm 1975, Dinh Độc Lập trở thành biểu tượng cho sự thống nhất đất nước. Ngày nay, dinh thự được bảo tồn và mở cửa cho du khách tham quan, với các phòng làm việc, hội trường và khu vườn xung quanh. Du khách khi đến đây có cơ hội tìm hiểu thêm về lịch sử Việt Nam qua các hiện vật và hình ảnh trưng bày bên trong dinh."]
+        "info": [
+          "Nhà Thờ Đức Bà, tọa lạc tại trung tâm Quận 1, TP. Hồ Chí Minh, là một công trình kiến trúc tiêu biểu mang phong cách Roman và Gothic. Được xây dựng từ năm 1877 đến 1880, Nhà Thờ Đức Bà không chỉ là nơi thờ tự mà còn là một biểu tượng văn hóa và lịch sử quan trọng của thành phố. Với hai tháp chuông cao 58 mét, ngôi nhà thờ này là một trong những địa điểm du lịch nổi tiếng, thu hút hàng ngàn du khách mỗi năm đến chiêm ngưỡng kiến trúc độc đáo và không gian tĩnh lặng giữa lòng thành phố sôi động.",
+          "Dinh Độc Lập, hay còn gọi là Dinh Thống Nhất, là một di tích lịch sử nổi bật tại TP. Hồ Chí Minh. Được xây dựng vào năm 1868, tòa dinh thự này từng là nơi ở và làm việc của các tổng thống Việt Nam Cộng Hòa. Sau sự kiện ngày 30 tháng 4 năm 1975, Dinh Độc Lập trở thành biểu tượng cho sự thống nhất đất nước. Ngày nay, dinh thự được bảo tồn và mở cửa cho du khách tham quan, với các phòng làm việc, hội trường và khu vườn xung quanh. Du khách khi đến đây có cơ hội tìm hiểu thêm về lịch sử Việt Nam qua các hiện vật và hình ảnh trưng bày bên trong dinh."
+        ]
       }
     },
     {
       "id": "cantho1",
-      "image": ["asm/img/cantho1.jpg"],
+      "image": [
+        "asm/img/cantho1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
       "price": "2100000",
@@ -830,12 +928,17 @@
             "price": "3900000"
           }
         ],
-        "info":["Chợ Nổi Cái Răng, nằm tại thành phố Cần Thơ, là một trong những chợ nổi lớn và nổi tiếng nhất của miền Tây Nam Bộ Việt Nam. Đặc trưng của chợ là các hoạt động mua bán diễn ra trên sông, tạo nên một khung cảnh sống động và độc đáo. Tại đây, du khách có thể trải nghiệm mua sắm trên thuyền, thưởng thức các món ăn đặc sản vùng sông nước như bún riêu, bánh canh, và nhiều loại trái cây tươi ngon. Chợ hoạt động sôi nổi nhất vào sáng sớm, khi hàng trăm ghe thuyền tụ tập buôn bán và giao thương hàng hóa, mang lại một không gian sầm uất và đa dạng văn hóa.","Bến Ninh Kiều, cũng nằm tại Cần Thơ, là một điểm đến nổi bật với cảnh quan sông nước thơ mộng. Bến Ninh Kiều không chỉ là nơi neo đậu của những chiếc thuyền du lịch mà còn là một công viên ven sông xanh mát, thu hút đông đảo du khách và người dân địa phương. Tại đây, du khách có thể dạo bộ trên con đường ven sông, tận hưởng không khí trong lành, ngắm nhìn cảnh hoàng hôn tuyệt đẹp, và thưởng thức ẩm thực đa dạng tại các nhà hàng và quán ăn ven bờ. Bến Ninh Kiều cũng là điểm xuất phát của nhiều chuyến du thuyền khám phá sông Hậu và các chợ nổi, mang đến trải nghiệm du lịch đặc trưng của miền Tây Nam Bộ"]
+        "info": [
+          "Chợ Nổi Cái Răng, nằm tại thành phố Cần Thơ, là một trong những chợ nổi lớn và nổi tiếng nhất của miền Tây Nam Bộ Việt Nam. Đặc trưng của chợ là các hoạt động mua bán diễn ra trên sông, tạo nên một khung cảnh sống động và độc đáo. Tại đây, du khách có thể trải nghiệm mua sắm trên thuyền, thưởng thức các món ăn đặc sản vùng sông nước như bún riêu, bánh canh, và nhiều loại trái cây tươi ngon. Chợ hoạt động sôi nổi nhất vào sáng sớm, khi hàng trăm ghe thuyền tụ tập buôn bán và giao thương hàng hóa, mang lại một không gian sầm uất và đa dạng văn hóa.",
+          "Bến Ninh Kiều, cũng nằm tại Cần Thơ, là một điểm đến nổi bật với cảnh quan sông nước thơ mộng. Bến Ninh Kiều không chỉ là nơi neo đậu của những chiếc thuyền du lịch mà còn là một công viên ven sông xanh mát, thu hút đông đảo du khách và người dân địa phương. Tại đây, du khách có thể dạo bộ trên con đường ven sông, tận hưởng không khí trong lành, ngắm nhìn cảnh hoàng hôn tuyệt đẹp, và thưởng thức ẩm thực đa dạng tại các nhà hàng và quán ăn ven bờ. Bến Ninh Kiều cũng là điểm xuất phát của nhiều chuyến du thuyền khám phá sông Hậu và các chợ nổi, mang đến trải nghiệm du lịch đặc trưng của miền Tây Nam Bộ"
+        ]
       }
     },
     {
       "id": "thailand1",
-      "image": ["asm/img/thailand1.jpg"],
+      "image": [
+        "asm/img/thailand1.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Thái Lan: Bangkok - Pattaya",
       "price": "7500000",
@@ -867,12 +970,17 @@
             "price": "15000000"
           }
         ],
-        "info":["Bangkok và Pattaya là hai điểm đến nổi tiếng ở Thái Lan thu hút hàng triệu du khách mỗi năm. Bangkok, thủ đô năng động và sôi động của đất nước, là một kết hợp độc đáo giữa văn hóa truyền thống và sự hiện đại bùng nổ. Tại đây, du khách có thể thăm các đền chùa linh thiêng như Wat Arun và Wat Pho, tham quan các khu phố cổ truyền thống như Chinatown, hoặc thư giãn tại các trung tâm mua sắm và giải trí cao cấp như Siam Paragon.","Pattaya, với bờ biển dài và cát trắng, là điểm đến lý tưởng cho những ai muốn thư giãn và tận hưởng cuộc sống biển. Nơi đây nổi tiếng với bãi biển Jomtien và Walking Street, là trung tâm của cuộc sống về đêm với các quán bar, club và nhà hàng sôi động. Ngoài ra, du khách cũng có thể tham gia các hoạt động như lướt sóng, lặn biển hoặc tham quan các công viên giải trí như Cartoon Network Amazone."]
+        "info": [
+          "Bangkok và Pattaya là hai điểm đến nổi tiếng ở Thái Lan thu hút hàng triệu du khách mỗi năm. Bangkok, thủ đô năng động và sôi động của đất nước, là một kết hợp độc đáo giữa văn hóa truyền thống và sự hiện đại bùng nổ. Tại đây, du khách có thể thăm các đền chùa linh thiêng như Wat Arun và Wat Pho, tham quan các khu phố cổ truyền thống như Chinatown, hoặc thư giãn tại các trung tâm mua sắm và giải trí cao cấp như Siam Paragon.",
+          "Pattaya, với bờ biển dài và cát trắng, là điểm đến lý tưởng cho những ai muốn thư giãn và tận hưởng cuộc sống biển. Nơi đây nổi tiếng với bãi biển Jomtien và Walking Street, là trung tâm của cuộc sống về đêm với các quán bar, club và nhà hàng sôi động. Ngoài ra, du khách cũng có thể tham gia các hoạt động như lướt sóng, lặn biển hoặc tham quan các công viên giải trí như Cartoon Network Amazone."
+        ]
       }
     },
     {
       "id": "singapore1",
-      "image": ["asm/img/singapore1.jpg"],
+      "image": [
+        "asm/img/singapore1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Singapore: Gardens by the Bay - Marina Bay Sands",
       "price": "9000000",
@@ -908,7 +1016,9 @@
     },
     {
       "id": "japan1",
-      "image": ["asm/img/japan1.jpg"],
+      "image": [
+        "asm/img/japan1.jpg"
+      ],
       "duration": "7 NGÀY 6 ĐÊM",
       "title": "Tour Nhật Bản: Tokyo - Kyoto - Osaka",
       "price": "25000000",
@@ -944,7 +1054,9 @@
     },
     {
       "id": "korea1",
-      "image": ["asm/img/korea1.jpg"],
+      "image": [
+        "asm/img/korea1.jpg"
+      ],
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Hàn Quốc: Seoul - Jeju",
       "price": "20000000",
@@ -980,7 +1092,9 @@
     },
     {
       "id": "malaysia1",
-      "image": ["asm/img/malaysia1.jpg"],
+      "image": [
+        "asm/img/malaysia1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Malaysia: Kuala Lumpur - Genting Highlands",
       "price": "8000000",
@@ -1016,7 +1130,9 @@
     },
     {
       "id": "china1",
-      "image": ["asm/img/china1.jpg"],
+      "image": [
+        "asm/img/china1.jpg"
+      ],
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
       "price": "22000000",
@@ -1052,7 +1168,9 @@
     },
     {
       "id": "france1",
-      "image": ["asm/img/france1.jpg"],
+      "image": [
+        "asm/img/france1.jpg"
+      ],
       "duration": "8 NGÀY 7 ĐÊM",
       "title": "Tour Pháp: Paris - Marseille - Nice",
       "price": "45000000",
@@ -1088,7 +1206,9 @@
     },
     {
       "id": "italy1",
-      "image": ["asm/img/italy1.jpg"],
+      "image": [
+        "asm/img/italy1.jpg"
+      ],
       "duration": "9 NGÀY 8 ĐÊM",
       "title": "Tour Ý: Rome - Florence - Venice",
       "price": "50000000",
@@ -1124,7 +1244,9 @@
     },
     {
       "id": "uk1",
-      "image": ["asm/img/uk1.jpg"],
+      "image": [
+        "asm/img/uk1.jpg"
+      ],
       "duration": "10 NGÀY 9 ĐÊM",
       "title": "Tour Anh: London - Manchester - Edinburgh",
       "price": "55000000",
@@ -1160,7 +1282,9 @@
     },
     {
       "id": "germany1",
-      "image": ["asm/img/germany1.jpg"],
+      "image": [
+        "asm/img/germany1.jpg"
+      ],
       "duration": "9 NGÀY 8 ĐÊM",
       "title": "Tour Đức: Berlin - Munich - Frankfurt",
       "price": "48000000",
@@ -1196,7 +1320,9 @@
     },
     {
       "id": "australia1",
-      "image": ["asm/img/australia1.jpg"],
+      "image": [
+        "asm/img/australia1.jpg"
+      ],
       "duration": "10 NGÀY 9 ĐÊM",
       "title": "Tour Úc: Sydney - Melbourne - Brisbane",
       "price": "60000000",
@@ -1232,7 +1358,9 @@
     },
     {
       "id": "vietnam1",
-      "image": ["asm/img/vietnam1.jpg"],
+      "image": [
+        "asm/img/vietnam1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Hà Nội - Hạ Long",
       "price": "5000000",
@@ -1268,7 +1396,9 @@
     },
     {
       "id": "vietnam2",
-      "image": ["asm/img/vietnam2.jpg"],
+      "image": [
+        "asm/img/vietnam2.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Việt Nam: Đà Nẵng - Hội An",
       "price": "4500000",
@@ -1304,7 +1434,9 @@
     },
     {
       "id": "vietnam3",
-      "image": ["asm/img/vietnam3.jpg"],
+      "image": [
+        "asm/img/vietnam3.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Việt Nam: Nha Trang - Đà Lạt",
       "price": "6000000",
@@ -1340,7 +1472,9 @@
     },
     {
       "id": "vietnam4",
-      "image": ["asm/img/vietnam4.jpg"],
+      "image": [
+        "asm/img/vietnam4.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Phú Quốc",
       "price": "5500000",
@@ -1376,7 +1510,9 @@
     },
     {
       "id": "vietnam5",
-      "image": ["asm/img/vietnam5.jpg"],
+      "image": [
+        "asm/img/vietnam5.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Việt Nam: Sapa",
       "price": "4800000",
@@ -1412,7 +1548,9 @@
     },
     {
       "id": "vietnam6",
-      "image": ["asm/img/vietnam6.jpg"],
+      "image": [
+        "asm/img/vietnam6.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Cần Thơ - Châu Đốc",
       "price": "4200000",
@@ -1448,7 +1586,9 @@
     },
     {
       "id": "vietnam7",
-      "image": ["asm/img/vietnam7.jpg"],
+      "image": [
+        "asm/img/vietnam7.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Việt Nam: Quy Nhơn - Phú Yên",
       "price": "5300000",
@@ -1484,7 +1624,9 @@
     },
     {
       "id": "vietnam8",
-      "image": ["asm/img/vietnam8.jpg"],
+      "image": [
+        "asm/img/vietnam8.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Huế - Quảng Bình",
       "price": "5700000",
@@ -1520,7 +1662,9 @@
     },
     {
       "id": "vietnam9",
-      "image": ["asm/img/vietnam9.jpg"],
+      "image": [
+        "asm/img/vietnam9.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Việt Nam: Hồ Chí Minh - Côn Đảo",
       "price": "4600000",
@@ -1556,7 +1700,9 @@
     },
     {
       "id": "vietnam10",
-      "image": ["asm/img/vietnam10.jpg"],
+      "image": [
+        "asm/img/vietnam10.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Việt Nam: Buôn Ma Thuột - Pleiku",
       "price": "5400000",
@@ -1592,7 +1738,9 @@
     },
     {
       "id": "international1",
-      "image": ["asm/img/international1.jpg"],
+      "image": [
+        "asm/img/international1.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Quốc tế: Nhật Bản - Tokyo - Kyoto",
       "price": "20000000",
@@ -1628,7 +1776,9 @@
     },
     {
       "id": "international2",
-      "image": ["asm/img/international2.jpg"],
+      "image": [
+        "asm/img/international2.jpg"
+      ],
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Quốc tế: Hàn Quốc - Seoul - Busan",
       "price": "18000000",
@@ -1664,7 +1814,9 @@
     },
     {
       "id": "international3",
-      "image": ["asm/img/international3.jpg"],
+      "image": [
+        "asm/img/international3.jpg"
+      ],
       "duration": "7 NGÀY 6 ĐÊM",
       "title": "Tour Quốc tế: Pháp - Paris - Lyon",
       "price": "35000000",
@@ -1700,7 +1852,9 @@
     },
     {
       "id": "international4",
-      "image": ["asm/img/international4.jpg"],
+      "image": [
+        "asm/img/international4.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Quốc tế: Mỹ - New York - Washington D.C.",
       "price": "40000000",
@@ -1736,7 +1890,9 @@
     },
     {
       "id": "international5",
-      "image": ["asm/img/international5.jpg"],
+      "image": [
+        "asm/img/international5.jpg"
+      ],
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Quốc tế: Úc - Sydney - Melbourne",
       "price": "30000000",
@@ -1772,7 +1928,9 @@
     },
     {
       "id": "international6",
-      "image": ["asm/img/international6.jpg"],
+      "image": [
+        "asm/img/international6.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Quốc tế: Thái Lan - Bangkok - Pattaya",
       "price": "12000000",
@@ -1808,7 +1966,9 @@
     },
     {
       "id": "international7",
-      "image": ["asm/img/international7.jpg"],
+      "image": [
+        "asm/img/international7.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Quốc tế: Singapore",
       "price": "10000000",
@@ -1844,7 +2004,9 @@
     },
     {
       "id": "northvn1",
-      "image": ["asm/img/northvn1.jpg"],
+      "image": [
+        "asm/img/northvn1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Hà Nội - Ninh Bình",
       "price": "3500000",
@@ -1880,7 +2042,9 @@
     },
     {
       "id": "northvn2",
-      "image": ["asm/img/northvn2.jpg"],
+      "image": [
+        "asm/img/northvn2.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hạ Long - Quảng Ninh",
       "price": "4200000",
@@ -1916,7 +2080,9 @@
     },
     {
       "id": "northvn3",
-      "image": ["asm/img/northvn3.jpg"],
+      "image": [
+        "asm/img/northvn3.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Sapa - Lào Cai",
       "price": "5500000",
@@ -1952,7 +2118,9 @@
     },
     {
       "id": "northvn4",
-      "image": ["asm/img/northvn4.jpg"],
+      "image": [
+        "asm/img/northvn4.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hà Giang",
       "price": "5000000",
@@ -1988,7 +2156,9 @@
     },
     {
       "id": "northvn5",
-      "image": ["asm/img/northvn5.jpg"],
+      "image": [
+        "asm/img/northvn5.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Mộc Châu - Sơn La",
       "price": "4000000",
@@ -2024,7 +2194,9 @@
     },
     {
       "id": "northvn6",
-      "image": ["asm/img/northvn6.jpg"],
+      "image": [
+        "asm/img/northvn6.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Yên Bái - Mù Cang Chải",
       "price": "4500000",
@@ -2060,7 +2232,9 @@
     },
     {
       "id": "northvn7",
-      "image": ["asm/img/northvn7.jpg"],
+      "image": [
+        "asm/img/northvn7.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Cao Bằng - Thác Bản Giốc",
       "price": "3800000",
@@ -2096,7 +2270,9 @@
     },
     {
       "id": "northvn8",
-      "image": ["asm/img/northvn8.jpg"],
+      "image": [
+        "asm/img/northvn8.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Điện Biên Phủ",
       "price": "5200000",
@@ -2132,7 +2308,9 @@
     },
     {
       "id": "northvn9",
-      "image": ["asm/img/northvn9.jpg"],
+      "image": [
+        "asm/img/northvn9.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Bắc Kạn - Hồ Ba Bể",
       "price": "4300000",
@@ -2168,7 +2346,9 @@
     },
     {
       "id": "northvn10",
-      "image": ["asm/img/northvn10.jpg"],
+      "image": [
+        "asm/img/northvn10.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Phú Thọ - Đền Hùng",
       "price": "3200000",
@@ -2204,7 +2384,9 @@
     },
     {
       "id": "northvn1",
-      "image": ["asm/img/northvn1.jpg"],
+      "image": [
+        "asm/img/northvn1.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hà Nội - Tràng An",
       "price": "4500000",
@@ -2240,7 +2422,9 @@
     },
     {
       "id": "northvn2",
-      "image": ["asm/img/northvn2.jpg"],
+      "image": [
+        "asm/img/northvn2.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Hạ Long - Cát Bà",
       "price": "5800000",
@@ -2276,7 +2460,9 @@
     },
     {
       "id": "northvn3",
-      "image": ["asm/img/northvn3.jpg"],
+      "image": [
+        "asm/img/northvn3.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hà Giang - Đồng Văn",
       "price": "5000000",
@@ -2312,7 +2498,9 @@
     },
     {
       "id": "northvn4",
-      "image": ["asm/img/northvn4.jpg"],
+      "image": [
+        "asm/img/northvn4.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Sapa - Núi Hàm Rồng",
       "price": "4200000",
@@ -2348,7 +2536,9 @@
     },
     {
       "id": "northvn5",
-      "image": ["asm/img/northvn5.jpg"],
+      "image": [
+        "asm/img/northvn5.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Cao Bằng - Thác Bản Giốc",
       "price": "5500000",
@@ -2384,7 +2574,9 @@
     },
     {
       "id": "northvn6",
-      "image": ["asm/img/northvn6.jpg"],
+      "image": [
+        "asm/img/northvn6.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Mộc Châu - Sơn La",
       "price": "4000000",
@@ -2420,7 +2612,9 @@
     },
     {
       "id": "northvn7",
-      "image": ["asm/img/northvn7.jpg"],
+      "image": [
+        "asm/img/northvn7.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Yên Bái - Mù Cang Chải",
       "price": "4500000",
@@ -2456,7 +2650,9 @@
     },
     {
       "id": "southvn1",
-      "image": ["asm/img/southvn1.jpg"],
+      "image": [
+        "asm/img/southvn1.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Nam: Phú Quốc",
       "price": "4200000",
@@ -2492,7 +2688,9 @@
     },
     {
       "id": "southvn2",
-      "image": ["asm/img/southvn2.jpg"],
+      "image": [
+        "asm/img/southvn2.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Nam: Cần Thơ - Châu Đốc",
       "price": "3800000",
@@ -2528,7 +2726,9 @@
     },
     {
       "id": "southvn3",
-      "image": ["asm/img/southvn3.jpg"],
+      "image": [
+        "asm/img/southvn3.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Nam: Vũng Tàu - Côn Đảo",
       "price": "5500000",
@@ -2564,7 +2764,9 @@
     },
     {
       "id": "southvn4",
-      "image": ["asm/img/southvn4.jpg"],
+      "image": [
+        "asm/img/southvn4.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Nam: Đồng Tháp - Sa Đéc",
       "price": "3200000",
@@ -2600,7 +2802,9 @@
     },
     {
       "id": "southvn5",
-      "image": ["asm/img/southvn5.jpg"],
+      "image": [
+        "asm/img/southvn5.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Nam: Bạc Liêu - Sóc Trăng",
       "price": "4000000",
@@ -2636,7 +2840,9 @@
     },
     {
       "id": "southvn6",
-      "image": ["asm/img/southvn6.jpg"],
+      "image": [
+        "asm/img/southvn6.jpg"
+      ],
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Nam: Kiên Giang - Hà Tiên",
       "price": "5200000",
@@ -2672,7 +2878,9 @@
     },
     {
       "id": "southvn7",
-      "image": ["asm/img/southvn7.jpg"],
+      "image": [
+        "asm/img/southvn7.jpg"
+      ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Nam: Tây Ninh - Núi Bà Đen",
       "price": "3500000",
@@ -2708,7 +2916,9 @@
     },
     {
       "id": "southvn8",
-      "image": ["asm/img/southvn8.jpg"],
+      "image": [
+        "asm/img/southvn8.jpg"
+      ],
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Nam: Bình Dương - Thủ Dầu Một",
       "price": "3600000",
@@ -2744,7 +2954,9 @@
     },
     {
       "id": "usa1",
-      "image": ["asm/img/usa1.jpg"],
+      "image": [
+        "asm/img/usa1.jpg"
+      ],
       "duration": "9 NGÀY 8 ĐÊM",
       "title": "Tour USA: New York - Los Angeles",
       "price": "80000000",
@@ -2780,7 +2992,9 @@
     },
     {
       "id": "usa2",
-      "image": ["asm/img/usa2.jpg"],
+      "image": [
+        "asm/img/usa2.jpg"
+      ],
       "duration": "10 NGÀY 9 ĐÊM",
       "title": "Tour USA: San Francisco - Yosemite - Los Angeles",
       "price": "85000000",
@@ -2816,7 +3030,9 @@
     },
     {
       "id": "usa3",
-      "image": ["asm/img/usa3.jpg"],
+      "image": [
+        "asm/img/usa3.jpg"
+      ],
       "duration": "11 NGÀY 10 ĐÊM",
       "title": "Tour USA: Las Vegas - Grand Canyon",
       "price": "90000000",
@@ -2852,7 +3068,9 @@
     },
     {
       "id": "canada1",
-      "image": ["asm/img/canada1.jpg"],
+      "image": [
+        "asm/img/canada1.jpg"
+      ],
       "duration": "12 NGÀY 11 ĐÊM",
       "title": "Tour Canada: Vancouver - Jasper - Banff",
       "price": "95000000",
@@ -2888,7 +3106,9 @@
     },
     {
       "id": "usa4",
-      "image": ["asm/img/usa4.jpg"],
+      "image": [
+        "asm/img/usa4.jpg"
+      ],
       "duration": "13 NGÀY 12 ĐÊM",
       "title": "Tour USA: Boston - Washington D.C. - Miami",
       "price": "100000000",
@@ -2929,40 +3149,14 @@
       "name": "Vũ Đăng Quang",
       "email": "vudangquang7799@gmail.com",
       "password": "Quang123@",
-      "gender": "Nam",
-      "login": "off"
+      "gender": "Nam"
     },
     {
-      "id": "2",
-      "name": "gdfgd",
-      "email": "quang123@gmail.com",
-      "password": "Bin123@",
-      "gender": "Nam",
-      "login": "on"
-    },
-    {
-      "id": "3",
-      "name": "fsdfs",
-      "email": "quang234@gmail.com",
-      "password": "Bin123@",
-      "gender": "Nam",
-      "login": "on"
-    },
-    {
-      "id": "4",
-      "name": "gdfgd",
-      "email": "quang345@gmail.com",
-      "password": "Bin123@",
-      "gender": "Nam",
-      "login": "on"
-    },
-    {
-      "id": "5",
-      "name": "fsdfs",
-      "email": "bobvu7799@gmail.com",
-      "password": "Bin123@",
-      "gender": "Nam",
-      "login": "on"
+      "id": 2,
+      "name": "Trương Thị Minh Ngọc",
+      "email": "ttmn@gmail.com",
+      "password": "Ngoc123@",
+      "gender": "Nữ"
     }
   ]
 }
