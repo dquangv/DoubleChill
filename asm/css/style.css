@@ -1149,7 +1149,7 @@ footer .identity>a::before {
     background-color: #F0F0F0;
 }
 
-.account .info-account .card-body .button button {
+.account .info-account .card-body .button button, .account .info-account .modal-footer button {
     /* background-color: #fff;
     color: #000; */
     border: 1px solid #000;
@@ -1164,7 +1164,7 @@ footer .identity>a::before {
     border-radius: 0;
 }
 
-.account .info-account .card-body .button button:hover {
+.account .info-account .card-body .button button:hover, .account .info-account .modal-footer button:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #000;

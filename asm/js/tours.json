@@ -3,7 +3,13 @@
     {
       "id": "baoloc2",
       "image": [
-        "asm/img/baoloc2.jpg"
+        "asm/img/baoloc2.jpg",
+        "asm/img/baoloc3.jpg",
+        "asm/img/baoloc4.jpg",
+        "asm/img/baoloc5.jpg",
+        "asm/img/baoloc6.jpg",
+        "asm/img/baoloc7.jpg",
+        "asm/img/baoloc8.jpg"
       ],
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
@@ -45,7 +51,14 @@
     {
       "id": "sydney4",
       "image": [
-        "asm/img/sydney4.jpg"
+        "asm/img/sydney4.jpg",
+        "asm/img/sydney1.jpg",
+        "asm/img/sydney2.jpg",
+        "asm/img/sydney3.jpg",
+        "asm/img/sydney5.jpg",
+        "asm/img/sydney6.jpg",
+        "asm/img/sydney7.jpg",
+        "asm/img/sydney8 .jpg"
       ],
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "TOUR SYDNEY - MELBOURNE",
@@ -3148,15 +3161,22 @@
       "id": "1",
       "name": "Vũ Đăng Quang",
       "email": "vudangquang7799@gmail.com",
-      "password": "Quang123@",
+      "password": "Bin123@",
       "gender": "Nam"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Trương Thị Minh Ngọc",
       "email": "ttmn@gmail.com",
       "password": "Ngoc123@",
       "gender": "Nữ"
+    },
+    {
+      "id": "3",
+      "name": "Vũ Đăng Quang",
+      "email": "quang234@gmail.com",
+      "password": "Quang123@@",
+      "gender": "Nam"
     }
   ]
 }

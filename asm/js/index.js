@@ -19,7 +19,8 @@ app.run(function ($rootScope) {
     $rootScope.user = JSON.parse(localStorage.getItem('user')) || null;
 });
 
-app.controller('accountCtrl', function ($scope, $rootScope, $window) {
+app.controller('accountCtrl', function ($scope, $rootScope, $window, $http) {
+    $scope.oldPasswordIncorrect = false;
     if (!$rootScope.cart) {
         $rootScope.cart = [];
     }
@@ -36,18 +37,35 @@ app.controller('accountCtrl', function ($scope, $rootScope, $window) {
 
     $scope.changePassword = function () {
         $scope.oldPasswordIncorrect = false;
-        console.log($scope.user.password)
-        console.log($scope.password)
+        console.log($scope.user.password);
+        console.log($scope.password);
 
 
         if ($scope.user.password !== $scope.password) {
             $scope.oldPasswordIncorrect = true;
             return;
+        } else if ($scope.user.password == $scope.password) {
+            $scope.oldPasswordIncorrect = false;
         }
 
         $scope.user.password = $scope.newPassword;
         localStorage.setItem('user', JSON.stringify($scope.user));
-        alert('Đổi mật khẩu thành công');
+
+        console.log($scope.user.id);
+
+
+        $http.put(`http://localhost:3000/users/${$scope.user.id}`, $scope.user)
+            .then(function (response) {
+                alert('Đổi mật khẩu thành công');
+            }, function (error) {
+                console.error('Thanh toán thất bại, lỗi: ', error);
+            });
+
+        $scope.password = '';
+        $scope.newPassword = '';
+        $scope.confirmPassword = '';
+        $scope.frmAccount.$setPristine();
+        $scope.frmAccount.$setUntouched();
     }
 });
 
@@ -55,9 +73,26 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
     $scope.tours = [];
     $http.get("http://localhost:3000/tours").then(function (reponse) {
         $scope.tours = reponse.data;
-        // console.log($scope.tours);
         $scope.detailPro = $scope.tours.find(item => item.id == $routeParams.id);
+
+        $scope.selectedRadio = $scope.detailPro.details.tickets[0].type;
+        $scope.selectedTicket = $scope.detailPro.details.tickets[0].price;
+
+        $scope.checkRadio0 = function () {
+            $scope.selectedRadio = $scope.detailPro.details.tickets[0].type;
+            $scope.selectedTicket = $scope.detailPro.details.tickets[0].price;
+        };
+
+        $scope.checkRadio1 = function () {
+            $scope.selectedRadio = $scope.detailPro.details.tickets[1].type;
+            $scope.selectedTicket = $scope.detailPro.details.tickets[1].price;
+
+        };
     });
+
+    $rootScope.saveCart = function () {
+        localStorage.setItem('cart', JSON.stringify($rootScope.cart));
+    };
 
     if (!$rootScope.cart) {
         $rootScope.cart = [];
@@ -76,9 +111,13 @@ app.controller("homeCtrl", function ($scope, $rootScope, $routeParams, $http) {
             $rootScope.cart.push(tour);
         }
         $rootScope.saveCart();
+        console.log(tour);
 
         alert('Đặt chuyến thành công');
     };
+
+
+
 });
 
 app.controller("cartCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -132,6 +171,8 @@ app.controller("cartCtrl", function ($scope, $rootScope, $routeParams, $http) {
             updatedTour.quantity -= item.orderQuantity;
             delete updatedTour.orderQuantity;
 
+            console.log(item.id);
+
             $http.put(`http://localhost:3000/tours/${item.id}`, updatedTour)
                 .then(function (response) {
                     console.log('Cập nhật thành công', response.data);
@@ -178,51 +219,63 @@ app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http
 
     $scope.begin = 0;
     $scope.pageCount = Math.ceil($scope.tours.length / 8);
+    $scope.currentPage = 1;
 
     $scope.first = function () {
         $scope.begin = 0;
+        $scope.currentPage = 1;
     };
 
     $scope.previous = function () {
         if ($scope.begin > 0) {
             $scope.begin -= 8;
+            $scope.currentPage--;
+        } else {
+            $scope.currentPage = 1;
         }
     }
 
     $scope.next = function () {
         if ($scope.begin < ($scope.pageCount - 1) * 8) {
             $scope.begin += 8;
+            $scope.currentPage++;
+        } else {
+            $scope.currentPage = 3;
         }
     }
 
+    
+
     $scope.second = function () {
         $scope.begin = 8;
+        $scope.currentPage = 2;
     }
 
     $scope.third = function () {
         $scope.begin = 16;
+        $scope.currentPage = 3;
     }
 
     if (!$rootScope.cart) {
         $rootScope.cart = [];
     }
 
-    $scope.addToCart = function (tour) {
-        const existingItem = $rootScope.cart.find(item => item.id === tour.id);
-        if (existingItem) {
-            if (existingItem.orderQuantity >= existingItem.quantity) {
-                existingItem.orderQuantity == existingItem.quantity;
-            } else {
-                existingItem.orderQuantity++;
-            }
-        } else {
-            tour.orderQuantity = 1;
-            $rootScope.cart.push(tour);
-        }
-        $rootScope.saveCart();
+    // $scope.addToCart = function (tour) {
+    //     const existingItem = $rootScope.cart.find(item => item.id === tour.id);
+    //     if (existingItem) {
+    //         if (existingItem.orderQuantity >= existingItem.quantity) {
+    //             existingItem.orderQuantity == existingItem.quantity;
+    //         } else {
+    //             existingItem.orderQuantity++;
+    //         }
+    //     } else {
+    //         tour.orderQuantity = 1;
+    //         $rootScope.cart.push(tour);
+    //     }
+    //     $rootScope.saveCart();
 
-        alert('Đặt chuyến thành công');
-    };
+    //     alert('Đặt chuyến thành công');
+    // };
 });
 
 app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -251,22 +304,24 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
         $rootScope.cart = [];
     }
 
-    $scope.addToCart = function (tour) {
-        const existingItem = $rootScope.cart.find(item => item.id === tour.id);
-        if (existingItem) {
-            if (existingItem.orderQuantity >= existingItem.quantity) {
-                existingItem.orderQuantity == existingItem.quantity;
-            } else {
-                existingItem.orderQuantity++;
-            }
-        } else {
-            tour.orderQuantity = 1;
-            $rootScope.cart.push(tour);
-        }
-        $rootScope.saveCart();
+   
 
-        alert('Đặt chuyến thành công');
-    };
+    // $scope.addToCart = function (tour) {
+    //     const existingItem = $rootScope.cart.find(item => item.id === tour.id);
+    //     if (existingItem) {
+    //         if (existingItem.orderQuantity >= existingItem.quantity) {
+    //             existingItem.orderQuantity == existingItem.quantity;
+    //         } else {
+    //             existingItem.orderQuantity++;
+    //         }
+    //     } else {
+    //         tour.orderQuantity = 1;
+    //         $rootScope.cart.push(tour);
+    //     }
+    //     $rootScope.saveCart();
+
+    //     alert('Đặt chuyến thành công');
+    // };
 });
 
 app.controller("indexCtrl", function ($scope, $rootScope, $routeParams, $http) {
@@ -329,15 +384,21 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
             $http.post("http://localhost:3000/users", newUser)
                 .then(function (response) {
                     $rootScope.isLoggedIn = true;
-                    $rootScope.user = newUser;
+                    $rootScope.user = response.data;
+
                     localStorage.setItem('user', JSON.stringify(newUser));
                     localStorage.setItem('isLoggedIn', true);
 
+
                     alert('Đăng ký thành công');
-                    $window.location.href = '#!/account/:id';
+                    // $window.location.href = '#!/account/:id';
+                    console.log(newUser.id);
+
                 }, function (error) {
                     alert('Đăng ký thất bại');
                 });
+
+
         }
     };
 });
