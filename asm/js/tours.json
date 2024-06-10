@@ -11,12 +11,13 @@
         "asm/img/baoloc7.jpg",
         "asm/img/baoloc8.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
       "price": "2100000",
       "area": "domestic",
       "location": "Miền Trung",
-      "quantity": 10,
+      "quantity": 7,
       "details": {
         "header": "TP. HCM → Bảo Lộc: Thác Damb'ri - Hồ Tà Đùng",
         "date": "Thứ 7, 01/06/2024",
@@ -60,6 +61,7 @@
         "asm/img/sydney7.jpg",
         "asm/img/sydney8 .jpg"
       ],
+      "mark": "7.5 Khá ổn",
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "TOUR SYDNEY - MELBOURNE",
       "price": "45990000",
@@ -109,6 +111,7 @@
         "asm/img/danang7.jpg",
         "asm/img/hoian6.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "TOUR ĐÀ NẴNG - HỘI AN - CÙ LAO CHÀM",
       "price": "4290000",
@@ -159,6 +162,7 @@
         "asm/img/nhatrang3.jpg",
         "asm/img/nhatrang4.jpg"
       ],
+      "mark": "7.5 Khá ổn",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR NHA TRANG: BÌNH BA",
       "price": "2500000",
@@ -208,6 +212,7 @@
         "asm/img/khanhhoa2.jpg",
         "asm/img/khanhhoa3.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 3 ĐÊM",
       "title": "TOUR PHÚ YÊN - KHÁNH HOÀ: ĐẢO DIỆP SƠN",
       "price": "2086000",
@@ -257,6 +262,7 @@
         "asm/img/diepson2.jpg",
         "asm/img/diepson3.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR MIỀN TÂY: CÔN ĐẢO",
       "price": "2899000",
@@ -306,6 +312,7 @@
         "asm/img/tokyo2.jpg",
         "asm/img/tokyo3.jpg"
       ],
+      "mark": "7.5 Khá ổn",
       "duration": "5 NGÀY 5 ĐÊM",
       "title": "TOUR NHẬT BẢN: OSAKA - KYOTO - TOKYO",
       "price": "27990000",
@@ -356,6 +363,7 @@
         "asm/img/otran1.jpg",
         "asm/img/otran2.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR TRUNG QUỐC: THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - Ô TRẦN",
       "price": "11950000",
@@ -407,6 +415,7 @@
         "asm/img/daophiphi3.jpg",
         "asm/img/daophiphi4.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "TOUR THÁI LAI: PHUKET - ĐẢO PHI PHI",
       "price": "11580000",
@@ -456,6 +465,7 @@
         "asm/img/sontra1.jpg",
         "asm/img/nguhanhson1.jpg"
       ],
+      "mark": "7.5 Khá ổn",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "TOUR HUẾ - ĐÀ NẴNG - SƠN TRÀ - NGŨ HÀNH SƠN - HỘI AN",
       "price": "3000000",
@@ -508,6 +518,7 @@
         "asm/img/danang7.jpg",
         "asm/img/binhba4.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "2 NGÀY 1 ĐÊM",
       "title": "TOUR QUẢNG NGÃI: ĐẢO LÝ SƠN",
       "price": "1250000",
@@ -550,6 +561,7 @@
       "image": [
         "asm/img/chauau1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "11 NGÀY 10 ĐÊM",
       "title": "TOUR CHÂU ÂU: PHÁP - THUỴ SĨ - Ý - ÁO - ĐỨC",
       "price": "72990000",
@@ -602,6 +614,7 @@
         "asm/img/vanmieu1.jpg",
         "asm/img/vanmieu1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Hà Nội: Văn Miếu - Hồ Gươm",
       "price": "3200000",
@@ -644,6 +657,7 @@
       "image": [
         "asm/img/danang1.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Đà Nẵng: Bà Nà Hills - Ngũ Hành Sơn",
       "price": "2500000",
@@ -686,6 +700,7 @@
       "image": [
         "asm/img/nhatrang1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Nha Trang: Vinpearl Land - Tháp Bà Ponagar",
       "price": "3800000",
@@ -735,6 +750,7 @@
         "asm/img/doiche2.jpg",
         "asm/img/doiche3.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Đà Lạt: Thung Lũng Tình Yêu - Đồi Chè Cầu Đất",
       "price": "2300000",
@@ -777,6 +793,7 @@
       "image": [
         "asm/img/phuquoc1.jpg"
       ],
+      "mark": "7.5 Khá ổn",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Phú Quốc: Vinpearl Safari - Suối Tranh",
       "price": "4500000",
@@ -826,6 +843,7 @@
         "asm/img/dainoi1.jpg",
         "asm/img/dainoi1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Huế: Đại Nội - Chùa Thiên Mụ",
       "price": "2400000",
@@ -875,6 +893,7 @@
         "asm/img/dongphongnha1.jpg",
         "asm/img/dongphongnha1.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Quảng Bình: Động Phong Nha - Động Thiên Đường",
       "price": "3600000",
@@ -917,6 +936,7 @@
       "image": [
         "asm/img/vungtau1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "2 NGÀY 1 ĐÊM",
       "title": "Tour Vũng Tàu: Bãi Sau - Ngọn Hải Đăng",
       "price": "1500000",
@@ -966,6 +986,7 @@
         "asm/img/nhathoDucBa1.jpg",
         "asm/img/nhathoDucBa1.jpg"
       ],
+      "mark": "7.5 Khá ổn",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Sài Gòn: Nhà Thờ Đức Bà - Dinh Độc Lập",
       "price": "2700000",
@@ -1015,6 +1036,7 @@
         "asm/img/chonoicairang.jpg",
         "asm/img/chonoicairang.jpg"
       ],
+      "mark": "9.2 Xuất sắc",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Cần Thơ: Chợ Nổi Cái Răng - Bến Ninh Kiều",
       "price": "2100000",
@@ -1064,6 +1086,7 @@
         "asm/img/bangkok1.jpg",
         "asm/img/bangkok1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Thái Lan: Bangkok - Pattaya",
       "price": "7500000",
@@ -1106,6 +1129,7 @@
       "image": [
         "asm/img/singapore1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Singapore: Gardens by the Bay - Marina Bay Sands",
       "price": "9000000",
@@ -1151,6 +1175,7 @@
         "asm/img/tokyo1.jpg",
         "asm/img/tokyo1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "7 NGÀY 6 ĐÊM",
       "title": "Tour Nhật Bản: Tokyo - Kyoto - Osaka",
       "price": "25000000",
@@ -1196,6 +1221,7 @@
         "asm/img/seoul1.jpg",
         "asm/img/seoul1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Hàn Quốc: Seoul - Jeju",
       "price": "20000000",
@@ -1240,6 +1266,7 @@
         "asm/img/kualalumpur1.jpg",
         "asm/img/kualalumpur1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Malaysia: Kuala Lumpur - Genting Highlands",
       "price": "8000000",
@@ -1278,6 +1305,7 @@
       "image": [
         "asm/img/china1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Trung Quốc: Bắc Kinh - Thượng Hải - Hàng Châu",
       "price": "22000000",
@@ -1323,6 +1351,7 @@
         "asm/img/paris1.jpg",
         "asm/img/paris1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "8 NGÀY 7 ĐÊM",
       "title": "Tour Pháp: Paris - Marseille - Nice",
       "price": "45000000",
@@ -1368,6 +1397,7 @@
         "asm/img/rome1.jpg",
         "asm/img/rome1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "9 NGÀY 8 ĐÊM",
       "title": "Tour Ý: Rome - Florence - Venice",
       "price": "50000000",
@@ -1413,6 +1443,7 @@
         "asm/img/london1.jpg",
         "asm/img/london1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "10 NGÀY 9 ĐÊM",
       "title": "Tour Anh: London - Manchester - Edinburgh",
       "price": "55000000",
@@ -1458,6 +1489,7 @@
         "asm/img/berlin1.jpg",
         "asm/img/berlin1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "9 NGÀY 8 ĐÊM",
       "title": "Tour Đức: Berlin - Munich - Frankfurt",
       "price": "48000000",
@@ -1503,6 +1535,7 @@
         "asm/img/sydney2.jpg",
         "asm/img/sydney2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "10 NGÀY 9 ĐÊM",
       "title": "Tour Úc: Sydney - Melbourne - Brisbane",
       "price": "60000000",
@@ -1548,6 +1581,7 @@
         "asm/img/hanoi1.jpg",
         "asm/img/hanoi1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Hà Nội - Hạ Long",
       "price": "5000000",
@@ -1593,6 +1627,7 @@
         "asm/img/danang1.jpg",
         "asm/img/danang1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Việt Nam: Đà Nẵng - Hội An",
       "price": "4500000",
@@ -1638,6 +1673,7 @@
         "asm/img/nhatrang2.jpg",
         "asm/img/nhatrang2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Việt Nam: Nha Trang - Đà Lạt",
       "price": "6000000",
@@ -1683,6 +1719,7 @@
         "asm/img/phuquoc2.jpg",
         "asm/img/phuquoc2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Phú Quốc",
       "price": "5500000",
@@ -1728,6 +1765,7 @@
         "asm/img/sapa1.jpg",
         "asm/img/sapa1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Việt Nam: Sapa",
       "price": "4800000",
@@ -1773,6 +1811,7 @@
         "asm/img/chaudoc1.jpg",
         "asm/img/chaudoc1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Cần Thơ - Châu Đốc",
       "price": "4200000",
@@ -1818,6 +1857,7 @@
         "asm/img/quynhon1.jpg",
         "asm/img/quynhon1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Việt Nam: Quy Nhơn - Phú Yên",
       "price": "5300000",
@@ -1863,6 +1903,7 @@
         "asm/img/hue1.jpg",
         "asm/img/hue1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Việt Nam: Huế - Quảng Bình",
       "price": "5700000",
@@ -1908,6 +1949,7 @@
         "asm/img/condao2.jpg",
         "asm/img/condao2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour Việt Nam: Hồ Chí Minh - Côn Đảo",
       "price": "4600000",
@@ -1953,6 +1995,7 @@
         "asm/img/pleiku1.jpg",
         "asm/img/pleiku1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Việt Nam: Buôn Ma Thuột - Pleiku",
       "price": "5400000",
@@ -1991,6 +2034,7 @@
       "image": [
         "asm/img/international1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Quốc tế: Nhật Bản - Tokyo - Kyoto",
       "price": "20000000",
@@ -2029,6 +2073,7 @@
       "image": [
         "asm/img/international2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Quốc tế: Hàn Quốc - Seoul - Busan",
       "price": "18000000",
@@ -2074,6 +2119,7 @@
         "asm/img/lyon1.jpg",
         "asm/img/lyon1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "7 NGÀY 6 ĐÊM",
       "title": "Tour Quốc tế: Pháp - Paris - Lyon",
       "price": "35000000",
@@ -2119,6 +2165,7 @@
         "asm/img/newyork1.jpg",
         "asm/img/newyork1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Quốc tế: Mỹ - New York - Washington D.C.",
       "price": "40000000",
@@ -2164,6 +2211,7 @@
         "asm/img/sydney3.jpg",
         "asm/img/sydney3.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "6 NGÀY 5 ĐÊM",
       "title": "Tour Quốc tế: Úc - Sydney - Melbourne",
       "price": "30000000",
@@ -2202,6 +2250,7 @@
       "image": [
         "asm/img/international6.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour Quốc tế: Thái Lan - Bangkok - Pattaya",
       "price": "12000000",
@@ -2240,6 +2289,7 @@
       "image": [
         "asm/img/international7.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour Quốc tế: Singapore",
       "price": "10000000",
@@ -2285,6 +2335,7 @@
         "asm/img/hanoi1.jpg",
         "asm/img/hanoi1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Hà Nội - Ninh Bình",
       "price": "3500000",
@@ -2330,6 +2381,7 @@
         "asm/img/halong1.jpg",
         "asm/img/halong1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hạ Long - Quảng Ninh",
       "price": "4200000",
@@ -2375,6 +2427,7 @@
         "asm/img/sapa1.jpg",
         "asm/img/sapa1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Sapa - Lào Cai",
       "price": "5500000",
@@ -2420,6 +2473,7 @@
         "asm/img/hagiang2.jpg",
         "asm/img/hagiang2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hà Giang",
       "price": "5000000",
@@ -2465,6 +2519,7 @@
         "asm/img/mocchau1.jpg",
         "asm/img/mocchau1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Mộc Châu - Sơn La",
       "price": "4000000",
@@ -2503,6 +2558,7 @@
       "image": [
         "asm/img/northvn6.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Yên Bái - Mù Cang Chải",
       "price": "4500000",
@@ -2548,6 +2604,7 @@
         "asm/img/caobang1.jpg",
         "asm/img/caobang1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Cao Bằng - Thác Bản Giốc",
       "price": "3800000",
@@ -2586,6 +2643,7 @@
       "image": [
         "asm/img/northvn8.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Điện Biên Phủ",
       "price": "5200000",
@@ -2624,6 +2682,7 @@
       "image": [
         "asm/img/northvn9.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Bắc Kạn - Hồ Ba Bể",
       "price": "4300000",
@@ -2662,6 +2721,7 @@
       "image": [
         "asm/img/northvn10.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Phú Thọ - Đền Hùng",
       "price": "3200000",
@@ -2700,6 +2760,7 @@
       "image": [
         "asm/img/northvn1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hà Nội - Tràng An",
       "price": "4500000",
@@ -2745,6 +2806,7 @@
         "asm/img/halong1.jpg",
         "asm/img/halong1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Hạ Long - Cát Bà",
       "price": "5800000",
@@ -2783,6 +2845,7 @@
       "image": [
         "asm/img/northvn3.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Hà Giang - Đồng Văn",
       "price": "5000000",
@@ -2821,6 +2884,7 @@
       "image": [
         "asm/img/northvn4.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Sapa - Núi Hàm Rồng",
       "price": "4200000",
@@ -2866,6 +2930,7 @@
         "asm/img/caobang1.jpg",
         "asm/img/caobang1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Bắc: Cao Bằng - Thác Bản Giốc",
       "price": "5500000",
@@ -2904,6 +2969,7 @@
       "image": [
         "asm/img/northvn6.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Bắc: Mộc Châu - Sơn La",
       "price": "4000000",
@@ -2942,6 +3008,7 @@
       "image": [
         "asm/img/northvn7.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Bắc: Yên Bái - Mù Cang Chải",
       "price": "4500000",
@@ -2987,6 +3054,7 @@
         "asm/img/phuquoc2.jpg",
         "asm/img/phuquoc2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Nam: Phú Quốc",
       "price": "4200000",
@@ -3032,6 +3100,7 @@
         "asm/img/cantho1.jpg",
         "asm/img/cantho1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Nam: Cần Thơ - Châu Đốc",
       "price": "3800000",
@@ -3077,6 +3146,7 @@
         "asm/img/vungtau2.jpg",
         "asm/img/vungtau2.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Nam: Vũng Tàu - Côn Đảo",
       "price": "5500000",
@@ -3122,6 +3192,7 @@
         "asm/img/dongthap1.jpg",
         "asm/img/dongthap1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Nam: Đồng Tháp - Sa Đéc",
       "price": "3200000",
@@ -3167,6 +3238,7 @@
         "asm/img/baclieu1.jpg",
         "asm/img/baclieu1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Nam: Bạc Liêu - Sóc Trăng",
       "price": "4000000",
@@ -3212,6 +3284,7 @@
         "asm/img/hatien1.jpg",
         "asm/img/hatien1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "5 NGÀY 4 ĐÊM",
       "title": "Tour miền Nam: Kiên Giang - Hà Tiên",
       "price": "5200000",
@@ -3257,6 +3330,7 @@
         "asm/img/nuibaden1.jpg",
         "asm/img/nuibaden1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "3 NGÀY 2 ĐÊM",
       "title": "Tour miền Nam: Tây Ninh - Núi Bà Đen",
       "price": "3500000",
@@ -3302,6 +3376,7 @@
         "asm/img/binhduong1.jpg",
         "asm/img/binhduong1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "4 NGÀY 3 ĐÊM",
       "title": "Tour miền Nam: Bình Dương - Thủ Dầu Một",
       "price": "3600000",
@@ -3347,6 +3422,7 @@
         "asm/img/losangeles1.jpg",
         "asm/img/losangeles1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "9 NGÀY 8 ĐÊM",
       "title": "Tour USA: New York - Los Angeles",
       "price": "80000000",
@@ -3392,6 +3468,7 @@
         "asm/img/sanfrancisco1.jpg",
         "asm/img/sanfrancisco1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "10 NGÀY 9 ĐÊM",
       "title": "Tour USA: San Francisco - Yosemite - Los Angeles",
       "price": "85000000",
@@ -3437,6 +3514,7 @@
         "asm/img/lasvegas7.jpg",
         "asm/img/lasvegas8.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "11 NGÀY 10 ĐÊM",
       "title": "Tour USA: Las Vegas - Grand Canyon",
       "price": "90000000",
@@ -3482,6 +3560,7 @@
         "asm/img/banff1.jpg",
         "asm/img/banff1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "12 NGÀY 11 ĐÊM",
       "title": "Tour Canada: Vancouver - Jasper - Banff",
       "price": "95000000",
@@ -3527,6 +3606,7 @@
         "asm/img/washingtondc1.jpg",
         "asm/img/washingtondc1.jpg"
       ],
+      "mark": "8.4 Tuyệt vời",
       "duration": "13 NGÀY 12 ĐÊM",
       "title": "Tour USA: Boston - Washington D.C. - Miami",
       "price": "100000000",
@@ -3566,7 +3646,7 @@
       "id": "1",
       "name": "Vũ Đăng Quang",
       "email": "vudangquang7799@gmail.com",
-      "password": "Bin123@",
+      "password": "Quang123@",
       "gender": "Nam"
     },
     {
@@ -3579,8 +3659,22 @@
     {
       "id": "3",
       "name": "Vũ Đăng Quang",
-      "email": "quang234@gmail.com",
+      "email": "quang123@gmail.com",
       "password": "Quang123@@",
+      "gender": "Nam"
+    },
+    {
+      "id": 4,
+      "name": "Vũ Đăng Quang",
+      "email": "quang234@gmail.com",
+      "password": "Bin123@",
+      "gender": "Nam"
+    },
+    {
+      "id": "5",
+      "name": "Vũ Đăng Quang",
+      "email": "quang345@gmail.com",
+      "password": "Bin123@",
       "gender": "Nam"
     }
   ]

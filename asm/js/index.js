@@ -407,7 +407,7 @@ app.controller('signUpCtrl', function ($scope, $rootScope, $routeParams, $http) 
 
         if ($scope.frmUser.$valid && !$scope.emailExists) {
             const newUser = {
-                id: $scope.users.length + 1,
+                id: $scope.users.length + 1 + "",
                 name: $scope.name,
                 email: $scope.email,
                 password: $scope.password,
