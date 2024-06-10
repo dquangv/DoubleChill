@@ -244,8 +244,6 @@ app.controller("domesticCtrl", function ($scope, $rootScope, $routeParams, $http
         }
     }
 
-    
-
     $scope.second = function () {
         $scope.begin = 8;
         $scope.currentPage = 2;
@@ -304,7 +302,44 @@ app.controller("foreignCtrl", function ($scope, $rootScope, $routeParams, $http)
         $rootScope.cart = [];
     }
 
-   
+    $scope.begin = 0;
+    $scope.pageCount = Math.ceil($scope.tours.length / 8);
+    $scope.currentPage = 1;
+
+    $scope.first = function () {
+        $scope.begin = 0;
+        $scope.currentPage = 1;
+    };
+
+    $scope.previous = function () {
+        if ($scope.begin > 0) {
+            $scope.begin -= 8;
+            $scope.currentPage--;
+        } else {
+            $scope.currentPage = 1;
+        }
+    }
+
+    $scope.next = function () {
+        if ($scope.begin < ($scope.pageCount - 1) * 8) {
+            $scope.begin += 8;
+            $scope.currentPage++;
+        } else {
+            $scope.currentPage = 3;
+        }
+    }
+
+    $scope.second = function () {
+        $scope.begin = 8;
+        $scope.currentPage = 2;
+    }
+
+    $scope.third = function () {
+        $scope.begin = 16;
+        $scope.currentPage = 3;
+    }
+
+
 
     // $scope.addToCart = function (tour) {
     //     const existingItem = $rootScope.cart.find(item => item.id === tour.id);
