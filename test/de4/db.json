@@ -1,0 +1,50 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Váy chống nắng thời trang Phượng Queen",
+            "price": 144000,
+            "image": "https://nemvanthanh.vn/wp-content/uploads/2022/04/nem-tien-ich-8-300x300.png",
+            "countReview": 5,
+            "brandId": "1"
+        },
+        {
+            "id": 2,
+            "name": "Nệm cao su Unique Plus",
+            "price": 18000000,
+            "image": "https://nemvanthanh.vn/wp-content/uploads/2020/11/nem-cao-su-thien-nhien-unique-plus-1-300x300.png",
+            "countReview": 7,
+            "brandId": "2"
+        },
+        {
+            "id": 3,
+            "name": "Nệm cao su Standard",
+            "price": 6000000,
+            "image": "https://nemvanthanh.vn/wp-content/uploads/2020/05/nem-cao-su-standar-trang-01-1-300x300.png",
+            "countReview": 5,
+            "brandId": "3"
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "name": "No Brand"
+        },
+        {
+            "id": 2,
+            "name": "Cardina"
+        },
+        {
+            "id": 3,
+            "name": "Laroma"
+        },
+        {
+            "id": 4,
+            "name": "Hưng Việt"
+        },
+        {
+            "id": 5,
+            "name": "Pmax"
+        }
+    ]
+}

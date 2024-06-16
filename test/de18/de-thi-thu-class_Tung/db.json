@@ -1,0 +1,24 @@
+{
+    "products":
+    [
+        {
+            "id": 1,
+            "name": "Nệm Tiện Ích ZZZ",
+            "price": 3100000,
+            "image": "https://nemvanthanh.vn/wp-content/uploads/2022/04/nem-tien-ich-8-300x300.png"
+        },
+        {
+            "id": 2,
+            "name": "Nệm cao su Unique Plus",
+            "price": 18000000,
+            "image": "https://nemvanthanh.vn/wp-content/uploads/2020/11/nem-cao-su-thien-nhien-unique-plus-1-300x300.png"
+        },
+        {
+            "id": 3,
+            "name": "Nệm cao su Standard",
+            "price": 6000000,
+            "image": "https://nemvanthanh.vn/wp-content/uploads/2020/05/nem-cao-su-standar-trang-01-1-300x300.png"
+        }
+    ]
+
+}
