@@ -1,0 +1,75 @@
+{
+    "products":
+    [
+        {
+            "id": 1,
+            "name": "Xe Đạp Tập Kingsport Stronger E-06",
+            "price": 6700,
+            "pricesale": 7700,
+            "tragop": "0",
+            "danhgia": 2,
+            "image": "https://kingsport.vn/image/cache/catalog/2023/T11/e06-300x300.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Xe đạp tập Kingsport BK-5803",
+            "price": 5900,
+            "pricesale": 7900,
+            "danhgia": 3,
+            "image": "https://kingsport.vn/image/webp/478abbc7b041e46de7a6bf2090d1b002-300x300.webp"
+        },
+        {
+            "id": 3,
+            "name": "Xe đạp tập Kingsport BK-5805",
+            "price": 4900,
+            "pricesale": 7000,
+            "tragop": "0",
+            "danhgia": 0,
+            "image": "https://kingsport.vn/image/webp/bcdec2aef5625180e986305a69afd7b5-300x300.webp"
+        },
+        {
+            "id": 4,
+            "name": "Xe đạp tập Kingsport BK-5814",
+            "price": 4700,
+            "pricesale": 7200,
+            "tragop": "0",
+            "danhgia": 1,
+            "image": "https://kingsport.vn/image/webp/b1b745b85386915d29eaf6922dcb64e8-300x300.webp"
+        },
+        {
+            "id": 5,
+            "name": "XE ĐẠP TẬP KINGSPORT STRONGER E-08",
+            "price": 5680,
+            "pricesale": 7700,
+            "danhgia": 10,
+            "image": "https://kingsport.vn/image/catalog/2024/T04/xe-dap-tap-kingsport-e-08-1(1).jpg"
+        },
+        {
+            "id": 6,
+            "name": "XE ĐẠP TẬP KINGSPORT STRONGER E-09",
+            "price": 6600,
+            "pricesale": 7700,
+            "danhgia": 3,
+            "image": "https://kingsport.vn/image/catalog/2024/T04/xe-dap-tap-kingsport-e-09-1.jpg"
+        },
+        {
+            "id": 7,
+            "name": "XE ĐẠP TẬP THỂ DỤC KS-101",
+            "price": 3130,
+            "pricesale": 7700,
+            "danhgia": 4,
+            "image": "https://kingsport.vn/image/catalog/2024/T01/ks-101-1.jpg"
+        },
+        {
+            "id": 8,
+            "name": "XE ĐẠP TẬP KINGSPORT CREATIVE E-03 BLACK",
+            "price": 7930,
+            "pricesale": 7700,
+            "tragop": "0",
+            "danhgia": 5,
+            "image": "https://kingsport.vn/image/catalog/2024/T04/anh-dai-dien-e-03%20(1).jpg"
+        }
+
+    ]
+
+}

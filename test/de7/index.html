@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" style="max-width: 1251px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../angular/angular-1.8.2/angular.min.js"></script>
+    <script src="../../../angular/angular-1.8.2/angular-route.js"></script>
+
+    <link rel="stylesheet" href="../../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="asm/img/plane-solid.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../../../bootstrap-5.3.3-dist/jquery/jquery.min.js"></script>
+    <script src="../../../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Double Chill</title>
+    <link rel="stylesheet" href="asm/css/style.css">
+
+    <style>
+        @media (min-width: 992px) {
+            .custom-navbar .navbar-collapse {
+                display: none !important;
+                flex-direction: column;
+                /* Ensure items are stacked */
+            }
+
+            .custom-navbar .navbar-toggler {
+                display: block !important;
+            }
+
+            .custom-navbar .navbar-collapse.show {
+                display: flex !important;
+            }
+
+            .custom-navbar .navbar-nav {
+                flex-direction: column;
+                /* Stack nav items vertically */
+            }
+
+            .custom-navbar .nav-item {
+                width: 100%;
+                /* Make each nav item take the full width */
+            }
+
+            .custom-navbar .d-flex {
+                width: 100%;
+                /* Ensure the form also takes full width */
+                justify-content: center;
+                /* Center the form */
+            }
+        }
+    </style>
+</head>
+
+<body ng-app="myapp">
+    <div ng-controller="myctrl">
+        <div class="top bg-danger">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-3">
+                        <img height="50px" width="100px" src="https://kingsport.vn/image/catalog/logo/logo_kingsport_header.svg"
+                            alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row filter d-flex">
+                            <nav class="navbar navbar-expand-lg custom-navbar bg-warning" style="width: max-content;">
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <span class="navbar-brand" href="#"
+                                        style="width: max-content; height: fit-content; font-size: 12px; word-wrap: break-word;">DANH
+                                        MỤC SẢN PHẨM</span>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Link</a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Dropdown
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                            </li>
+                                        </ul>
+                                        <form class="d-flex" role="search">
+                                            <input class="form-control me-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-success" type="submit">Search</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="input-group my-3 w-50">
+                                <input type="text" class="form-control" ng-model="name"
+                                    placeholder="Nhập sản phẩm cần tìm..." aria-label="Recipient's username"
+                                    aria-describedby="basic-addon2">
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Tất cả</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <span class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="16" fill="currentColor" class="bi bi-search"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                    </svg></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </nav>
+            </div>
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Trang chủ</li>
+                <li class="breadcrumb-item active" aria-current="page">Xe đạp thể thao</li>
+            </ol>
+        </nav>
+        <img class="img-fluid w-100" src="https://kingsport.vn/image/catalog/2024/T06/PC-Banner-DM-XD-1239x355.jpg"
+            alt="">
+
+        <span class="fs-4 fw-bold me-3 text-danger">Xe đạp tập thể dục Kingsport</span><span>({{productFilter.length}}
+            sản
+            phẩm)</span>
+        <div class="order bg-danger justify-content-between d-flex">
+            <div class="check-box">
+                <span class="text-white">Chọn mức giá: </span>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" ng-model="selected"
+                        ng-change="filterDiscount()">
+                    <label class="form-check-label text-white" for="flexCheckDefault">
+                        Trả góp 0%
+                    </label>
+                </div>
+            </div>
+            <select ng-model="sortOrder" class="" id="inputGroupSelect01">
+                <option selected value="">Sắp xếp theo</option>
+                <option value="Giá tăng">Giá tăng</option>
+                <option value="Giá giảm">Giá giảm</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3" ng-repeat="p in productFilter | filter : name | orderBy : sortOrderFunc">
+                <img class="img-fluid" src="{{p.image}}" alt="">
+                <p>{{p.price | currency : '' : 0}}đ</p>
+                <h4>{{p.name}}</h4>
+                <div class="icon d-flex">
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </div>
+                    <span>[{{p.countReview}}]</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var navbarToggler = document.querySelector('.navbar-toggler');
+            var navbarCollapse = document.querySelector('#navbarSupportedContent');
+
+            navbarToggler.addEventListener('click', function () {
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarCollapse.classList.remove('show');
+                } else {
+                    navbarCollapse.classList.add('show');
+                }
+            });
+        });
+
+        angular.module('myapp', []).controller('myctrl', function ($scope, $http) {
+            $scope.products = [];
+            $http.get("http://localhost:3000/products").then(function (reponse) {
+                $scope.products = reponse.data;
+                $scope.productFilter = $scope.products;
+                console.log($scope.products);
+            });
+
+            $scope.sortOrderFunc = function (product) {
+                switch ($scope.sortOrder) {
+                    case 'Giá tăng':
+                        return product.price;
+                    case 'Giá giảm':
+                        return -product.price;
+                    default:
+                        return 0;
+                }
+            };
+
+            $scope.filterDiscount = function () {
+                if ($scope.selected) {
+                    $scope.productFilter = $scope.products.filter(function (product) {
+                        console.log(product.tragop === "0");
+                        return product.tragop === "0";
+                    });
+                } else {
+                    $scope.productFilter = $scope.products;
+                }
+            };
+        });
+    </script>
+
+</body>
