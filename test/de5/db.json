@@ -1,0 +1,89 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Áo Ngắn Tay Tập Gym Yoga Nam Suông ICADO AT23",
+        "price": 280000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2024/03/ao-ngan-tay-tap-gym-yoga-nam-icado-at23-6.png",
+        "category": "nam"
+      },
+      {
+        "id": 2,
+        "name": "Áo Ngắn Tay Tập Gym Yoga Nam ICADO AT38",
+        "price": 280000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2024/02/ao-ngan-tay-tap-gym-yoga-nam-icado-at38-20.png",
+        "category": "nam"
+      },
+      {
+        "id": 3,
+        "name": "Áo Ngắn Tay Tập Gym Yoga Nam ICADO AT38",
+        "price": 180000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2024/02/ao-ngan-tay-tap-gym-yoga-nam-icado-at38-20.png",
+        "category": "nam"
+      },
+      {
+        "id": 4,
+        "name": "Áo Ngắn Tay Tập Gym Yoga Nam ICADO AT38",
+        "price": 480000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2024/02/ao-ngan-tay-tap-gym-yoga-nam-icado-at38-20.png",
+        "category": "nam"
+      },
+      {
+        "id": 5,
+        "name": "Quần Dài Tập Gym Yoga Nữ Basic ICADO AT1",
+        "price": 280000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2023/08/quan-dai-tap-gym-yoga-nu-basic-icado-at1-1.png",
+        "category": "nu"
+      },
+      {
+        "id": 6,
+        "name": "Quần Dài Tập Gym Yoga Nữ Basic ICADO AT1",
+        "price": 180000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2023/08/quan-dai-tap-gym-yoga-nu-basic-icado-at1-1.png",
+        "category": "nu"
+      },
+      {
+        "id": 7,
+        "name": "Quần Dài Tập Gym Yoga Nữ Basic ICADO AT1",
+        "price": 430000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2023/08/quan-dai-tap-gym-yoga-nu-basic-icado-at1-1.png",
+        "category": "nu"
+      },
+      {
+        "id": 8,
+        "name": "Quần Dài Tập Gym Yoga Nữ Basic ICADO AT1",
+        "price": 380000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2024/06/quan-dai-tap-gym-yoga-nu-phoi-luoi-icado-at15-8.jpg",
+        "category": "nu"
+      },
+      {
+        "id": 9,
+        "name": "Thảm tập yoga Pavo Định Tuyến TYG013 – Màu Tím Đậm",
+        "price": 570000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2020/12/Tham-Tap-Yoga-Pavo-Dinh-Tuyen-TYG013-Mau-Tim-Dam.jpg",
+        "category": "pk"
+      },
+      {
+        "id": 10,
+        "name": "Thảm tập yoga Pavo Định Tuyến TYG013 – Màu Tím",
+        "price": 570000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2020/12/Tham-Tap-Yoga-Pavo-Dinh-Tuyen-TYG013-Mau-Tim.jpg",
+        "category": "pk"
+      },
+      {
+        "id": 11,
+        "name": "Thảm tập yoga Pavo 8 li TYG011 – Màu Đỏ",
+        "price": 670000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2020/12/Tham-Tap-Yoga-Pavo-8-li-TYG011-Mau-Do.jpg",
+        "category": "pk"
+      },
+      {
+        "id": 12,
+        "name": "Thảm tập yoga Pavo 8 li TYG011 – Màu Đỏ",
+        "price": 670000,
+        "image": "https://thegioidotap.vn/wp-content/uploads/2020/12/Tham-Tap-Yoga-Pavo-8-li-TYG011-Mau-Do.jpg",
+        "category": "pk"
+      }
+    ]
+  }
+  
