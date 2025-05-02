@@ -1,1 +1,1 @@
-https://dquangv.github.io/DoubleChill-TravelWeb/
+https://dquangv.github.io/DoubleChill/
